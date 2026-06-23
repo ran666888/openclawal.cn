@@ -1,0 +1,19 @@
+{
+  "name": "OpenClaw 中文社区",
+  "short_name": "OpenClaw",
+  "icons": [
+    {
+      "src": "/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#041C1C",
+  "background_color": "#041C1C",
+  "display": "standalone"
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#041C1C"/>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#FFE6CB" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1000" cy="80" r="260" fill="#FFD700" opacity=".12"/>
+  <text x="90" y="180" fill="#FFE6CB" font-family="Georgia, serif" font-size="82" font-weight="700">Hermes Agent</text>
+  <text x="90" y="280" fill="#FFD700" font-family="Georgia, serif" font-size="62" font-weight="700">中文社区</text>
+  <text x="90" y="380" fill="#FFE6CB" opacity=".72" font-family="Arial, sans-serif" font-size="34">会随着你一起成长的自治 AI Agent</text>
+  <text x="90" y="458" fill="#FFE6CB" opacity=".56" font-family="Arial, sans-serif" font-size="25">官方文档翻译 · 中文指南 · 微信社区群 · 技能生态</text>
+  <rect x="88" y="512" width="430" height="54" fill="none" stroke="#FFD700" stroke-opacity=".6"/>
+  <text x="112" y="548" fill="#FFD700" font-family="monospace" font-size="24">curl ... | bash</text>
+</svg>

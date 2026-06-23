@@ -1,0 +1,26 @@
+{
+  "name": "OpenClaw 中文社区",
+  "url": "https://openclaw.cn/",
+  "framework": "Docusaurus",
+  "downloadDate": "2026-06-23T09:22:23.879Z",
+  "pages": [
+    "https://openclaw.cn/",
+    "https://openclaw.cn/docs/getting-started/quickstart",
+    "https://openclaw.cn/docs/getting-started/installation",
+    "https://openclaw.cn/docs/getting-started/windows-installation",
+    "https://openclaw.cn/docs/user-guide/features/memory",
+    "https://openclaw.cn/docs/user-guide/configuration",
+    "https://openclaw.cn/docs/user-guide/features/overview",
+    "https://openclaw.cn/docs/guides/automate-with-cron",
+    "https://openclaw.cn/docs/integrations",
+    "https://openclaw.cn/docs/guides/migrate-from-openclaw",
+    "https://openclaw.cn/docs/reference/tools-reference",
+    "https://openclaw.cn/docs/reference/toolsets-reference",
+    "https://openclaw.cn/openclaw-installation",
+    "https://openclaw.cn/openclaw-messaging",
+    "https://openclaw.cn/openclaw-mcp",
+    "https://openclaw.cn/skills",
+    "https://openclaw.cn/community"
+  ],
+  "totalPages": 17
+}

@@ -1,0 +1,4 @@
+.vercel
+site/
+node_modules/
+*.log

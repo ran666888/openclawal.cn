@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">歌曲创作与人工智能音乐 | OpenClaw 中文社区</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:image" content="https://openclaw.cn/img/openclaw-og.svg"><meta data-rh="true" name="twitter:image" content="https://openclaw.cn/img/openclaw-og.svg"><meta data-rh="true" property="og:url" content="https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="en_US"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="keywords" content="OpenClaw, OpenClaw 中文, OpenClaw 中文文档, OpenClaw 安装教程, 开源 AI Agent, 自托管 AI Agent, MCP, 技能系统, 长期记忆, 消息网关, 自动化"><meta data-rh="true" name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:title" content="OpenClaw 中文社区"><meta data-rh="true" name="twitter:description" content="OpenClaw 中文文档与安装教程：覆盖长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。"><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:locale" content="zh_CN"><meta data-rh="true" name="baidu-site-verification" content="codeva-wpmbn5jeN3"><meta data-rh="true" name="sogou_site_verification" content="51wZeFa2xc"><meta data-rh="true" name="bytedance-verification-code" content="T5/mFzwle+JzGgxxzASu"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="歌曲创作与人工智能音乐 | OpenClaw 中文社区"><meta data-rh="true" name="description" content="歌曲创作技巧、AI 音乐生成提示词（侧重 Suno）、戏仿/改编技巧、语音技巧以及经验教训"><meta data-rh="true" property="og:description" content="歌曲创作技巧、AI 音乐生成提示词（侧重 Suno）、戏仿/改编技巧、语音技巧以及经验教训"><link data-rh="true" rel="icon" href="/img/favicon.svg?v=20260608-logo"><link data-rh="true" rel="canonical" href="https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music"><link data-rh="true" rel="alternate" href="https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" hreflang="zh-CN"><link data-rh="true" rel="alternate" href="https://openclaw.cn/zh-Hant/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://openclaw.cn/en/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" hreflang="en-US"><link data-rh="true" rel="alternate" href="https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"歌曲创作与人工智能音乐","item":"https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music"}]}</script><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-XXXXXXXXXX",{anonymize_ip:!0})</script>
+
+
+
+<script>!function(){try{var e="hermes-banner-dismissed-until",t=localStorage.getItem(e);if(!t)return;var n=parseInt(t,10);if(isNaN(n)||n<=Date.now())return void localStorage.removeItem(e);var a=document.createElement("style");a.setAttribute("data-banner-dismiss","1"),a.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(a)}catch(e){}}()</script>
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png?v=20260608-logo">
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg?v=20260608-logo">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=20260608-logo">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png?v=20260608-logo">
+<link rel="shortcut icon" href="/favicon.ico?v=20260608-logo">
+<link rel="manifest" href="/site.webmanifest?v=20260608-logo">
+<meta name="theme-color" content="#2a2520">
+<meta name="application-name" content="OpenClaw 中文社区">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="OpenClaw 中文社区">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-TileColor" content="#2a2520">
+<meta name="bytedance-verification-code" content="T5/mFzwle+JzGgxxzASu">
+<meta name="sogou_site_verification" content="51wZeFa2xc">
+<meta name="baidu-site-verification" content="codeva-wpmbn5jeN3">
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" async crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/styles.5c1b7790.css">
+<script src="/assets/js/runtime~main.a183f9fb.js" defer="defer"></script>
+<script src="/assets/js/main.68955185.js" defer="defer"></script>
+<!-- ai-structured-data -->
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"TechArticle","headline":"歌曲创作与人工智能音乐","description":"歌曲创作技巧、AI 音乐生成提示词（侧重 Suno）、戏仿/改编技巧、语音技巧以及经验教训","url":"https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music","inLanguage":"zh-CN","articleSection":"user-guide","dateModified":"2026-05-03T17:22:05.315Z","author":{"@type":"Organization","name":"OpenClaw 中文社区"},"publisher":{"@type":"Organization","name":"OpenClaw 中文社区","logo":{"@type":"ImageObject","url":"https://openclaw.cn/img/logo.png"}},"isBasedOn":"https://github.com/openclaw/openclaw/blob/main/website/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music.md"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://openclaw.cn/"},{"@type":"ListItem","position":2,"name":"文档","item":"https://openclaw.cn/docs"},{"@type":"ListItem","position":3,"name":"歌曲创作与人工智能音乐","item":"https://openclaw.cn/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music"}]}]</script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>document.documentElement.setAttribute("data-theme","dark"),document.documentElement.setAttribute("data-theme-choice","dark"),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.png?v=20260608-logo"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_E_5w" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><div class="theme-announcement-bar announcementBar_mQZt" role="banner"><div class="content_shRJ announcementBarContent_YvQx">
+  <div class="oc-announcement-track" data-slide-count="1">
+    <div class="oc-announcement-slide">
+    <a class="oc-announcement-link" href="https://passport.compshare.cn/register?referral_code=K50gMvv85OmEJ5T9ZDUtDE&ytag=GPU_YY_YX_openclaw.cn" target="_blank" rel="noopener noreferrer sponsored">
+      <span class="oc-announcement-main">
+        <span class="oc-announcement-kicker">推荐资源 |</span>
+        <img class="oc-announcement-brand-logo" src="/img/banner/youyun.png" alt="优云智算" width="96" height="26" loading="lazy" decoding="async">
+        <span class="oc-announcement-copy">
+          支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐<em class="oc-announcement-price">49元</em>/月起，按次调用，超高性价比！
+        </span>
+        <span class="oc-announcement-cta">立即抢购 &gt;</span>
+      </span>
+      <span class="oc-announcement-chips" aria-hidden="true">
+        <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/deepseek.png" alt="deepseek" width="14" height="14" loading="lazy" decoding="async">Deepseek-V4</span>
+        <span class="oc-announcement-chip"><svg class="oc-announcement-chip-icon" width="14" height="14" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0.5 0.5 H11.5 V2 H0.5 Z M10 2.2 L1.5 7.8 L2.2 9 L10.7 3.4 Z M0.5 8 H11.5 V9.5 H0.5 Z" fill="#fce5dd"/></svg>GLM-5.2</span>
+        <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/minimax.png" alt="minimax" width="14" height="14" loading="lazy" decoding="async">Minimax-M2.7</span>
+        <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/kimi.png" alt="kimi" width="14" height="14" loading="lazy" decoding="async">Kimi-k2.6</span>
+      </span>
+    </a>
+</div>
+  </div>
+  <button type="button" class="oc-announcement-dismiss" aria-label="关闭横幅广告" title="关闭横幅（一天内不再显示）" onclick='event.preventDefault(),event.stopPropagation();try{localStorage.setItem("hermes-banner-dismissed-until",String(Date.now()+864e5))}catch(e){}var bar=this.closest(".theme-announcement-bar");if(bar&&(bar.style.display="none"),!document.querySelector("style[data-banner-dismiss]")){var s=document.createElement("style");s.setAttribute("data-banner-dismiss","1"),s.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(s)}'>
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1.8 1.8 L10.2 10.2 M10.2 1.8 L1.8 10.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+</div></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--light_lVmn"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--dark_qXEE"></div><b class="navbar__title text--truncate">OpenClaw 中文社区</b></a><a class="navbar__item navbar__link" href="/docs/getting-started/installation">文档</a><a class="navbar__item navbar__link" href="/community">社区</a><a class="navbar__item navbar__link" href="/skills">技能</a><a class="navbar__item navbar__link" href="/daily">日报</a><a class="navbar__item navbar__link" href="/practice-guides">生态</a><a class="navbar__item navbar__link navbar-releases-link" href="/releases">版本</a><a href="https://desktop.openclaw.cn" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link navbar-desktop-link">桌面版<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_v1Lw"><use href="#theme-svg-external-link"></use></svg></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_izfr"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>简体中文</a><ul class="dropdown__menu"><li><a href="/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-CN">简体中文</a></li><li><a href="/zh-Hant/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文</a></li><li><a href="/en/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en-US">English</a></li></ul></div><div class="navbarSearchContainer_W_j_"><div class="navbar__search searchBarContainer_Wu0H" dir="ltr"><input placeholder="搜索" aria-label="Search" class="navbar__search-input searchInput_fMq5" value=""><div class="loadingRing_Fspa searchBarLoadingRing_B7_8"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_rRXg"><div class="docsWrapper_lV0k"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_DhFS" type="button"></button><div class="docRoot_VZJt"><aside class="theme-doc-sidebar-container docSidebarContainer_p3UU"><div class="sidebarViewport_wRdK"><div class="sidebar_lQzP"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_aOIq menuWithAnnouncementBar_qg_v"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/getting-started/quickstart"><span title="开始使用" class="categoryLinkLabel_u4yX">开始使用</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/user-guide/cli"><span title="使用 OpenClaw" class="categoryLinkLabel_u4yX">使用 OpenClaw</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/user-guide/features/overview"><span title="核心能力" class="categoryLinkLabel_u4yX">核心能力</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/features/overview"><span title="概览" class="linkLabel_dsFK">概览</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/features/tool-gateway"><span title="工具网关" class="linkLabel_dsFK">工具网关</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/features/tools"><span title="基础能力" class="categoryLinkLabel_u4yX">基础能力</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/features/cron"><span title="自动化" class="categoryLinkLabel_u4yX">自动化</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/features/voice-mode"><span title="媒体与网页" class="categoryLinkLabel_u4yX">媒体与网页</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/features/web-dashboard"><span title="管理" class="categoryLinkLabel_u4yX">管理</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/reference/skills-catalog"><span title="技能" class="categoryLinkLabel_u4yX">技能</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/reference/skills-catalog"><span title="捆绑技能目录" class="linkLabel_dsFK">捆绑技能目录</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/reference/optional-skills-catalog"><span title="可选技能目录" class="linkLabel_dsFK">可选技能目录</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/user-guide/skills/bundled/apple/apple-apple-notes"><span title="内置技能" class="categoryLinkLabel_u4yX">内置技能</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/apple/apple-apple-notes"><span title="apple" class="categoryLinkLabel_u4yX">apple</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code"><span title="autonomous-ai-agents" class="categoryLinkLabel_u4yX">autonomous-ai-agents</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-architecture-diagram"><span title="creative" class="categoryLinkLabel_u4yX">creative</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-architecture-diagram"><span title="架构图" class="linkLabel_dsFK">架构图</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-ascii-art"><span title="ASCII 艺术" class="linkLabel_dsFK">ASCII 艺术</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-ascii-video"><span title="ASCII 视频" class="linkLabel_dsFK">ASCII 视频</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-baoyu-infographic"><span title="宝玉信息图" class="linkLabel_dsFK">宝玉信息图</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-claude-design"><span title="Claude 设计" class="linkLabel_dsFK">Claude 设计</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-comfyui"><span title="ComfyUI" class="linkLabel_dsFK">ComfyUI</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-design-md"><span title="设计 Md" class="linkLabel_dsFK">设计 Md</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-excalidraw"><span title="Excalidraw" class="linkLabel_dsFK">Excalidraw</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-humanizer"><span title="Humanizer" class="linkLabel_dsFK">Humanizer</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-manim-video"><span title="Manim 视频" class="linkLabel_dsFK">Manim 视频</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-p5js"><span title="P5.js" class="linkLabel_dsFK">P5.js</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-popular-web-designs"><span title="流行的网页设计" class="linkLabel_dsFK">流行的网页设计</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-pretext"><span title="前言" class="linkLabel_dsFK">前言</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-sketch"><span title="草图" class="linkLabel_dsFK">草图</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music"><span title="歌曲创作与人工智能音乐" class="linkLabel_dsFK">歌曲创作与人工智能音乐</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-5 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/user-guide/skills/bundled/creative/creative-touchdesigner-mcp"><span title="TouchDesigner MCP" class="linkLabel_dsFK">TouchDesigner MCP</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel"><span title="data-science" class="categoryLinkLabel_u4yX">data-science</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/devops/devops-kanban-orchestrator"><span title="devops" class="categoryLinkLabel_u4yX">devops</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/dogfood/dogfood-dogfood"><span title="dogfood" class="categoryLinkLabel_u4yX">dogfood</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/email/email-himalaya"><span title="email" class="categoryLinkLabel_u4yX">email</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/github/github-codebase-inspection"><span title="github" class="categoryLinkLabel_u4yX">github</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/media/media-gif-search"><span title="media" class="categoryLinkLabel_u4yX">media</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/mlops/mlops-models-audiocraft"><span title="mlops" class="categoryLinkLabel_u4yX">mlops</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian"><span title="note-taking" class="categoryLinkLabel_u4yX">note-taking</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/productivity/productivity-airtable"><span title="productivity" class="categoryLinkLabel_u4yX">productivity</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/research/research-arxiv"><span title="research" class="categoryLinkLabel_u4yX">research</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/smart-home/smart-home-openhue"><span title="smart-home" class="categoryLinkLabel_u4yX">smart-home</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/social-media/social-media-xurl"><span title="social-media" class="categoryLinkLabel_u4yX">social-media</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/software-development/software-development-hermes-agent-skill-authoring"><span title="software-development" class="categoryLinkLabel_u4yX">software-development</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-4 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao"><span title="yuanbao" class="categoryLinkLabel_u4yX">yuanbao</span></a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-antigravity-cli"><span title="可选技能（按需安装）" class="categoryLinkLabel_u4yX">可选技能（按需安装）</span></a></div></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/user-guide/messaging"><span title="消息平台" class="categoryLinkLabel_u4yX">消息平台</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/integrations"><span title="集成" class="categoryLinkLabel_u4yX">集成</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/guides/run-nemotron-3-ultra-free"><span title="教程" class="categoryLinkLabel_u4yX">教程</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/releases/v0-17-0"><span title="版本更新" class="categoryLinkLabel_u4yX">版本更新</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/developer-guide/contributing"><span title="开发者指南" class="categoryLinkLabel_u4yX">开发者指南</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_O8V3 menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/cli-commands"><span title="参考" class="categoryLinkLabel_u4yX">参考</span></a></div></li></ul></nav><button type="button" title="收起侧边栏" aria-label="收起侧边栏" class="button button--secondary button--outline collapseSidebarButton_J0fk"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_TUNw"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_g9i8"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_bGZ7"><div class="docItemContainer_n29t"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_CPrC" aria-label="页面路径"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_J2Hc"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">核心能力</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">技能</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">内置技能</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">creative</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">歌曲创作与人工智能音乐</span></li></ul></nav><div class="tocCollapsible_oiGD theme-doc-toc-mobile tocMobile_yvMi"><button type="button" class="clean-btn tocCollapsibleButton_uFkX">本页总览</button></div><div class="theme-doc-markdown markdown">
+<header><h1>歌曲创作与 AI 音乐</h1></header>
+<p>歌曲创作技巧、AI 音乐生成提示词（侧重 Suno）、戏仿/改编技巧、语音技巧以及经验教训。这些是工具和思路，而非规则。当艺术需要时，可以打破任何规则。</p>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="skill-metadata">技能元数据<a href="#skill-metadata" class="hash-link" aria-label="技能元数据的直接链接" title="技能元数据的直接链接" translate="no">​</a></h2>
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>来源</td><td>捆绑包（默认安装）</td></tr><tr><td>路径</td><td><code>skills/creative/songwriting-and-ai-music</code></td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="reference-full-skillmd">参考：完整 SKILL.md<a href="#reference-full-skillmd" class="hash-link" aria-label="参考：完整 SKILL.md的直接链接" title="参考：完整 SKILL.md的直接链接" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-info admonition_Df6t alert alert--info"><div class="admonitionHeading_hAFh"><span class="admonitionIcon_J8F6"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_hQCF"><p>以下是 OpenClaw 在触发此技能时加载的完整技能定义。这是技能激活时代理看到的指令。</p></div></div>
+<h1>歌曲创作与 AI 音乐生成</h1>
+<p>这里的所有内容都是<strong>指南</strong>，而非规则。艺术会故意打破规则。
+使用对歌曲有益的部分。忽略无益的部分。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="1-song-structure-pick-one-or-invent-your-own">1. 歌曲结构（选择一种或自创）<a href="#1-song-structure-pick-one-or-invent-your-own" class="hash-link" aria-label="1. 歌曲结构（选择一种或自创）的直接链接" title="1. 歌曲结构（选择一种或自创）的直接链接" translate="no">​</a></h2>
+<p>常见框架——根据需要混合、修改或抛弃：</p>
+<div class="language-text codeBlockContainer_wnS1 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_M6l_"><pre tabindex="0" class="prism-code language-text codeBlock_bDnV thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_RhKf"><span class="token-line" style="color:#F8F8F2"><span class="token plain">ABABCB  Verse/Chorus/Verse/Chorus/Bridge/Chorus    (most pop/rock)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">AABA    Verse/Verse/Bridge/Verse (refrain-based)    (jazz standards, ballads)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ABAB    Verse/Chorus alternating                    (simple, direct)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">AAA     Verse/Verse/Verse (strophic, no chorus)     (folk, storytelling)</span><br></span></code></pre></div></div>
+<p>六个构建模块：</p>
+<ul>
+<li class="">前奏 (Intro)      — 营造氛围，吸引听众</li>
+<li class="">主歌 (Verse)      — 故事、细节、世界观构建</li>
+<li class="">预副歌 (Pre-Chorus) — 高潮前的可选张力铺垫</li>
+<li class="">副歌 (Chorus)     — 情感核心，人们记住的部分</li>
+<li class="">桥段 (Bridge)     — 岔路，视角或调性的转变</li>
+<li class="">尾奏 (Outro)      — 告别，可以呼应或颠覆其余部分</li>
+</ul>
+<p>你不需要包含所有部分。一些优秀的歌曲仅由一个不断演变的段落组成。结构服务于情感，反之亦然。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="2-rhyme-meter-and-sound">2. 押韵、格律与声音<a href="#2-rhyme-meter-and-sound" class="hash-link" aria-label="2. 押韵、格律与声音的直接链接" title="2. 押韵、格律与声音的直接链接" translate="no">​</a></h2>
+<p><strong>押韵类型</strong>（从紧密到松散）：</p>
+<ul>
+<li class="">完全押韵 (Perfect)：lean/mean</li>
+<li class="">家族押韵 (Family)：crate/braid</li>
+<li class="">元音押韵 (Assonance)：had/glass（元音相同，结尾不同）</li>
+<li class="">辅音押韵 (Consonance)：scene/when（元音不同，结尾相似）</li>
+<li class="">近韵/斜韵 (Near/slant)：足以暗示联系，但不强制锁定</li>
+</ul>
+<p>混合使用它们。全部使用完全押韵听起来可能像童谣。
+全部使用斜韵听起来可能显得懒散。精髓在于融合。</p>
+<p><strong>内部押韵 (INTERNAL RHYME)</strong>：在行内押韵，而不仅仅在行尾。
+&quot;We pruned the lies from bleeding trees / Distilled the storm
+from entropy&quot; — &quot;lies/flies,&quot; &quot;trees/entropy&quot; 创造了内部回声。</p>
+<p><strong>格律 (METER)</strong>：重读音节与非重读音节的节奏。</p>
+<ul>
+<li class="">平行行之间的音节数匹配有助于可唱性</li>
+<li class=""><strong>重读</strong>音节比总数更重要</li>
+<li class="">大声朗读。如果结巴，说明格律需要调整。</li>
+<li class="">故意打破格律可以创造强调或惊喜</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="3-emotional-arc-and-dynamics">3. 情感弧线与动态<a href="#3-emotional-arc-and-dynamics" class="hash-link" aria-label="3. 情感弧线与动态的直接链接" title="3. 情感弧线与动态的直接链接" translate="no">​</a></h2>
+<p>将歌曲视为一段旅程，而非平坦的道路。</p>
+<p><strong>能量映射</strong>（大致概念，非规定）：
+前奏: 2-3  |  主歌: 5-6  |  预副歌: 7
+副歌: 8-9  |  桥段: 可变  |  最终副歌: 9-10</p>
+<p>最强大的动态技巧：<strong>对比</strong>。</p>
+<ul>
+<li class="">尖叫之前的低语比单纯尖叫更有力</li>
+<li class="">稀疏先于密集。慢先于快。低先于高。</li>
+<li class="">drop（高潮跌落）之所以有效，是因为有铺垫</li>
+<li class="">沉默也是一种乐器</li>
+</ul>
+<p>“从低语到咆哮再到低语”——以亲密开始， buildup 至全功率，
+然后剥离回归脆弱。适用于民谣、史诗、赞歌。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="4-writing-lyrics-that-work">4. 撰写有效的歌词<a href="#4-writing-lyrics-that-work" class="hash-link" aria-label="4. 撰写有效的歌词的直接链接" title="4. 撰写有效的歌词的直接链接" translate="no">​</a></h2>
+<p><strong>展示，而非讲述</strong>（通常情况）：</p>
+<ul>
+<li class="">“我很伤心” = 平淡</li>
+<li class="">“你的连帽衫还挂在门边的钩子上” = 生动</li>
+<li class="">但有时直白地说出“我献出生命”<strong>就是</strong>力量所在</li>
+</ul>
+<p><strong>记忆点 (THE HOOK)</strong>：</p>
+<ul>
+<li class="">人们记住、哼唱、重复的那一行</li>
+<li class="">通常是标题或核心短语</li>
+<li class="">当旋律 + 歌词 + 情感一致时效果最佳</li>
+<li class="">将其放在冲击力最强的位置（通常是副歌的第一行或最后一行）</li>
+</ul>
+<p>** prosody（词曲配合）** — 歌词与音乐相互支持：</p>
+<ul>
+<li class="">稳定的情感（解决、平静）搭配平稳的旋律、
+完全押韵、 resolved 和弦</li>
+<li class="">不稳定的情感（渴望、怀疑）搭配游走的旋律、
+近韵、未解决和弦</li>
+<li class="">主歌旋律通常较低，副歌较高</li>
+<li class="">但如果对歌曲有益，可以反转这一点</li>
+</ul>
+<p><strong>避免</strong>（除非你是故意为之）：</p>
+<ul>
+<li class="">自动化的陈词滥调（未经铺垫的“金子般的心”）</li>
+<li class="">为了押韵而强行改变词序（“尤达式说话”）</li>
+<li class="">每个部分能量相同（动态平淡）</li>
+<li class="">将初稿视为神圣不可侵犯——修改即创作</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="5-parody-and-adaptation">5. 戏仿与改编<a href="#5-parody-and-adaptation" class="hash-link" aria-label="5. 戏仿与改编的直接链接" title="5. 戏仿与改编的直接链接" translate="no">​</a></h2>
+<p>当用新歌词重写现有歌曲时：</p>
+<p><strong>骨架</strong>：首先映射原曲的结构。</p>
+<ul>
+<li class="">计算每行的音节数</li>
+<li class="">标记押韵方案（ABAB, AABB 等）</li>
+<li class="">识别哪些音节是<strong>重读</strong>的</li>
+<li class="">注意长音/持续音出现的位置</li>
+</ul>
+<p><strong>填入新词</strong>：</p>
+<ul>
+<li class="">将重读音节匹配到与原曲相同的节拍上</li>
+<li class="">总音节数可以浮动 1-2 个非重读音节</li>
+<li class="">在长持续音上，尽量匹配原曲的<strong>元音音色</strong>
+（如果原曲用“oo”元音拉长“LOOOVE”，那么“FOOOD”比
+“LIFE”更合适）</li>
+<li class="">在关键位置进行单音节替换以保持节奏完整
+（Crime -&gt; Code, Snake -&gt; Noose）</li>
+<li class="">跟着原曲唱出新词——如果结巴，就修改</li>
+</ul>
+<p><strong>概念</strong>：</p>
+<ul>
+<li class="">选择一个足以支撑整首歌的强大概念</li>
+<li class="">从标题/记忆点开始，向外构建</li>
+<li class=""><strong>首先</strong>生成大量原始素材（双关语、短语、意象），
+然后将最好的素材融入结构中</li>
+<li class="">如果你需要在某处使用特定行，请逆向工程
+押韵方案来为其铺垫</li>
+</ul>
+<p>保留部分原文：保留少数原始行或结构不变，可增加辨识度，让受众感受到关联。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="6-suno-ai-prompt-engineering">6. Suno AI 提示词工程<a href="#6-suno-ai-prompt-engineering" class="hash-link" aria-label="6. Suno AI 提示词工程的直接链接" title="6. Suno AI 提示词工程的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_U7RE" id="stylegenre-description-field">风格/流派描述字段<a href="#stylegenre-description-field" class="hash-link" aria-label="风格/流派描述字段的直接链接" title="风格/流派描述字段的直接链接" translate="no">​</a></h3>
+<p>公式（按需调整）：
+流派 + 情绪 + 时代 + 乐器 + 人声风格 + 制作 + 动态变化</p>
+<div class="language-text codeBlockContainer_wnS1 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_M6l_"><pre tabindex="0" class="prism-code language-text codeBlock_bDnV thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_RhKf"><span class="token-line" style="color:#F8F8F2"><span class="token plain">BAD:  &quot;sad rock song&quot;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">GOOD: &quot;Cinematic orchestral spy thriller, 1960s Cold War era, smoky</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">       sultry female vocalist, big band jazz, brass section with</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">       trumpets and french horns, sweeping strings, minor key,</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">       vintage analog warmth&quot;</span><br></span></code></pre></div></div>
+<p>描述旅程，而不仅仅是流派：</p>
+<div class="language-text codeBlockContainer_wnS1 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_M6l_"><pre tabindex="0" class="prism-code language-text codeBlock_bDnV thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_RhKf"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&quot;Begins as a haunting whisper over sparse piano. Gradually layers</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> in muted brass. Builds through the chorus with full orchestra.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Second verse erupts with raw belting intensity. Outro strips back</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> to a lone piano and a fragile whisper fading to silence.&quot;</span><br></span></code></pre></div></div>
+<p>技巧：</p>
+<ul>
+<li class="">V4.5+ 版本在“风格”字段支持多达 1,000 个字符 — 充分利用</li>
+<li class="">不要使用艺术家姓名或商标。改为描述声音。
+“1960年代冷战间谍惊悚片铜管乐”而非“詹姆斯·邦德风格”
+“90年代垃圾摇滚”而非“涅槃乐队风格”</li>
+<li class="">如果有偏好，请指定 BPM 和调性</li>
+<li class="">使用“排除风格”字段来指定你<strong>不</strong>想要的内容</li>
+<li class="">出人意料的流派组合可能成为亮点：“波萨诺瓦陷阱音乐”、
+“阿巴拉契亚哥特”、“芯片音乐爵士”</li>
+<li class="">构建人声<strong>人物设定</strong>，而不仅仅是性别：
+“一位饱经风霜的伤感歌手，拥有烟熏般的女低音，略带沙哑，
+从脆弱开始，逐渐建立起毁灭性的力量感”</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_U7RE" id="metatags-place-in-brackets-inside-lyrics-field">元标签（放在歌词字段的 [方括号] 内）<a href="#metatags-place-in-brackets-inside-lyrics-field" class="hash-link" aria-label="元标签（放在歌词字段的 [方括号] 内）的直接链接" title="元标签（放在歌词字段的 [方括号] 内）的直接链接" translate="no">​</a></h3>
+<p>结构：
+[Intro] [Verse] [Verse 1] [Pre-Chorus] [Chorus]
+[Post-Chorus] [Hook] [Bridge] [Interlude]
+[Instrumental] [Instrumental Break] [Guitar Solo]
+[Breakdown] [Build-up] [Outro] [Silence] [End]</p>
+<p>人声表现：
+[Whispered] [Spoken Word] [Belted] [Falsetto] [Powerful]
+[Soulful] [Raspy] [Breathy] [Smooth] [Gritty]
+[Staccato] [Legato] [Vibrato] [Melismatic]
+[Harmonies] [Choir] [Harmonized Chorus]</p>
+<p>动态变化：
+[High Energy] [Low Energy] [Building Energy] [Explosive]
+[Emotional Climax] [Gradual swell] [Orchestral swell]
+[Quiet arrangement] [Falling tension] [Slow Down]</p>
+<p>性别：
+[Female Vocals] [Male Vocals]</p>
+<p>氛围：
+[Melancholic] [Euphoric] [Nostalgic] [Aggressive]
+[Dreamy] [Intimate] [Dark Atmosphere]</p>
+<p>音效：
+[Vinyl Crackle] [Rain] [Applause] [Static] [Thunder]</p>
+<p>为了加强效果，请在<strong>风格字段</strong>和<strong>歌词</strong>中都放置标签。
+每部分最多保留 5-8 个标签 — 太多会让 AI 困惑。
+不要自相矛盾（在同一部分中同时使用 [Calm] 和 [Aggressive]）。</p>
+<h3 class="anchor anchorTargetStickyNavbar_U7RE" id="custom-mode">自定义模式<a href="#custom-mode" class="hash-link" aria-label="自定义模式的直接链接" title="自定义模式的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">进行严肃创作时始终使用自定义模式（分离“风格”+“歌词”）</li>
+<li class="">歌词字段限制：约 3,000 个字符（约 40-60 行）</li>
+<li class="">始终添加结构标签 — 如果没有它们，Suno 默认会生成平淡的
+主歌/副歌/主歌结构，缺乏情感起伏</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="7-phonetic-tricks-for-ai-singers">7. AI 歌手的语音技巧<a href="#7-phonetic-tricks-for-ai-singers" class="hash-link" aria-label="7. AI 歌手的语音技巧的直接链接" title="7. AI 歌手的语音技巧的直接链接" translate="no">​</a></h2>
+<p>AI 歌手不阅读文本 — 它们进行发音。请帮助它们：</p>
+<p>语音重拼：</p>
+<ul>
+<li class="">按照<strong>发音</strong>拼写单词：“through” -&gt; “thru”</li>
+<li class="">专有名词的错误率最高 — 尽早测试</li>
+<li class="">“Nous” -&gt; “Noose”（强制正确发音）</li>
+<li class="">使用连字符引导音节：“Re-search”、“bio-engineering”</li>
+</ul>
+<p>演绎控制：</p>
+<ul>
+<li class="">全大写 = 更响亮、更强烈</li>
+<li class="">元音延长：“lo-o-o-ove” = 持续音/ melisma（花腔）</li>
+<li class="">省略号：“I... need... you” = 戏剧性停顿</li>
+<li class="">连字符拉伸：“ne-e-ed” = 情感拉伸</li>
+</ul>
+<p>始终：</p>
+<ul>
+<li class="">将数字拼写出来：“24/7” -&gt; “twenty four seven”</li>
+<li class="">将首字母缩写分开：“AI” -&gt; “A I” 或 “A-I”</li>
+<li class="">先在简短的 30 秒片段中测试专有名词/生僻词</li>
+<li class="">一旦生成，发音就固定了 — 务必在生成<strong>之前</strong>在歌词中修正</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="8-workflow">8. 工作流<a href="#8-workflow" class="hash-link" aria-label="8. 工作流的直接链接" title="8. 工作流的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">先撰写概念/钩子（hook）— 情感核心是什么？</li>
+<li class="">如果是改编，映射原始结构（音节、押韵、重音）</li>
+<li class="">生成原始素材 — 在结构化之前自由头脑风暴</li>
+<li class="">将歌词草稿填入结构中</li>
+<li class="">大声朗读/演唱 — 捕捉拗口之处，修正格律</li>
+<li class="">构建 Suno 风格描述 — 描绘动态旅程</li>
+<li class="">在歌词中添加元标签以指导表演</li>
+<li class="">至少生成 3-5 个变体 — 将它们视为录音试唱</li>
+<li class="">挑选最佳版本，使用“扩展/继续”功能基于有潜力的部分进行构建</li>
+<li class="">如果偶然发生了很棒的效果，保留它</li>
+</ol>
+<p>预期：每获得 1 个好结果大约需要 ~3-5 次生成。修改是正常的。
+在扩展过程中风格可能会漂移 — 扩展时重申流派/情绪。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_U7RE" id="9-lessons-learned">9. 经验教训<a href="#9-lessons-learned" class="hash-link" aria-label="9. 经验教训的直接链接" title="9. 经验教训的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">在风格字段中描述动态<strong>弧线</strong>比仅仅列出流派重要得多。“从低语到咆哮再到低语”为 Suno 提供了表演地图。</li>
+<li class="">在戏仿作品中保留部分原始行不变，可增加辨识度和情感重量 — 受众能感受到原作的影子。</li>
+<li class="">歌曲中的桥段（bridge）位置是转换意象的地方。
+将原作的具体引用替换为你主题中的隐喻，同时保持其情感功能（反思、转折、启示）。</li>
+<li class="">在钩子/标签中使用单音节词替换，是在改变含义的同时保持节奏的最干净方式。</li>
+<li class="">在风格字段中对人声人物设定的强力描述，比任何单个元标签带来的影响都更大。</li>
+<li class="">不要拘泥于规则。如果某一行破坏了格律但冲击力更强，那就保留它。感觉才是最重要的。技艺服务于艺术，反之亦然。</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/user-guide/skills/bundled/creative/creative-sketch"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">草图</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/user-guide/skills/bundled/creative/creative-touchdesigner-mcp"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">TouchDesigner MCP</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_YiVE thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#skill-metadata" class="table-of-contents__link toc-highlight">技能元数据</a></li><li><a href="#reference-full-skillmd" class="table-of-contents__link toc-highlight">参考：完整 SKILL.md</a></li><li><a href="#1-song-structure-pick-one-or-invent-your-own" class="table-of-contents__link toc-highlight">1. 歌曲结构（选择一种或自创）</a></li><li><a href="#2-rhyme-meter-and-sound" class="table-of-contents__link toc-highlight">2. 押韵、格律与声音</a></li><li><a href="#3-emotional-arc-and-dynamics" class="table-of-contents__link toc-highlight">3. 情感弧线与动态</a></li><li><a href="#4-writing-lyrics-that-work" class="table-of-contents__link toc-highlight">4. 撰写有效的歌词</a></li><li><a href="#5-parody-and-adaptation" class="table-of-contents__link toc-highlight">5. 戏仿与改编</a></li><li><a href="#6-suno-ai-prompt-engineering" class="table-of-contents__link toc-highlight">6. Suno AI 提示词工程</a><ul><li><a href="#stylegenre-description-field" class="table-of-contents__link toc-highlight">风格/流派描述字段</a></li><li><a href="#metatags-place-in-brackets-inside-lyrics-field" class="table-of-contents__link toc-highlight">元标签（放在歌词字段的 [方括号] 内）</a></li><li><a href="#custom-mode" class="table-of-contents__link toc-highlight">自定义模式</a></li></ul></li><li><a href="#7-phonetic-tricks-for-ai-singers" class="table-of-contents__link toc-highlight">7. AI 歌手的语音技巧</a></li><li><a href="#8-workflow" class="table-of-contents__link toc-highlight">8. 工作流</a></li><li><a href="#9-lessons-learned" class="table-of-contents__link toc-highlight">9. 经验教训</a></li></ul></div></div></div></div></main></div></div></div><footer class="oc-footer" role="contentinfo"><div class="oc-footer__frame"><div class="oc-footer__epigraph"><div class="oc-footer__brandmark" aria-label="OPENCLAW"><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span><span class="oc-footer__brandmark-text">OPENCLAW</span><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span></div><div class="oc-footer__epigraph-couplet"><p class="oc-footer__epigraph-zh">思之所至，行之所达。</p><p class="oc-footer__epigraph-en">As Thought Reaches, So Action Arrives.</p></div><div class="oc-footer__epigraph-ornament" aria-hidden="true"><span class="oc-footer__epigraph-ornament-line"></span><span class="oc-footer__epigraph-ornament-mark">✦</span><span class="oc-footer__epigraph-ornament-line"></span></div><div class="oc-footer__cta"><a class="oc-footer__cta-btn oc-footer__cta-btn--primary" href="/community">加入社区</a><a class="oc-footer__cta-btn oc-footer__cta-btn--ghost" href="/docs/getting-started/quickstart">浏览文档<span class="oc-footer__cta-arrow" aria-hidden="true">→</span></a></div><p class="oc-footer__tagline">OpenClaw 中文社区 · 探索AI Agent技术<a class="oc-footer__tagline-link" href="https://openclaw.cn/community#industry-groups">行业落地</a>应用</p></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__groups"><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">I · Contents</span><span class="oc-footer__group-label">文档</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/getting-started/quickstart"><span class="oc-footer__link-text">快速开始</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/getting-started/installation"><span class="oc-footer__link-text">安装指南</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/user-guide/configuration"><span class="oc-footer__link-text">配置 OpenClaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/reference/cli-commands"><span class="oc-footer__link-text">CLI 参考</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/releases"><span class="oc-footer__link-text">版本更新</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">II · Community</span><span class="oc-footer__group-label">社区</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/community"><span class="oc-footer__link-text">加入社区群</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/daily"><span class="oc-footer__link-text">日报订阅</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/practice-guides"><span class="oc-footer__link-text">生态</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/skills"><span class="oc-footer__link-text">Skill Atlas</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">III · Upstream</span><span class="oc-footer__group-label">来源</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://openclaw.ai/" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">OpenClaw 官网</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">openclaw/openclaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://openclaw.ai" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">OpenClaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://agentskills.io" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">Agent Skills 规范</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">IV · Site</span><span class="oc-footer__group-label">本站</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/about"><span class="oc-footer__link-text">关于本站</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/terms"><span class="oc-footer__link-text">使用条款</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/privacy"><span class="oc-footer__link-text">隐私政策</span></a></li></ul></section></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__colophon"><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-mark" aria-hidden="true">✶</span><span class="oc-footer__colophon-text">© 2026 · OpenClaw 中文社区 · All rights reserved</span></div><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-text">Site design by<!-- --> <a class="oc-footer__colophon-link" href="https://eynzof.com" target="_blank" rel="noreferrer">Enzo Li</a></span><span class="oc-footer__colophon-dot" aria-hidden="true">·</span><span class="oc-footer__colophon-version">v<!-- -->2026.04.25</span></div></div></div></footer></div>
+<script>
+(function(){
+  var container = document.getElementById("oc-terminal-body");
+  var cursor = document.getElementById("oc-cursor");
+  if (!container) return;
+
+  var text = [
+    '<span style="color:#fb923c">openclaw setup</span>',
+    '  选择模型供应商：智谱 / DeepSeek / Qwen / Kimi / MiniMax',
+    '  配置工具集：终端、文件、浏览器、记忆、技能、MCP',
+    '\u2713 OpenClaw \u5df2\u51c6\u5907\u5c31\u7eea',
+    '',
+    '<span style="color:#fb923c">openclaw</span>',
+    '  \u5e2e\u6211\u6574\u7406\u672c\u5468\u9879\u76ee\u8fdb\u5c55\uff0c\u5e76\u53d1\u5230\u98de\u4e66',
+    '  session_search \u201c\u9879\u76ee\u8fdb\u5c55\u201d                       0.7s',
+    '  read_file ./AGENTS.md                          0.1s',
+    '  web_search \u201c\u76f8\u5173\u4f9d\u8d56\u6700\u65b0\u7248\u672c\u201d                  1.4s',
+    '  feishu_send \u201c\u672c\u5468\u7b80\u62a5\u5df2\u751f\u6210\u201d                   0.3s',
+    '',
+    'Done. \u6211\u8fd8\u4fdd\u5b58\u4e86\u4e00\u4e2a\u201c\u5468\u62a5\u6574\u7406\u201d\u6280\u80fd\uff0c\u4e0b\u6b21\u4f1a\u76f4\u63a5\u590d\u7528\u3002'
+  ];
+  var html = '';
+  var lineIdx = 0, charIdx = 0;
+  var speed = 25;
+
+  function typeLine() {
+    if (lineIdx >= text.length) {
+      if (cursor) cursor.style.animation = "oc-blink 1s step-end infinite";
+      return;
+    }
+    var line = text[lineIdx];
+    if (charIdx <= line.length) {
+      // Show the cursor at current position
+      var displayText = line.substring(0, charIdx);
+      var cursorHtml = '<span class="oc-cursor" style="animation:oc-blink 1s step-end infinite;display:inline-block;width:8px;height:1em;background:#fb923c;vertical-align:text-bottom;margin-left:1px"></span>';
+      container.innerHTML = html + displayText + cursorHtml;
+      charIdx++;
+      setTimeout(typeLine, speed);
+    } else {
+      html += line + '\n';
+      lineIdx++;
+      charIdx = 0;
+      setTimeout(typeLine, speed * 3);
+    }
+  }
+
+  container.innerHTML = '';
+  typeLine();
+})();
+</script>\n<style>body{font-weight:480;letter-spacing:0.02em}code,pre{font-weight:500}</style>\n</body>
+</html>

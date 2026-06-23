@@ -1,7 +1,0 @@
-dist/
-site/
-node_modules/
-.git/
-*.js
-*.md
-HANDOVER.md
