@@ -8,7 +8,7 @@ const urls = [];
 function walk(dir) {
   for (const f of fs.readdirSync(dir)) {
     const fp = path.join(dir, f);
-    if (f.startsWith('.') || f === 'node_modules') continue;
+    if (f.startsWith('.') || f === 'node_modules' || f.includes('_old_bak') || f.includes('backup')) continue;
     if (fs.statSync(fp).isDirectory()) walk(fp);
     else if (f === 'index.html') {
       const rel = path.relative(dist, path.dirname(fp)).replace(/\\/g, '/');

@@ -43,6 +43,17 @@ const server = http.createServer((req, res) => {
   const urlPath = req.url.split('?')[0];
   const resolved = resolvePath(urlPath);
   if (!resolved) {
+    // SPA fallback: /docs/* 路径未找到实际文件 → 返回 index.html，让客户端 hash 路由接手
+    if (urlPath.startsWith('/docs/')) {
+      const indexPath = path.join(SITE_DIR, 'index.html');
+      const ext = '.html';
+      fs.readFile(indexPath, (err, data) => {
+        if (err) { res.writeHead(500); res.end('Error'); return; }
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+        res.end(data);
+      });
+      return;
+    }
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
     res.end(`<h1>404 - ${urlPath} 未找到</h1>`);
     return;

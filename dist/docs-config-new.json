@@ -1,0 +1,1938 @@
+[
+  {
+    "type": "category",
+    "label": "OpenClaw 专属",
+    "items": [
+      {
+        "type": "link",
+        "label": "ClawHub — 技能与插件市场",
+        "href": "/docs/openclaw/clawhub/"
+      },
+      {
+        "type": "link",
+        "label": "节点 — iOS / Android 设备配对",
+        "href": "/docs/openclaw/nodes/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 运维 — 健康检查与远程访问",
+        "href": "/docs/openclaw/gateway-ops/"
+      },
+      {
+        "type": "link",
+        "label": "Web 控制 UI — Dashboard 使用指南",
+        "href": "/docs/openclaw/web-ui/"
+      },
+      {
+        "type": "link",
+        "label": "文档中心",
+        "href": "/docs/openclaw/doc-center/"
+      }
+    ]
+  },
+  {
+    "type": "link",
+    "label": "用户故事与使用案例",
+    "href": "/docs/user-stories/"
+  },
+  {
+    "type": "category",
+    "label": "快速入门",
+    "items": [
+      {
+        "type": "link",
+        "label": "快速上手",
+        "href": "/docs/getting-started/quickstart/"
+      },
+      {
+        "type": "link",
+        "label": "安装指南",
+        "href": "/docs/getting-started/installation/"
+      },
+      {
+        "type": "link",
+        "label": "更新与卸载",
+        "href": "/docs/getting-started/updating/"
+      },
+      {
+        "type": "link",
+        "label": "学习路径",
+        "href": "/docs/getting-started/learning-path/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "用户指南",
+    "items": [
+      {
+        "type": "link",
+        "label": "CLI 界面",
+        "href": "/docs/user-guide/cli/"
+      },
+      {
+        "type": "link",
+        "label": "TUI 终端界面",
+        "href": "/docs/user-guide/tui/"
+      },
+      {
+        "type": "link",
+        "label": "桌面应用",
+        "href": "/docs/user-guide/desktop/"
+      },
+      {
+        "type": "link",
+        "label": "Windows 原生安装",
+        "href": "/docs/user-guide/windows-native/"
+      },
+      {
+        "type": "link",
+        "label": "WSL2 安装指南",
+        "href": "/docs/user-guide/windows-wsl-quickstart/"
+      },
+      {
+        "type": "link",
+        "label": "配置指南",
+        "href": "/docs/user-guide/configuration/"
+      },
+      {
+        "type": "link",
+        "label": "模型配置",
+        "href": "/docs/user-guide/configuring-models/"
+      },
+      {
+        "type": "category",
+        "label": "Secrets 密钥管理",
+        "items": [
+          {
+            "type": "link",
+            "label": "Secrets 密钥管理",
+            "href": "/docs/user-guide/secrets/index/"
+          },
+          {
+            "type": "link",
+            "label": "Bitwarden 密钥管理",
+            "href": "/docs/user-guide/secrets/bitwarden/"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "会话管理",
+        "href": "/docs/user-guide/sessions/"
+      },
+      {
+        "type": "link",
+        "label": "多配置文件",
+        "href": "/docs/user-guide/profiles/"
+      },
+      {
+        "type": "link",
+        "label": "Docker 部署",
+        "href": "/docs/user-guide/docker/"
+      },
+      {
+        "type": "link",
+        "label": "安全",
+        "href": "/docs/user-guide/security/"
+      },
+      {
+        "type": "link",
+        "label": "Checkpoints 快照与回滚 [+手动实现]",
+        "href": "/docs/user-guide/checkpoints-and-rollback/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "核心功能",
+    "items": [
+      {
+        "type": "link",
+        "label": "功能概览",
+        "href": "/docs/user-guide/features/overview/"
+      },
+      {
+        "type": "link",
+        "label": "Tool Gateway",
+        "href": "/docs/user-guide/features/tool-gateway/"
+      },
+      {
+        "type": "category",
+        "label": "核心",
+        "items": [
+          {
+            "type": "link",
+            "label": "工具与工具集",
+            "href": "/docs/user-guide/features/tools/"
+          },
+          {
+            "type": "link",
+            "label": "工具搜索",
+            "href": "/docs/user-guide/features/tool-search/"
+          },
+          {
+            "type": "link",
+            "label": "技能系统",
+            "href": "/docs/user-guide/features/skills/"
+          },
+          {
+            "type": "link",
+            "label": "LSP 语言服务器 [+手动实现]",
+            "href": "/docs/user-guide/features/lsp/"
+          },
+          {
+            "type": "link",
+            "label": "Curator 技能策展 [+手动实现]",
+            "href": "/docs/user-guide/features/curator/"
+          },
+          {
+            "type": "link",
+            "label": "持久记忆",
+            "href": "/docs/user-guide/features/memory/"
+          },
+          {
+            "type": "link",
+            "label": "记忆后端 [+手动实现]",
+            "href": "/docs/user-guide/features/memory-providers/"
+          },
+          {
+            "type": "link",
+            "label": "上下文文件",
+            "href": "/docs/user-guide/features/context-files/"
+          },
+          {
+            "type": "link",
+            "label": "上下文引用",
+            "href": "/docs/user-guide/features/context-references/"
+          },
+          {
+            "type": "link",
+            "label": "个性与 SOUL.md",
+            "href": "/docs/user-guide/features/personality/"
+          },
+          {
+            "type": "link",
+            "label": "皮肤与主题 [+手动实现]",
+            "href": "/docs/user-guide/features/skins/"
+          },
+          {
+            "type": "link",
+            "label": "插件系统",
+            "href": "/docs/user-guide/features/plugins/"
+          },
+          {
+            "type": "link",
+            "label": "内置插件",
+            "href": "/docs/user-guide/features/built-in-plugins/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "自动化",
+        "items": [
+          {
+            "type": "link",
+            "label": "定时任务 Cron",
+            "href": "/docs/user-guide/features/cron/"
+          },
+          {
+            "type": "link",
+            "label": "子 Agent 委托",
+            "href": "/docs/user-guide/features/delegation/"
+          },
+          {
+            "type": "link",
+            "label": "目标系统 Goals",
+            "href": "/docs/user-guide/features/goals/"
+          },
+          {
+            "type": "link",
+            "label": "代码执行",
+            "href": "/docs/user-guide/features/code-execution/"
+          },
+          {
+            "type": "link",
+            "label": "事件 Hook",
+            "href": "/docs/user-guide/features/hooks/"
+          },
+          {
+            "type": "link",
+            "label": "批量处理 [+手动实现]",
+            "href": "/docs/user-guide/features/batch-processing/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "媒体与网页",
+        "items": [
+          {
+            "type": "link",
+            "label": "语音模式",
+            "href": "/docs/user-guide/features/voice-mode/"
+          },
+          {
+            "type": "link",
+            "label": "网页搜索",
+            "href": "/docs/user-guide/features/web-search/"
+          },
+          {
+            "type": "link",
+            "label": "X (Twitter) 搜索",
+            "href": "/docs/user-guide/features/x-search/"
+          },
+          {
+            "type": "link",
+            "label": "浏览器自动化",
+            "href": "/docs/user-guide/features/browser/"
+          },
+          {
+            "type": "link",
+            "label": "Computer Use 桌面控制",
+            "href": "/docs/user-guide/features/computer-use/"
+          },
+          {
+            "type": "link",
+            "label": "视觉与图片粘贴",
+            "href": "/docs/user-guide/features/vision/"
+          },
+          {
+            "type": "link",
+            "label": "图像生成",
+            "href": "/docs/user-guide/features/image-generation/"
+          },
+          {
+            "type": "link",
+            "label": "Spotify 音乐控制 [+手动实现]",
+            "href": "/docs/user-guide/features/spotify/"
+          },
+          {
+            "type": "link",
+            "label": "语音与 TTS",
+            "href": "/docs/user-guide/features/tts/"
+          },
+          {
+            "type": "link",
+            "label": "交付模式 [+手动实现]",
+            "href": "/docs/user-guide/features/deliverable-mode/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "管理",
+        "items": [
+          {
+            "type": "link",
+            "label": "Web 控制 UI",
+            "href": "/docs/user-guide/features/web-dashboard/"
+          },
+          {
+            "type": "link",
+            "label": "扩展 Dashboard",
+            "href": "/docs/user-guide/features/extending-the-dashboard/"
+          },
+          {
+            "type": "link",
+            "label": "API 服务",
+            "href": "/docs/user-guide/features/api-server/"
+          },
+          {
+            "type": "link",
+            "label": "订阅代理 [+手动实现]",
+            "href": "/docs/user-guide/features/subscription-proxy/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "版本发布",
+        "items": [
+          {
+            "type": "link",
+            "label": "v2026.6.10",
+            "href": "/docs/releases/v2026.6.10/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.9",
+            "href": "/docs/releases/v2026.6.9/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.8",
+            "href": "/docs/releases/v2026.6.8/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.7 Beta.1",
+            "href": "/docs/releases/v2026.6.7-beta.1/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.6 Beta.2",
+            "href": "/docs/releases/v2026.6.6-beta.2/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.5",
+            "href": "/docs/releases/v2026.6.5/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.6.1 Beta.3",
+            "href": "/docs/releases/v2026.6.1-beta.3/"
+          },
+          {
+            "type": "link",
+            "label": "v2026.5.31 Beta.4",
+            "href": "/docs/releases/v2026.5.31-beta.4/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "技能系统",
+    "items": [
+      {
+        "type": "link",
+        "label": "内置技能目录",
+        "href": "/docs/reference/skills-catalog/"
+      },
+      {
+        "type": "link",
+        "label": "可选技能目录",
+        "href": "/docs/reference/optional-skills-catalog/"
+      },
+      {
+        "type": "category",
+        "label": "内置技能",
+        "items": [
+          {
+            "type": "category",
+            "label": "apple",
+            "items": [
+              {
+                "type": "link",
+                "label": "Apple Notes",
+                "href": "/docs/user-guide/skills/bundled/apple/apple-apple-notes/"
+              },
+              {
+                "type": "link",
+                "label": "Apple Reminders",
+                "href": "/docs/user-guide/skills/bundled/apple/apple-apple-reminders/"
+              },
+              {
+                "type": "link",
+                "label": "Findmy",
+                "href": "/docs/user-guide/skills/bundled/apple/apple-findmy/"
+              },
+              {
+                "type": "link",
+                "label": "Imessage",
+                "href": "/docs/user-guide/skills/bundled/apple/apple-imessage/"
+              },
+              {
+                "type": "link",
+                "label": "Macos Computer Use",
+                "href": "/docs/user-guide/skills/bundled/apple/apple-macos-computer-use/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "creative",
+            "items": [
+              {
+                "type": "link",
+                "label": "Architecture Diagram",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-architecture-diagram/"
+              },
+              {
+                "type": "link",
+                "label": "Ascii Art",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-ascii-art/"
+              },
+              {
+                "type": "link",
+                "label": "Ascii Video",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-ascii-video/"
+              },
+              {
+                "type": "link",
+                "label": "Baoyu Infographic",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-baoyu-infographic/"
+              },
+              {
+                "type": "link",
+                "label": "Claude Design",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-claude-design/"
+              },
+              {
+                "type": "link",
+                "label": "Comfyui",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-comfyui/"
+              },
+              {
+                "type": "link",
+                "label": "Design Md",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-design-md/"
+              },
+              {
+                "type": "link",
+                "label": "Excalidraw",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-excalidraw/"
+              },
+              {
+                "type": "link",
+                "label": "Humanizer",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-humanizer/"
+              },
+              {
+                "type": "link",
+                "label": "Manim Video",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-manim-video/"
+              },
+              {
+                "type": "link",
+                "label": "P5Js",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-p5js/"
+              },
+              {
+                "type": "link",
+                "label": "Popular Web Designs",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-popular-web-designs/"
+              },
+              {
+                "type": "link",
+                "label": "Pretext",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-pretext/"
+              },
+              {
+                "type": "link",
+                "label": "Sketch",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-sketch/"
+              },
+              {
+                "type": "link",
+                "label": "Songwriting And Ai Music",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music/"
+              },
+              {
+                "type": "link",
+                "label": "Touchdesigner Mcp",
+                "href": "/docs/user-guide/skills/bundled/creative/creative-touchdesigner-mcp/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "data-science",
+            "items": [
+              {
+                "type": "link",
+                "label": "Jupyter Live Kernel",
+                "href": "/docs/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "github",
+            "items": [
+              {
+                "type": "link",
+                "label": "Codebase Inspection",
+                "href": "/docs/user-guide/skills/bundled/github/github-codebase-inspection/"
+              },
+              {
+                "type": "link",
+                "label": "Github Auth",
+                "href": "/docs/user-guide/skills/bundled/github/github-github-auth/"
+              },
+              {
+                "type": "link",
+                "label": "Github Code Review",
+                "href": "/docs/user-guide/skills/bundled/github/github-github-code-review/"
+              },
+              {
+                "type": "link",
+                "label": "Github Issues",
+                "href": "/docs/user-guide/skills/bundled/github/github-github-issues/"
+              },
+              {
+                "type": "link",
+                "label": "Github Pr Workflow",
+                "href": "/docs/user-guide/skills/bundled/github/github-github-pr-workflow/"
+              },
+              {
+                "type": "link",
+                "label": "Github Repo Management",
+                "href": "/docs/user-guide/skills/bundled/github/github-github-repo-management/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "media",
+            "items": [
+              {
+                "type": "link",
+                "label": "Gif Search",
+                "href": "/docs/user-guide/skills/bundled/media/media-gif-search/"
+              },
+              {
+                "type": "link",
+                "label": "Heartmula",
+                "href": "/docs/user-guide/skills/bundled/media/media-heartmula/"
+              },
+              {
+                "type": "link",
+                "label": "Songsee",
+                "href": "/docs/user-guide/skills/bundled/media/media-songsee/"
+              },
+              {
+                "type": "link",
+                "label": "Youtube Content",
+                "href": "/docs/user-guide/skills/bundled/media/media-youtube-content/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "mlops",
+            "items": [
+              {
+                "type": "link",
+                "label": "Audiocraft Audio Generation",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-models-audiocraft/"
+              },
+              {
+                "type": "link",
+                "label": "Huggingface Hub",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-huggingface-hub/"
+              },
+              {
+                "type": "link",
+                "label": "Llama Cpp",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp/"
+              },
+              {
+                "type": "link",
+                "label": "Evaluating Llms Harness",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness/"
+              },
+              {
+                "type": "link",
+                "label": "Segment Anything Model",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-models-segment-anything/"
+              },
+              {
+                "type": "link",
+                "label": "Serving Llms Vllm",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-inference-vllm/"
+              },
+              {
+                "type": "link",
+                "label": "Weights And Biases",
+                "href": "/docs/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "note-taking",
+            "items": [
+              {
+                "type": "link",
+                "label": "Obsidian",
+                "href": "/docs/user-guide/skills/bundled/note-taking/note-taking-obsidian/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "productivity",
+            "items": [
+              {
+                "type": "link",
+                "label": "Airtable",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-airtable/"
+              },
+              {
+                "type": "link",
+                "label": "Google Workspace",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-google-workspace/"
+              },
+              {
+                "type": "link",
+                "label": "Maps",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-maps/"
+              },
+              {
+                "type": "link",
+                "label": "Nano Pdf",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-nano-pdf/"
+              },
+              {
+                "type": "link",
+                "label": "Notion",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-notion/"
+              },
+              {
+                "type": "link",
+                "label": "Ocr And Documents",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-ocr-and-documents/"
+              },
+              {
+                "type": "link",
+                "label": "Petdex",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-petdex/"
+              },
+              {
+                "type": "link",
+                "label": "Powerpoint",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-powerpoint/"
+              },
+              {
+                "type": "link",
+                "label": "Teams Meeting Pipeline",
+                "href": "/docs/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "research",
+            "items": [
+              {
+                "type": "link",
+                "label": "Arxiv",
+                "href": "/docs/user-guide/skills/bundled/research/research-arxiv/"
+              },
+              {
+                "type": "link",
+                "label": "Blogwatcher",
+                "href": "/docs/user-guide/skills/bundled/research/research-blogwatcher/"
+              },
+              {
+                "type": "link",
+                "label": "Llm Wiki",
+                "href": "/docs/user-guide/skills/bundled/research/research-llm-wiki/"
+              },
+              {
+                "type": "link",
+                "label": "Polymarket",
+                "href": "/docs/user-guide/skills/bundled/research/research-polymarket/"
+              },
+              {
+                "type": "link",
+                "label": "Research Paper Writing",
+                "href": "/docs/user-guide/skills/bundled/research/research-research-paper-writing/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "smart-home",
+            "items": [
+              {
+                "type": "link",
+                "label": "Openhue",
+                "href": "/docs/user-guide/skills/bundled/smart-home/smart-home-openhue/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "social-media",
+            "items": [
+              {
+                "type": "link",
+                "label": "Xurl",
+                "href": "/docs/user-guide/skills/bundled/social-media/social-media-xurl/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "software-development",
+            "items": [
+              {
+                "type": "link",
+                "label": "Hermes Agent Skill Authoring",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-hermes-agent-skill-authoring/"
+              },
+              {
+                "type": "link",
+                "label": "Node Inspect Debugger",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-node-inspect-debugger/"
+              },
+              {
+                "type": "link",
+                "label": "Plan",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-plan/"
+              },
+              {
+                "type": "link",
+                "label": "Python Debugpy",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-python-debugpy/"
+              },
+              {
+                "type": "link",
+                "label": "Requesting Code Review",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-requesting-code-review/"
+              },
+              {
+                "type": "link",
+                "label": "Simplify Code",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-simplify-code/"
+              },
+              {
+                "type": "link",
+                "label": "Spike",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-spike/"
+              },
+              {
+                "type": "link",
+                "label": "Systematic Debugging",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-systematic-debugging/"
+              },
+              {
+                "type": "link",
+                "label": "Test Driven Development",
+                "href": "/docs/user-guide/skills/bundled/software-development/software-development-test-driven-development/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "yuanbao",
+            "items": [
+              {
+                "type": "link",
+                "label": "元宝配置",
+                "href": "/docs/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "可选技能",
+        "items": [
+          {
+            "type": "category",
+            "label": "blockchain",
+            "items": [
+              {
+                "type": "link",
+                "label": "Evm",
+                "href": "/docs/user-guide/skills/optional/blockchain/blockchain-evm/"
+              },
+              {
+                "type": "link",
+                "label": "Hyperliquid",
+                "href": "/docs/user-guide/skills/optional/blockchain/blockchain-hyperliquid/"
+              },
+              {
+                "type": "link",
+                "label": "Solana",
+                "href": "/docs/user-guide/skills/optional/blockchain/blockchain-solana/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "creative",
+            "items": [
+              {
+                "type": "link",
+                "label": "Baoyu Article Illustrator",
+                "href": "/docs/user-guide/skills/optional/creative/creative-baoyu-article-illustrator/"
+              },
+              {
+                "type": "link",
+                "label": "Baoyu Comic",
+                "href": "/docs/user-guide/skills/optional/creative/creative-baoyu-comic/"
+              },
+              {
+                "type": "link",
+                "label": "Blender Mcp",
+                "href": "/docs/user-guide/skills/optional/creative/creative-blender-mcp/"
+              },
+              {
+                "type": "link",
+                "label": "Concept Diagrams",
+                "href": "/docs/user-guide/skills/optional/creative/creative-concept-diagrams/"
+              },
+              {
+                "type": "link",
+                "label": "Creative Ideation",
+                "href": "/docs/user-guide/skills/optional/creative/creative-creative-ideation/"
+              },
+              {
+                "type": "link",
+                "label": "Hyperframes",
+                "href": "/docs/user-guide/skills/optional/creative/creative-hyperframes/"
+              },
+              {
+                "type": "link",
+                "label": "Meme Generation",
+                "href": "/docs/user-guide/skills/optional/creative/creative-meme-generation/"
+              },
+              {
+                "type": "link",
+                "label": "Pixel Art",
+                "href": "/docs/user-guide/skills/optional/creative/creative-pixel-art/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "devops",
+            "items": [
+              {
+                "type": "link",
+                "label": "Inference Sh Cli",
+                "href": "/docs/user-guide/skills/optional/devops/devops-cli/"
+              },
+              {
+                "type": "link",
+                "label": "Docker Management",
+                "href": "/docs/user-guide/skills/optional/devops/devops-docker-management/"
+              },
+              {
+                "type": "link",
+                "label": "Hermes S6 Container Supervision",
+                "href": "/docs/user-guide/skills/optional/devops/devops-hermes-s6-container-supervision/"
+              },
+              {
+                "type": "link",
+                "label": "Pinggy Tunnel",
+                "href": "/docs/user-guide/skills/optional/devops/devops-pinggy-tunnel/"
+              },
+              {
+                "type": "link",
+                "label": "Watchers",
+                "href": "/docs/user-guide/skills/optional/devops/devops-watchers/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "email",
+            "items": [
+              {
+                "type": "link",
+                "label": "Agentmail",
+                "href": "/docs/user-guide/skills/optional/email/email-agentmail/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "finance",
+            "items": [
+              {
+                "type": "link",
+                "label": "3 Statement Model",
+                "href": "/docs/user-guide/skills/optional/finance/finance-3-statement-model/"
+              },
+              {
+                "type": "link",
+                "label": "Comps Analysis",
+                "href": "/docs/user-guide/skills/optional/finance/finance-comps-analysis/"
+              },
+              {
+                "type": "link",
+                "label": "Dcf Model",
+                "href": "/docs/user-guide/skills/optional/finance/finance-dcf-model/"
+              },
+              {
+                "type": "link",
+                "label": "Excel Author",
+                "href": "/docs/user-guide/skills/optional/finance/finance-excel-author/"
+              },
+              {
+                "type": "link",
+                "label": "Lbo Model",
+                "href": "/docs/user-guide/skills/optional/finance/finance-lbo-model/"
+              },
+              {
+                "type": "link",
+                "label": "Merger Model",
+                "href": "/docs/user-guide/skills/optional/finance/finance-merger-model/"
+              },
+              {
+                "type": "link",
+                "label": "Pptx Author",
+                "href": "/docs/user-guide/skills/optional/finance/finance-pptx-author/"
+              },
+              {
+                "type": "link",
+                "label": "Stocks",
+                "href": "/docs/user-guide/skills/optional/finance/finance-stocks/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "gaming",
+            "items": [
+              {
+                "type": "link",
+                "label": "Minecraft Modpack Server",
+                "href": "/docs/user-guide/skills/optional/gaming/gaming-minecraft-modpack-server/"
+              },
+              {
+                "type": "link",
+                "label": "Pokemon Player",
+                "href": "/docs/user-guide/skills/optional/gaming/gaming-pokemon-player/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "health",
+            "items": [
+              {
+                "type": "link",
+                "label": "Fitness Nutrition",
+                "href": "/docs/user-guide/skills/optional/health/health-fitness-nutrition/"
+              },
+              {
+                "type": "link",
+                "label": "Neuroskill Bci",
+                "href": "/docs/user-guide/skills/optional/health/health-neuroskill-bci/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "mcp",
+            "items": [
+              {
+                "type": "link",
+                "label": "Fastmcp",
+                "href": "/docs/user-guide/skills/optional/mcp/mcp-fastmcp/"
+              },
+              {
+                "type": "link",
+                "label": "Mcporter",
+                "href": "/docs/user-guide/skills/optional/mcp/mcp-mcporter/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "mlops",
+            "items": [
+              {
+                "type": "link",
+                "label": "Huggingface Accelerate",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-accelerate/"
+              },
+              {
+                "type": "link",
+                "label": "Axolotl",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-training-axolotl/"
+              },
+              {
+                "type": "link",
+                "label": "Chroma",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-chroma/"
+              },
+              {
+                "type": "link",
+                "label": "Clip",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-clip/"
+              },
+              {
+                "type": "link",
+                "label": "Faiss",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-faiss/"
+              },
+              {
+                "type": "link",
+                "label": "Optimizing Attention Flash",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-flash-attention/"
+              },
+              {
+                "type": "link",
+                "label": "Huggingface Tokenizers",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-huggingface-tokenizers/"
+              },
+              {
+                "type": "link",
+                "label": "Outlines",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-inference-outlines/"
+              },
+              {
+                "type": "link",
+                "label": "Instructor",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-instructor/"
+              },
+              {
+                "type": "link",
+                "label": "Lambda Labs Gpu Cloud",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-lambda-labs/"
+              },
+              {
+                "type": "link",
+                "label": "Llava",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-llava/"
+              },
+              {
+                "type": "link",
+                "label": "Modal Serverless Gpu",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-modal/"
+              },
+              {
+                "type": "link",
+                "label": "Nemo Curator",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-nemo-curator/"
+              },
+              {
+                "type": "link",
+                "label": "Obliteratus",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-obliteratus/"
+              },
+              {
+                "type": "link",
+                "label": "Peft Fine Tuning",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-peft/"
+              },
+              {
+                "type": "link",
+                "label": "Pinecone",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-pinecone/"
+              },
+              {
+                "type": "link",
+                "label": "Pytorch Fsdp",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-pytorch-fsdp/"
+              },
+              {
+                "type": "link",
+                "label": "Pytorch Lightning",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-pytorch-lightning/"
+              },
+              {
+                "type": "link",
+                "label": "Qdrant Vector Search",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-qdrant/"
+              },
+              {
+                "type": "link",
+                "label": "Dspy",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-research-dspy/"
+              },
+              {
+                "type": "link",
+                "label": "Sparse Autoencoder Training",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-saelens/"
+              },
+              {
+                "type": "link",
+                "label": "Simpo Training",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-simpo/"
+              },
+              {
+                "type": "link",
+                "label": "Slime Rl Training",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-slime/"
+              },
+              {
+                "type": "link",
+                "label": "Stable Diffusion Image Generation",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-stable-diffusion/"
+              },
+              {
+                "type": "link",
+                "label": "Tensorrt Llm",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-tensorrt-llm/"
+              },
+              {
+                "type": "link",
+                "label": "Distributed Llm Pretraining Torchtitan",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-torchtitan/"
+              },
+              {
+                "type": "link",
+                "label": "Fine Tuning With Trl",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-training-trl-fine-tuning/"
+              },
+              {
+                "type": "link",
+                "label": "Unsloth",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-training-unsloth/"
+              },
+              {
+                "type": "link",
+                "label": "Whisper",
+                "href": "/docs/user-guide/skills/optional/mlops/mlops-whisper/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "payments",
+            "items": [
+              {
+                "type": "link",
+                "label": "Mpp Agent",
+                "href": "/docs/user-guide/skills/optional/payments/payments-mpp-agent/"
+              },
+              {
+                "type": "link",
+                "label": "Stripe Link Cli",
+                "href": "/docs/user-guide/skills/optional/payments/payments-stripe-link-cli/"
+              },
+              {
+                "type": "link",
+                "label": "Stripe Projects",
+                "href": "/docs/user-guide/skills/optional/payments/payments-stripe-projects/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "productivity",
+            "items": [
+              {
+                "type": "link",
+                "label": "Canvas",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-canvas/"
+              },
+              {
+                "type": "link",
+                "label": "Here.Now",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-here-now/"
+              },
+              {
+                "type": "link",
+                "label": "Memento Flashcards",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-memento-flashcards/"
+              },
+              {
+                "type": "link",
+                "label": "Shop",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-shop/"
+              },
+              {
+                "type": "link",
+                "label": "Shopify",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-shopify/"
+              },
+              {
+                "type": "link",
+                "label": "Siyuan",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-siyuan/"
+              },
+              {
+                "type": "link",
+                "label": "Telephony",
+                "href": "/docs/user-guide/skills/optional/productivity/productivity-telephony/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "research",
+            "items": [
+              {
+                "type": "link",
+                "label": "Bioinformatics",
+                "href": "/docs/user-guide/skills/optional/research/research-bioinformatics/"
+              },
+              {
+                "type": "link",
+                "label": "Darwinian Evolver",
+                "href": "/docs/user-guide/skills/optional/research/research-darwinian-evolver/"
+              },
+              {
+                "type": "link",
+                "label": "Domain Intel",
+                "href": "/docs/user-guide/skills/optional/research/research-domain-intel/"
+              },
+              {
+                "type": "link",
+                "label": "Drug Discovery",
+                "href": "/docs/user-guide/skills/optional/research/research-drug-discovery/"
+              },
+              {
+                "type": "link",
+                "label": "Duckduckgo Search",
+                "href": "/docs/user-guide/skills/optional/research/research-duckduckgo-search/"
+              },
+              {
+                "type": "link",
+                "label": "Gitnexus Explorer",
+                "href": "/docs/user-guide/skills/optional/research/research-gitnexus-explorer/"
+              },
+              {
+                "type": "link",
+                "label": "Osint Investigation",
+                "href": "/docs/user-guide/skills/optional/research/research-osint-investigation/"
+              },
+              {
+                "type": "link",
+                "label": "Parallel Cli",
+                "href": "/docs/user-guide/skills/optional/research/research-parallel-cli/"
+              },
+              {
+                "type": "link",
+                "label": "Qmd",
+                "href": "/docs/user-guide/skills/optional/research/research-qmd/"
+              },
+              {
+                "type": "link",
+                "label": "Scrapling",
+                "href": "/docs/user-guide/skills/optional/research/research-scrapling/"
+              },
+              {
+                "type": "link",
+                "label": "Searxng Search",
+                "href": "/docs/user-guide/skills/optional/research/research-searxng-search/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "security",
+            "items": [
+              {
+                "type": "link",
+                "label": "1Password",
+                "href": "/docs/user-guide/skills/optional/security/security-1password/"
+              },
+              {
+                "type": "link",
+                "label": "Godmode",
+                "href": "/docs/user-guide/skills/optional/security/security-godmode/"
+              },
+              {
+                "type": "link",
+                "label": "Oss Forensics",
+                "href": "/docs/user-guide/skills/optional/security/security-oss-forensics/"
+              },
+              {
+                "type": "link",
+                "label": "Sherlock",
+                "href": "/docs/user-guide/skills/optional/security/security-sherlock/"
+              },
+              {
+                "type": "link",
+                "label": "Web Pentest",
+                "href": "/docs/user-guide/skills/optional/security/security-web-pentest/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "software-development",
+            "items": [
+              {
+                "type": "link",
+                "label": "Code Wiki",
+                "href": "/docs/user-guide/skills/optional/software-development/software-development-code-wiki/"
+              },
+              {
+                "type": "link",
+                "label": "Rest Graphql Debug",
+                "href": "/docs/user-guide/skills/optional/software-development/software-development-rest-graphql-debug/"
+              },
+              {
+                "type": "link",
+                "label": "Subagent Driven Development",
+                "href": "/docs/user-guide/skills/optional/software-development/software-development-subagent-driven-development/"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "web-development",
+            "items": [
+              {
+                "type": "link",
+                "label": "Page Agent",
+                "href": "/docs/user-guide/skills/optional/web-development/web-development-page-agent/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "消息平台",
+    "items": [
+      {
+        "type": "link",
+        "label": "消息网关",
+        "href": "/docs/user-guide/messaging/index/"
+      },
+      {
+        "type": "category",
+        "label": "常用平台",
+        "items": [
+          {
+            "type": "link",
+            "label": "Telegram 配置",
+            "href": "/docs/user-guide/messaging/telegram/"
+          },
+          {
+            "type": "link",
+            "label": "Discord 配置",
+            "href": "/docs/user-guide/messaging/discord/"
+          },
+          {
+            "type": "link",
+            "label": "Slack 配置",
+            "href": "/docs/user-guide/messaging/slack/"
+          },
+          {
+            "type": "link",
+            "label": "WhatsApp 配置",
+            "href": "/docs/user-guide/messaging/whatsapp/"
+          },
+          {
+            "type": "link",
+            "label": "WhatsApp Business API 配置",
+            "href": "/docs/user-guide/messaging/whatsapp-cloud/"
+          },
+          {
+            "type": "link",
+            "label": "Signal 配置",
+            "href": "/docs/user-guide/messaging/signal/"
+          },
+          {
+            "type": "link",
+            "label": "Email 配置",
+            "href": "/docs/user-guide/messaging/email/"
+          },
+          {
+            "type": "link",
+            "label": "SMS 配置 (Twilio)",
+            "href": "/docs/user-guide/messaging/sms/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Microsoft 365",
+        "items": [
+          {
+            "type": "link",
+            "label": "Microsoft Teams 配置",
+            "href": "/docs/user-guide/messaging/teams/"
+          },
+          {
+            "type": "link",
+            "label": "Teams 会议集成",
+            "href": "/docs/user-guide/messaging/teams-meetings/"
+          },
+          {
+            "type": "link",
+            "label": "Microsoft Graph Webhook",
+            "href": "/docs/user-guide/messaging/msgraph-webhook/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "中文平台",
+        "items": [
+          {
+            "type": "link",
+            "label": "钉钉配置",
+            "href": "/docs/user-guide/messaging/dingtalk/"
+          },
+          {
+            "type": "link",
+            "label": "飞书 / Lark 配置",
+            "href": "/docs/user-guide/messaging/feishu/"
+          },
+          {
+            "type": "link",
+            "label": "企业微信配置",
+            "href": "/docs/user-guide/messaging/wecom/"
+          },
+          {
+            "type": "link",
+            "label": "企业微信回调配置",
+            "href": "/docs/user-guide/messaging/wecom-callback/"
+          },
+          {
+            "type": "link",
+            "label": "微信配置",
+            "href": "/docs/user-guide/messaging/weixin/"
+          },
+          {
+            "type": "link",
+            "label": "QQ 机器人配置",
+            "href": "/docs/user-guide/messaging/qqbot/"
+          },
+          {
+            "type": "link",
+            "label": "元宝配置",
+            "href": "/docs/user-guide/messaging/yuanbao/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "其他",
+        "items": [
+          {
+            "type": "link",
+            "label": "Home Assistant 集成",
+            "href": "/docs/user-guide/messaging/homeassistant/"
+          },
+          {
+            "type": "link",
+            "label": "Mattermost 配置",
+            "href": "/docs/user-guide/messaging/mattermost/"
+          },
+          {
+            "type": "link",
+            "label": "Matrix 配置",
+            "href": "/docs/user-guide/messaging/matrix/"
+          },
+          {
+            "type": "link",
+            "label": "BlueBubbles (iMessage)",
+            "href": "/docs/user-guide/messaging/bluebubbles/"
+          },
+          {
+            "type": "link",
+            "label": "Photon iMessage",
+            "href": "/docs/user-guide/messaging/photon/"
+          },
+          {
+            "type": "link",
+            "label": "Google Chat 配置",
+            "href": "/docs/user-guide/messaging/google_chat/"
+          },
+          {
+            "type": "link",
+            "label": "LINE 配置",
+            "href": "/docs/user-guide/messaging/line/"
+          },
+          {
+            "type": "link",
+            "label": "SimpleX 配置",
+            "href": "/docs/user-guide/messaging/simplex/"
+          },
+          {
+            "type": "link",
+            "label": "ntfy 通知",
+            "href": "/docs/user-guide/messaging/ntfy/"
+          },
+          {
+            "type": "link",
+            "label": "Open WebUI 集成",
+            "href": "/docs/user-guide/messaging/open-webui/"
+          },
+          {
+            "type": "link",
+            "label": "Webhook",
+            "href": "/docs/user-guide/messaging/webhooks/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "集成",
+    "items": [
+      {
+        "type": "link",
+        "label": "集成总览",
+        "href": "/docs/integrations/index/"
+      },
+      {
+        "type": "link",
+        "label": "AI 供应商",
+        "href": "/docs/integrations/providers/"
+      },
+      {
+        "type": "link",
+        "label": "MCP 集成",
+        "href": "/docs/user-guide/features/mcp/"
+      },
+      {
+        "type": "link",
+        "label": "供应商路由",
+        "href": "/docs/user-guide/features/provider-routing/"
+      },
+      {
+        "type": "link",
+        "label": "备用供应商",
+        "href": "/docs/user-guide/features/fallback-providers/"
+      },
+      {
+        "type": "link",
+        "label": "凭据池",
+        "href": "/docs/user-guide/features/credential-pools/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "指南与教程",
+    "items": [
+      {
+        "type": "link",
+        "label": "Run Nemotron 3 Ultra free in Hermes Agent",
+        "href": "/docs/guides/run-nemotron-3-ultra-free/"
+      },
+      {
+        "type": "link",
+        "label": "Run Hermes Agent with Nous Portal",
+        "href": "/docs/guides/run-hermes-with-nous-portal/"
+      },
+      {
+        "type": "link",
+        "label": "技巧与最佳实践",
+        "href": "/docs/guides/tips/"
+      },
+      {
+        "type": "link",
+        "label": "Run Local LLMs on Mac",
+        "href": "/docs/guides/local-llm-on-mac/"
+      },
+      {
+        "type": "link",
+        "label": "Tutorial: Build a Daily Briefing Bot",
+        "href": "/docs/guides/daily-briefing-bot/"
+      },
+      {
+        "type": "link",
+        "label": "设置团队 Telegram 助手",
+        "href": "/docs/guides/team-telegram-assistant/"
+      },
+      {
+        "type": "link",
+        "label": "Using Hermes as a Python Library",
+        "href": "/docs/guides/python-library/"
+      },
+      {
+        "type": "link",
+        "label": "在 Hermes 中使用 MCP",
+        "href": "/docs/guides/use-mcp-with-hermes/"
+      },
+      {
+        "type": "link",
+        "label": "使用 SOUL.md",
+        "href": "/docs/guides/use-soul-with-hermes/"
+      },
+      {
+        "type": "link",
+        "label": "使用语音模式",
+        "href": "/docs/guides/use-voice-mode-with-hermes/"
+      },
+      {
+        "type": "link",
+        "label": "Build a Hermes Plugin",
+        "href": "/docs/guides/build-a-hermes-plugin/"
+      },
+      {
+        "type": "link",
+        "label": "使用 Cron 自动化",
+        "href": "/docs/guides/automate-with-cron/"
+      },
+      {
+        "type": "link",
+        "label": "Script-Only Cron Jobs",
+        "href": "/docs/guides/cron-script-only/"
+      },
+      {
+        "type": "link",
+        "label": "Cron Troubleshooting",
+        "href": "/docs/guides/cron-troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "使用技能",
+        "href": "/docs/guides/work-with-skills/"
+      },
+      {
+        "type": "link",
+        "label": "委托与并行工作",
+        "href": "/docs/guides/delegation-patterns/"
+      },
+      {
+        "type": "link",
+        "label": "Tutorial: Build a GitHub PR Review Agent",
+        "href": "/docs/guides/github-pr-review-agent/"
+      },
+      {
+        "type": "link",
+        "label": "Automated GitHub PR Comments with Webhooks",
+        "href": "/docs/guides/webhook-github-pr-review/"
+      },
+      {
+        "type": "link",
+        "label": "AWS Bedrock",
+        "href": "/docs/guides/aws-bedrock/"
+      },
+      {
+        "type": "link",
+        "label": "Microsoft Foundry",
+        "href": "/docs/guides/azure-foundry/"
+      },
+      {
+        "type": "link",
+        "label": "xAI Grok OAuth (SuperGrok / X Premium+)",
+        "href": "/docs/guides/xai-grok-oauth/"
+      },
+      {
+        "type": "link",
+        "label": "OAuth over SSH / Remote Hosts",
+        "href": "/docs/guides/oauth-over-ssh/"
+      },
+      {
+        "type": "link",
+        "label": "Register a Microsoft Graph Application",
+        "href": "/docs/guides/microsoft-graph-app-registration/"
+      },
+      {
+        "type": "link",
+        "label": "Operate the Teams Meeting Pipeline",
+        "href": "/docs/guides/operate-teams-meeting-pipeline/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "开发者指南",
+    "items": [
+      {
+        "type": "link",
+        "label": "贡献指南",
+        "href": "/docs/developer-guide/contributing/"
+      },
+      {
+        "type": "category",
+        "label": "架构",
+        "items": [
+          {
+            "type": "link",
+            "label": "架构",
+            "href": "/docs/developer-guide/architecture/"
+          },
+          {
+            "type": "link",
+            "label": "Agent Loop Internals",
+            "href": "/docs/developer-guide/agent-loop/"
+          },
+          {
+            "type": "link",
+            "label": "Prompt Assembly",
+            "href": "/docs/developer-guide/prompt-assembly/"
+          },
+          {
+            "type": "link",
+            "label": "Context Compression and Caching",
+            "href": "/docs/developer-guide/context-compression-and-caching/"
+          },
+          {
+            "type": "link",
+            "label": "Gateway Internals",
+            "href": "/docs/developer-guide/gateway-internals/"
+          },
+          {
+            "type": "link",
+            "label": "Session Storage",
+            "href": "/docs/developer-guide/session-storage/"
+          },
+          {
+            "type": "link",
+            "label": "Provider Runtime Resolution",
+            "href": "/docs/developer-guide/provider-runtime/"
+          },
+          {
+            "type": "link",
+            "label": "Programmatic Integration",
+            "href": "/docs/developer-guide/programmatic-integration/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "扩展",
+        "items": [
+          {
+            "type": "link",
+            "label": "Adding Tools",
+            "href": "/docs/developer-guide/adding-tools/"
+          },
+          {
+            "type": "link",
+            "label": "Adding Providers",
+            "href": "/docs/developer-guide/adding-providers/"
+          },
+          {
+            "type": "link",
+            "label": "Adding a Platform Adapter",
+            "href": "/docs/developer-guide/adding-platform-adapters/"
+          },
+          {
+            "type": "link",
+            "label": "Building a Memory Provider Plugin",
+            "href": "/docs/developer-guide/memory-provider-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Building a Context Engine Plugin",
+            "href": "/docs/developer-guide/context-engine-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Building a Model Provider Plugin",
+            "href": "/docs/developer-guide/model-provider-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Building an Image Generation Provider Plugin",
+            "href": "/docs/developer-guide/image-gen-provider-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Building a Video Generation Provider Plugin",
+            "href": "/docs/developer-guide/video-gen-provider-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Building a Web Search Provider Plugin",
+            "href": "/docs/developer-guide/web-search-provider-plugin/"
+          },
+          {
+            "type": "link",
+            "label": "Plugin LLM Access",
+            "href": "/docs/developer-guide/plugin-llm-access/"
+          },
+          {
+            "type": "link",
+            "label": "Creating Skills",
+            "href": "/docs/developer-guide/creating-skills/"
+          },
+          {
+            "type": "link",
+            "label": "Extending the CLI",
+            "href": "/docs/developer-guide/extending-the-cli/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "内部机制",
+        "items": [
+          {
+            "type": "link",
+            "label": "Tools Runtime",
+            "href": "/docs/developer-guide/tools-runtime/"
+          },
+          {
+            "type": "link",
+            "label": "Browser CDP Supervisor",
+            "href": "/docs/developer-guide/browser-supervisor/"
+          },
+          {
+            "type": "link",
+            "label": "Cron Internals",
+            "href": "/docs/developer-guide/cron-internals/"
+          },
+          {
+            "type": "link",
+            "label": "Trajectory Format",
+            "href": "/docs/developer-guide/trajectory-format/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "参考",
+    "items": [
+      {
+        "type": "category",
+        "label": "命令参考",
+        "items": [
+          {
+            "type": "link",
+            "label": "CLI 命令参考",
+            "href": "/docs/reference/cli-commands/"
+          },
+          {
+            "type": "link",
+            "label": "Slash 命令参考",
+            "href": "/docs/reference/slash-commands/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "配置参考",
+        "items": [
+          {
+            "type": "link",
+            "label": "环境变量参考",
+            "href": "/docs/reference/environment-variables/"
+          },
+          {
+            "type": "link",
+            "label": "MCP 配置参考",
+            "href": "/docs/reference/mcp-config-reference/"
+          },
+          {
+            "type": "link",
+            "label": "模型目录",
+            "href": "/docs/reference/model-catalog/"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "工具与技能参考",
+        "items": [
+          {
+            "type": "link",
+            "label": "内置工具参考",
+            "href": "/docs/reference/tools-reference/"
+          },
+          {
+            "type": "link",
+            "label": "工具集参考",
+            "href": "/docs/reference/toolsets-reference/"
+          },
+          {
+            "type": "link",
+            "label": "内置技能目录",
+            "href": "/docs/reference/skills-catalog/"
+          },
+          {
+            "type": "link",
+            "label": "可选技能目录",
+            "href": "/docs/reference/optional-skills-catalog/"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "FAQ 与故障排查",
+        "href": "/docs/reference/faq/"
+      }
+    ]
+  }
+]

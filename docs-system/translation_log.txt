@@ -1,0 +1,696 @@
+20:20:32   🔄 [1/351] 翻译中: index.md (204 chars)
+20:20:33   ✅ [1/351] index.md — 完成
+20:20:34   🔄 [2/351] 翻译中: developer-guide\acp-internals.md (5249 chars)
+20:20:35   ✅ [2/351] developer-guide\acp-internals.md — 完成
+20:20:36   🔄 [3/351] 翻译中: developer-guide\adding-platform-adapters.md (29804 chars)
+20:20:44   ✅ [3/351] developer-guide\adding-platform-adapters.md — 完成
+20:20:45   🔄 [4/351] 翻译中: developer-guide\adding-providers.md (16260 chars)
+20:20:52   ✅ [4/351] developer-guide\adding-providers.md — 完成
+20:20:53   🔄 [5/351] 翻译中: developer-guide\adding-tools.md (6622 chars)
+20:20:55   ✅ [5/351] developer-guide\adding-tools.md — 完成
+20:20:56   🔄 [6/351] 翻译中: developer-guide\agent-loop.md (10333 chars)
+20:20:57   ✅ [6/351] developer-guide\agent-loop.md — 完成
+20:20:58   🔄 [7/351] 翻译中: developer-guide\architecture.md (14260 chars)
+20:21:07   ✅ [7/351] developer-guide\architecture.md — 完成
+20:21:08   🔄 [8/351] 翻译中: developer-guide\browser-supervisor.md (9093 chars)
+20:21:09   ✅ [8/351] developer-guide\browser-supervisor.md — 完成
+20:21:10   🔄 [9/351] 翻译中: developer-guide\context-compression-and-caching.md (15525 chars)
+20:21:17   ✅ [9/351] developer-guide\context-compression-and-caching.md — 完成
+20:21:18   🔄 [10/351] 翻译中: developer-guide\context-engine-plugin.md (7128 chars)
+20:21:20   ✅ [10/351] developer-guide\context-engine-plugin.md — 完成
+20:21:21   🔄 [11/351] 翻译中: developer-guide\contributing.md (10517 chars)
+20:21:22   ✅ [11/351] developer-guide\contributing.md — 完成
+20:21:23   🔄 [12/351] 翻译中: developer-guide\creating-skills.md (19941 chars)
+20:21:30   ✅ [12/351] developer-guide\creating-skills.md — 完成
+20:21:31   🔄 [13/351] 翻译中: developer-guide\cron-internals.md (12688 chars)
+20:21:33   ✅ [13/351] developer-guide\cron-internals.md — 完成
+20:21:34   🔄 [14/351] 翻译中: developer-guide\extending-the-cli.md (7133 chars)
+20:21:36   ✅ [14/351] developer-guide\extending-the-cli.md — 完成
+20:21:37   🔄 [15/351] 翻译中: developer-guide\gateway-internals.md (13251 chars)
+20:21:44   ✅ [15/351] developer-guide\gateway-internals.md — 完成
+20:21:45   🔄 [16/351] 翻译中: developer-guide\image-gen-provider-plugin.md (12554 chars)
+20:21:47   ✅ [16/351] developer-guide\image-gen-provider-plugin.md — 完成
+20:21:48   🔄 [17/351] 翻译中: developer-guide\memory-provider-plugin.md (9833 chars)
+20:21:49   ✅ [17/351] developer-guide\memory-provider-plugin.md — 完成
+20:21:50   🔄 [18/351] 翻译中: developer-guide\model-provider-plugin.md (13781 chars)
+20:21:57   ✅ [18/351] developer-guide\model-provider-plugin.md — 完成
+20:21:58   🔄 [19/351] 翻译中: developer-guide\plugin-llm-access.md (18221 chars)
+20:22:06   ✅ [19/351] developer-guide\plugin-llm-access.md — 完成
+20:22:07   🔄 [20/351] 翻译中: developer-guide\programmatic-integration.md (6745 chars)
+20:22:09   ✅ [20/351] developer-guide\programmatic-integration.md — 完成
+20:22:10   🔄 [21/351] 翻译中: developer-guide\prompt-assembly.md (13137 chars)
+20:22:11   ✅ [21/351] developer-guide\prompt-assembly.md — 完成
+20:22:12   🔄 [22/351] 翻译中: developer-guide\provider-runtime.md (8781 chars)
+20:22:14   ✅ [22/351] developer-guide\provider-runtime.md — 完成
+20:22:15   🔄 [23/351] 翻译中: developer-guide\session-storage.md (12345 chars)
+20:22:16   ✅ [23/351] developer-guide\session-storage.md — 完成
+20:22:17   🔄 [24/351] 翻译中: developer-guide\tools-runtime.md (10022 chars)
+20:22:19   ✅ [24/351] developer-guide\tools-runtime.md — 完成
+20:22:20   🔄 [25/351] 翻译中: developer-guide\trajectory-format.md (8280 chars)
+20:22:21   ✅ [25/351] developer-guide\trajectory-format.md — 完成
+20:22:22   🔄 [26/351] 翻译中: developer-guide\video-gen-provider-plugin.md (8931 chars)
+20:22:24   ✅ [26/351] developer-guide\video-gen-provider-plugin.md — 完成
+20:22:25   🔄 [27/351] 翻译中: developer-guide\web-search-provider-plugin.md (11433 chars)
+20:22:26   ✅ [27/351] developer-guide\web-search-provider-plugin.md — 完成
+20:22:27   🔄 [28/351] 翻译中: getting-started\installation.md (8049 chars)
+20:22:29   ✅ [28/351] getting-started\installation.md — 完成
+20:22:30   🔄 [29/351] 翻译中: getting-started\learning-path.md (8521 chars)
+20:22:31   ✅ [29/351] getting-started\learning-path.md — 完成
+20:22:32   🔄 [30/351] 翻译中: getting-started\nix-setup.md (40981 chars)
+20:22:40   ✅ [30/351] getting-started\nix-setup.md — 完成
+20:22:41   🔄 [31/351] 翻译中: getting-started\quickstart.md (18568 chars)
+20:22:48   ✅ [31/351] getting-started\quickstart.md — 完成
+20:22:49   🔄 [32/351] 翻译中: getting-started\termux.md (6395 chars)
+20:22:50   ✅ [32/351] getting-started\termux.md — 完成
+20:22:51   🔄 [33/351] 翻译中: getting-started\updating.md (11704 chars)
+20:22:53   ✅ [33/351] getting-started\updating.md — 完成
+20:22:54   🔄 [34/351] 翻译中: guides\automate-with-cron.md (10544 chars)
+20:22:56   ✅ [34/351] guides\automate-with-cron.md — 完成
+20:22:57   🔄 [35/351] 翻译中: guides\automation-blueprints.md (19209 chars)
+20:23:04   ✅ [35/351] guides\automation-blueprints.md — 完成
+20:23:05   🔄 [36/351] 翻译中: guides\aws-bedrock.md (5903 chars)
+20:23:06   ✅ [36/351] guides\aws-bedrock.md — 完成
+20:23:07   🔄 [37/351] 翻译中: guides\azure-foundry.md (21072 chars)
+20:23:15   ✅ [37/351] guides\azure-foundry.md — 完成
+20:23:16   ⏭ [38/351] guides\build-a-hermes-plugin.md — 已包含中文，跳过
+20:23:16   ⏭ [39/351] guides\cron-script-only.md — 已包含中文，跳过
+20:23:16   ⏭ [40/351] guides\cron-troubleshooting.md — 已包含中文，跳过
+20:23:16   ⏭ [41/351] guides\daily-briefing-bot.md — 已包含中文，跳过
+20:23:16   🔄 [42/351] 翻译中: guides\delegation-patterns.md (11141 chars)
+20:23:17   ✅ [42/351] guides\delegation-patterns.md — 完成
+20:23:18   ⏭ [43/351] guides\github-pr-review-agent.md — 已包含中文，跳过
+20:23:18   🔄 [44/351] 翻译中: guides\google-gemini.md (9474 chars)
+20:23:19   ✅ [44/351] guides\google-gemini.md — 完成
+20:23:20   ⏭ [45/351] guides\local-llm-on-mac.md — 已包含中文，跳过
+20:23:20   🔄 [46/351] 翻译中: guides\local-ollama-setup.md (10397 chars)
+20:23:21   ✅ [46/351] guides\local-ollama-setup.md — 完成
+20:23:22   🔄 [47/351] 翻译中: guides\microsoft-graph-app-registration.md (8505 chars)
+20:23:23   ✅ [47/351] guides\microsoft-graph-app-registration.md — 完成
+20:23:24   ⏭ [48/351] guides\migrate-from-openclaw.md — 已包含中文，跳过
+20:23:25   🔄 [49/351] 翻译中: guides\minimax-oauth.md (7875 chars)
+20:23:27   ✅ [49/351] guides\minimax-oauth.md — 完成
+20:23:28   🔄 [50/351] 翻译中: guides\oauth-over-ssh.md (10378 chars)
+20:23:29   ✅ [50/351] guides\oauth-over-ssh.md — 完成
+20:23:30   🔄 [51/351] 翻译中: guides\operate-teams-meeting-pipeline.md (8472 chars)
+20:23:31   ✅ [51/351] guides\operate-teams-meeting-pipeline.md — 完成
+20:23:32   ⏭ [52/351] guides\pipe-script-output.md — 已包含中文，跳过
+20:23:32   ⏭ [53/351] guides\python-library.md — 已包含中文，跳过
+20:23:32   ⏭ [54/351] guides\run-hermes-with-nous-portal.md — 已包含中文，跳过
+20:23:32   ⏭ [55/351] guides\run-nemotron-3-ultra-free.md — 已包含中文，跳过
+20:23:32   🔄 [56/351] 翻译中: guides\team-telegram-assistant.md (13520 chars)
+20:23:40   ✅ [56/351] guides\team-telegram-assistant.md — 完成
+20:23:41   🔄 [57/351] 翻译中: guides\tips.md (12229 chars)
+20:23:42   ✅ [57/351] guides\tips.md — 完成
+20:23:43   🔄 [58/351] 翻译中: guides\use-mcp-with-hermes.md (14018 chars)
+20:23:50   ✅ [58/351] guides\use-mcp-with-hermes.md — 完成
+20:23:51   🔄 [59/351] 翻译中: guides\use-soul-with-hermes.md (6889 chars)
+20:23:53   ✅ [59/351] guides\use-soul-with-hermes.md — 完成
+20:23:54   🔄 [60/351] 翻译中: guides\use-voice-mode-with-hermes.md (9689 chars)
+20:23:56   ✅ [60/351] guides\use-voice-mode-with-hermes.md — 完成
+20:23:57   ⏭ [61/351] guides\webhook-github-pr-review.md — 已包含中文，跳过
+20:23:57   🔄 [62/351] 翻译中: guides\work-with-skills.md (8914 chars)
+20:23:58   ✅ [62/351] guides\work-with-skills.md — 完成
+20:23:59   🔄 [63/351] 翻译中: guides\xai-grok-oauth.md (13131 chars)
+20:24:00   ✅ [63/351] guides\xai-grok-oauth.md — 完成
+20:24:01   🔄 [64/351] 翻译中: integrations\index.md (7976 chars)
+20:24:02   ✅ [64/351] integrations\index.md — 完成
+20:24:03   🔄 [65/351] 翻译中: integrations\nous-portal.md (14281 chars)
+20:24:10   ✅ [65/351] integrations\nous-portal.md — 完成
+20:24:11   🔄 [66/351] 翻译中: integrations\providers.md (68726 chars)
+20:24:19   ✅ [66/351] integrations\providers.md — 完成
+20:24:20   🔄 [67/351] 翻译中: openclaw\clawhub.md (261 chars)
+20:24:21   ✅ [67/351] openclaw\clawhub.md — 完成
+20:24:22   🔄 [68/351] 翻译中: openclaw\doc-center.md (132 chars)
+20:24:23   ✅ [68/351] openclaw\doc-center.md — 完成
+20:24:24   🔄 [69/351] 翻译中: openclaw\gateway-ops.md (194 chars)
+20:24:24   ✅ [69/351] openclaw\gateway-ops.md — 完成
+20:24:25   🔄 [70/351] 翻译中: openclaw\nodes.md (200 chars)
+20:24:27   ✅ [70/351] openclaw\nodes.md — 完成
+20:24:28   🔄 [71/351] 翻译中: openclaw\web-ui.md (153 chars)
+20:24:29   ✅ [71/351] openclaw\web-ui.md — 完成
+20:24:30   🔄 [72/351] 翻译中: reference\cli-commands.md (76361 chars)
+20:24:38   ✅ [72/351] reference\cli-commands.md — 完成
+20:24:39   🔄 [73/351] 翻译中: reference\environment-variables.md (74791 chars)
+20:24:46   ✅ [73/351] reference\environment-variables.md — 完成
+20:24:47   🔄 [74/351] 翻译中: reference\faq.md (33055 chars)
+20:24:55   ✅ [74/351] reference\faq.md — 完成
+20:24:56   🔄 [75/351] 翻译中: reference\mcp-config-reference.md (7913 chars)
+20:24:57   ✅ [75/351] reference\mcp-config-reference.md — 完成
+20:24:58   🔄 [76/351] 翻译中: reference\model-catalog.md (3893 chars)
+20:24:59   ✅ [76/351] reference\model-catalog.md — 完成
+20:25:00   🔄 [77/351] 翻译中: reference\optional-skills-catalog.md (28086 chars)
+20:25:08   ✅ [77/351] reference\optional-skills-catalog.md — 完成
+20:25:09   🔄 [78/351] 翻译中: reference\profile-commands.md (16594 chars)
+20:25:16   ✅ [78/351] reference\profile-commands.md — 完成
+20:25:17   🔄 [79/351] 翻译中: reference\skills-catalog.md (15630 chars)
+20:25:25   ✅ [79/351] reference\skills-catalog.md — 完成
+20:25:26   🔄 [80/351] 翻译中: reference\slash-commands.md (27759 chars)
+20:25:33   ✅ [80/351] reference\slash-commands.md — 完成
+20:25:34   🔄 [81/351] 翻译中: reference\tools-reference.md (22942 chars)
+20:25:41   ✅ [81/351] reference\tools-reference.md — 完成
+20:25:42   🔄 [82/351] 翻译中: reference\toolsets-reference.md (11180 chars)
+20:25:43   ✅ [82/351] reference\toolsets-reference.md — 完成
+20:25:44   🔄 [83/351] 翻译中: user-guide\checkpoints-and-rollback.md (9842 chars)
+20:25:46   ✅ [83/351] user-guide\checkpoints-and-rollback.md — 完成
+20:25:47   🔄 [84/351] 翻译中: user-guide\cli.md (19009 chars)
+20:25:54   ✅ [84/351] user-guide\cli.md — 完成
+20:25:55   🔄 [85/351] 翻译中: user-guide\configuration.md (108948 chars)
+20:26:03   ✅ [85/351] user-guide\configuration.md — 完成
+20:26:04   🔄 [86/351] 翻译中: user-guide\configuring-models.md (14720 chars)
+20:26:11   ✅ [86/351] user-guide\configuring-models.md — 完成
+20:26:12   🔄 [87/351] 翻译中: user-guide\desktop.md (23075 chars)
+20:26:19   ✅ [87/351] user-guide\desktop.md — 完成
+20:26:20   🔄 [88/351] 翻译中: user-guide\docker.md (45226 chars)
+20:26:26   ✅ [88/351] user-guide\docker.md — 完成
+20:26:28   🔄 [89/351] 翻译中: user-guide\git-worktrees.md (5520 chars)
+20:26:28   ✅ [89/351] user-guide\git-worktrees.md — 完成
+20:26:29   🔄 [90/351] 翻译中: user-guide\managed-scope.md (6047 chars)
+20:26:31   ✅ [90/351] user-guide\managed-scope.md — 完成
+20:26:32   🔄 [91/351] 翻译中: user-guide\multi-profile-gateways.md (15148 chars)
+20:26:39   ✅ [91/351] user-guide\multi-profile-gateways.md — 完成
+20:26:40   🔄 [92/351] 翻译中: user-guide\profile-distributions.md (24163 chars)
+20:26:47   ✅ [92/351] user-guide\profile-distributions.md — 完成
+20:26:48   🔄 [93/351] 翻译中: user-guide\profiles.md (13289 chars)
+20:26:49   ✅ [93/351] user-guide\profiles.md — 完成
+20:26:50   🔄 [94/351] 翻译中: user-guide\security.md (33064 chars)
+20:26:57   ✅ [94/351] user-guide\security.md — 完成
+20:26:58   🔄 [95/351] 翻译中: user-guide\sessions.md (23473 chars)
+20:27:05   ✅ [95/351] user-guide\sessions.md — 完成
+20:27:06   🔄 [96/351] 翻译中: user-guide\tui.md (17292 chars)
+20:27:14   ✅ [96/351] user-guide\tui.md — 完成
+20:27:15   🔄 [97/351] 翻译中: user-guide\windows-native.md (23855 chars)
+20:27:22   ✅ [97/351] user-guide\windows-native.md — 完成
+20:27:23   🔄 [98/351] 翻译中: user-guide\windows-wsl-quickstart.md (19735 chars)
+20:27:30   ✅ [98/351] user-guide\windows-wsl-quickstart.md — 完成
+20:27:31   🔄 [99/351] 翻译中: user-guide\features\acp.md (9050 chars)
+20:27:33   ✅ [99/351] user-guide\features\acp.md — 完成
+20:27:34   🔄 [100/351] 翻译中: user-guide\features\api-server.md (20251 chars)
+20:27:47   ✅ [100/351] user-guide\features\api-server.md — 完成
+20:27:48   🔄 [101/351] 翻译中: user-guide\features\batch-processing.md (9102 chars)
+20:27:50   ✅ [101/351] user-guide\features\batch-processing.md — 完成
+20:27:51   🔄 [102/351] 翻译中: user-guide\features\browser.md (30519 chars)
+20:27:58   ✅ [102/351] user-guide\features\browser.md — 完成
+20:27:59   🔄 [103/351] 翻译中: user-guide\features\built-in-plugins.md (18670 chars)
+20:28:06   ✅ [103/351] user-guide\features\built-in-plugins.md — 完成
+20:28:07   🔄 [104/351] 翻译中: user-guide\features\code-execution.md (12175 chars)
+20:28:08   ✅ [104/351] user-guide\features\code-execution.md — 完成
+20:28:09   🔄 [105/351] 翻译中: user-guide\features\codex-app-server-runtime.md (29154 chars)
+20:28:16   ✅ [105/351] user-guide\features\codex-app-server-runtime.md — 完成
+20:28:17   🔄 [106/351] 翻译中: user-guide\features\computer-use.md (21217 chars)
+20:28:25   ✅ [106/351] user-guide\features\computer-use.md — 完成
+20:28:26   🔄 [107/351] 翻译中: user-guide\features\context-files.md (9205 chars)
+20:28:27   ✅ [107/351] user-guide\features\context-files.md — 完成
+20:28:28   🔄 [108/351] 翻译中: user-guide\features\context-references.md (5388 chars)
+20:28:29   ✅ [108/351] user-guide\features\context-references.md — 完成
+20:28:30   🔄 [109/351] 翻译中: user-guide\features\credential-pools.md (9826 chars)
+20:28:33   ✅ [109/351] user-guide\features\credential-pools.md — 完成
+20:28:34   🔄 [110/351] 翻译中: user-guide\features\cron.md (26319 chars)
+20:28:41   ✅ [110/351] user-guide\features\cron.md — 完成
+20:28:42   🔄 [111/351] 翻译中: user-guide\features\curator.md (16871 chars)
+20:28:49   ✅ [111/351] user-guide\features\curator.md — 完成
+20:28:50   🔄 [112/351] 翻译中: user-guide\features\delegation.md (15148 chars)
+20:28:57   ✅ [112/351] user-guide\features\delegation.md — 完成
+20:28:58   🔄 [113/351] 翻译中: user-guide\features\deliverable-mode.md (5583 chars)
+20:28:59   ✅ [113/351] user-guide\features\deliverable-mode.md — 完成
+20:29:00   🔄 [114/351] 翻译中: user-guide\features\extending-the-dashboard.md (41085 chars)
+20:29:07   ✅ [114/351] user-guide\features\extending-the-dashboard.md — 完成
+20:29:08   🔄 [115/351] 翻译中: user-guide\features\fallback-providers.md (19172 chars)
+20:29:15   ✅ [115/351] user-guide\features\fallback-providers.md — 完成
+20:29:16   🔄 [116/351] 翻译中: user-guide\features\goals.md (16193 chars)
+20:29:24   ✅ [116/351] user-guide\features\goals.md — 完成
+20:29:25   🔄 [117/351] 翻译中: user-guide\features\honcho.md (17307 chars)
+20:29:32   ✅ [117/351] user-guide\features\honcho.md — 完成
+20:29:33   🔄 [118/351] 翻译中: user-guide\features\hooks.md (58019 chars)
+20:29:40   ✅ [118/351] user-guide\features\hooks.md — 完成
+20:29:41   🔄 [119/351] 翻译中: user-guide\features\image-generation.md (9251 chars)
+20:29:43   ✅ [119/351] user-guide\features\image-generation.md — 完成
+20:29:44   🔄 [120/351] 翻译中: user-guide\features\kanban-tutorial.md (19478 chars)
+20:29:52   ✅ [120/351] user-guide\features\kanban-tutorial.md — 完成
+20:29:53   🔄 [121/351] 翻译中: user-guide\features\kanban-worker-lanes.md (10102 chars)
+20:29:54   ✅ [121/351] user-guide\features\kanban-worker-lanes.md — 完成
+20:29:55   🔄 [122/351] 翻译中: user-guide\features\kanban.md (70889 chars)
+20:30:03   ✅ [122/351] user-guide\features\kanban.md — 完成
+20:30:04   🔄 [123/351] 翻译中: user-guide\features\lsp.md (9633 chars)
+20:30:05   ✅ [123/351] user-guide\features\lsp.md — 完成
+20:30:06   🔄 [124/351] 翻译中: user-guide\features\mcp.md (27943 chars)
+20:30:13   ✅ [124/351] user-guide\features\mcp.md — 完成
+20:30:14   🔄 [125/351] 翻译中: user-guide\features\memory-providers.md (27497 chars)
+20:30:21   ✅ [125/351] user-guide\features\memory-providers.md — 完成
+20:30:22   🔄 [126/351] 翻译中: user-guide\features\memory.md (15383 chars)
+20:30:29   ✅ [126/351] user-guide\features\memory.md — 完成
+20:30:30   🔄 [127/351] 翻译中: user-guide\features\overview.md (7058 chars)
+20:30:31   ✅ [127/351] user-guide\features\overview.md — 完成
+20:30:32   🔄 [128/351] 翻译中: user-guide\features\personality.md (8313 chars)
+20:30:34   ✅ [128/351] user-guide\features\personality.md — 完成
+20:30:35   🔄 [129/351] 翻译中: user-guide\features\pets.md (7669 chars)
+20:30:36   ✅ [129/351] user-guide\features\pets.md — 完成
+20:30:37   🔄 [130/351] 翻译中: user-guide\features\plugins.md (22998 chars)
+20:30:44   ✅ [130/351] user-guide\features\plugins.md — 完成
+20:30:45   🔄 [131/351] 翻译中: user-guide\features\provider-routing.md (5385 chars)
+20:30:46   ✅ [131/351] user-guide\features\provider-routing.md — 完成
+20:30:47   🔄 [132/351] 翻译中: user-guide\features\skills.md (40934 chars)
+20:30:54   ✅ [132/351] user-guide\features\skills.md — 完成
+20:30:55   🔄 [133/351] 翻译中: user-guide\features\skins.md (11484 chars)
+20:30:58   ✅ [133/351] user-guide\features\skins.md — 完成
+20:30:59   🔄 [134/351] 翻译中: user-guide\features\spotify.md (14350 chars)
+20:31:06   ✅ [134/351] user-guide\features\spotify.md — 完成
+20:31:07   🔄 [135/351] 翻译中: user-guide\features\subscription-proxy.md (6221 chars)
+20:31:08   ✅ [135/351] user-guide\features\subscription-proxy.md — 完成
+20:31:09   🔄 [136/351] 翻译中: user-guide\features\tool-gateway.md (9695 chars)
+20:31:11   ✅ [136/351] user-guide\features\tool-gateway.md — 完成
+20:31:12   🔄 [137/351] 翻译中: user-guide\features\tool-search.md (6748 chars)
+20:31:13   ✅ [137/351] user-guide\features\tool-search.md — 完成
+20:31:14   🔄 [138/351] 翻译中: user-guide\features\tools.md (7767 chars)
+20:31:16   ✅ [138/351] user-guide\features\tools.md — 完成
+20:31:17   🔄 [139/351] 翻译中: user-guide\features\tts.md (34584 chars)
+20:31:24   ✅ [139/351] user-guide\features\tts.md — 完成
+20:31:25   🔄 [140/351] 翻译中: user-guide\features\vision.md (10582 chars)
+20:31:27   ✅ [140/351] user-guide\features\vision.md — 完成
+20:31:28   🔄 [141/351] 翻译中: user-guide\features\voice-mode.md (19811 chars)
+20:31:35   ✅ [141/351] user-guide\features\voice-mode.md — 完成
+20:31:36   🔄 [142/351] 翻译中: user-guide\features\web-dashboard.md (68149 chars)
+20:31:43   ✅ [142/351] user-guide\features\web-dashboard.md — 完成
+20:31:44   🔄 [143/351] 翻译中: user-guide\features\web-search.md (15314 chars)
+20:31:51   ✅ [143/351] user-guide\features\web-search.md — 完成
+20:31:52   🔄 [144/351] 翻译中: user-guide\features\x-search.md (7813 chars)
+20:31:54   ✅ [144/351] user-guide\features\x-search.md — 完成
+20:31:55   🔄 [145/351] 翻译中: user-guide\messaging\bluebubbles.md (6191 chars)
+20:31:56   ✅ [145/351] user-guide\messaging\bluebubbles.md — 完成
+20:31:57   🔄 [146/351] 翻译中: user-guide\messaging\dingtalk.md (11684 chars)
+20:31:58   ✅ [146/351] user-guide\messaging\dingtalk.md — 完成
+20:31:59   🔄 [147/351] 翻译中: user-guide\messaging\discord.md (45362 chars)
+20:32:06   ✅ [147/351] user-guide\messaging\discord.md — 完成
+20:32:07   🔄 [148/351] 翻译中: user-guide\messaging\email.md (8297 chars)
+20:32:08   ✅ [148/351] user-guide\messaging\email.md — 完成
+20:32:09   🔄 [149/351] 翻译中: user-guide\messaging\feishu.md (27495 chars)
+20:32:16   ✅ [149/351] user-guide\messaging\feishu.md — 完成
+20:32:17   🔄 [150/351] 翻译中: user-guide\messaging\google_chat.md (14745 chars)
+20:32:25   ✅ [150/351] user-guide\messaging\google_chat.md — 完成
+20:32:26   🔄 [151/351] 翻译中: user-guide\messaging\homeassistant.md (9375 chars)
+20:32:27   ✅ [151/351] user-guide\messaging\homeassistant.md — 完成
+20:32:28   🔄 [152/351] 翻译中: user-guide\messaging\index.md (29755 chars)
+20:32:35   ✅ [152/351] user-guide\messaging\index.md — 完成
+20:32:36   🔄 [153/351] 翻译中: user-guide\messaging\line.md (8680 chars)
+20:32:37   ✅ [153/351] user-guide\messaging\line.md — 完成
+20:32:38   🔄 [154/351] 翻译中: user-guide\messaging\matrix.md (38998 chars)
+20:32:46   ✅ [154/351] user-guide\messaging\matrix.md — 完成
+20:32:47   🔄 [155/351] 翻译中: user-guide\messaging\mattermost.md (13558 chars)
+20:32:48   ✅ [155/351] user-guide\messaging\mattermost.md — 完成
+20:32:49   🔄 [156/351] 翻译中: user-guide\messaging\msgraph-webhook.md (8297 chars)
+20:32:50   ✅ [156/351] user-guide\messaging\msgraph-webhook.md — 完成
+20:32:51   🔄 [157/351] 翻译中: user-guide\messaging\ntfy.md (7303 chars)
+20:32:53   ✅ [157/351] user-guide\messaging\ntfy.md — 完成
+20:32:54   🔄 [158/351] 翻译中: user-guide\messaging\open-webui.md (13954 chars)
+20:33:01   ✅ [158/351] user-guide\messaging\open-webui.md — 完成
+20:33:02   🔄 [159/351] 翻译中: user-guide\messaging\photon.md (8240 chars)
+20:33:03   ✅ [159/351] user-guide\messaging\photon.md — 完成
+20:33:04   🔄 [160/351] 翻译中: user-guide\messaging\qqbot.md (4615 chars)
+20:33:05   ✅ [160/351] user-guide\messaging\qqbot.md — 完成
+20:33:06   🔄 [161/351] 翻译中: user-guide\messaging\raft.md (3206 chars)
+20:33:07   ✅ [161/351] user-guide\messaging\raft.md — 完成
+20:33:08   🔄 [162/351] 翻译中: user-guide\messaging\signal.md (10521 chars)
+20:33:09   ✅ [162/351] user-guide\messaging\signal.md — 完成
+20:33:10   🔄 [163/351] 翻译中: user-guide\messaging\simplex.md (5444 chars)
+20:33:11   ✅ [163/351] user-guide\messaging\simplex.md — 完成
+20:33:12   🔄 [164/351] 翻译中: user-guide\messaging\slack.md (24343 chars)
+20:33:19   ✅ [164/351] user-guide\messaging\slack.md — 完成
+20:33:20   🔄 [165/351] 翻译中: user-guide\messaging\sms.md (6487 chars)
+20:33:22   ✅ [165/351] user-guide\messaging\sms.md — 完成
+20:33:23   🔄 [166/351] 翻译中: user-guide\messaging\teams-meetings.md (7996 chars)
+20:33:24   ✅ [166/351] user-guide\messaging\teams-meetings.md — 完成
+20:33:25   🔄 [167/351] 翻译中: user-guide\messaging\teams.md (9558 chars)
+20:33:26   ✅ [167/351] user-guide\messaging\teams.md — 完成
+20:33:27   🔄 [168/351] 翻译中: user-guide\messaging\telegram.md (63604 chars)
+20:33:34   ✅ [168/351] user-guide\messaging\telegram.md — 完成
+20:33:35   🔄 [169/351] 翻译中: user-guide\messaging\webhooks.md (20170 chars)
+20:33:42   ✅ [169/351] user-guide\messaging\webhooks.md — 完成
+20:33:43   🔄 [170/351] 翻译中: user-guide\messaging\wecom-callback.md (6906 chars)
+20:33:45   ✅ [170/351] user-guide\messaging\wecom-callback.md — 完成
+20:33:46   🔄 [171/351] 翻译中: user-guide\messaging\wecom.md (12460 chars)
+20:33:48   ✅ [171/351] user-guide\messaging\wecom.md — 完成
+20:33:49   🔄 [172/351] 翻译中: user-guide\messaging\weixin.md (17700 chars)
+20:33:56   ✅ [172/351] user-guide\messaging\weixin.md — 完成
+20:33:57   🔄 [173/351] 翻译中: user-guide\messaging\whatsapp-cloud.md (23002 chars)
+20:34:05   ✅ [173/351] user-guide\messaging\whatsapp-cloud.md — 完成
+20:34:06   🔄 [174/351] 翻译中: user-guide\messaging\whatsapp.md (11846 chars)
+20:34:08   ✅ [174/351] user-guide\messaging\whatsapp.md — 完成
+20:34:09   🔄 [175/351] 翻译中: user-guide\messaging\yuanbao.md (10555 chars)
+20:34:10   ✅ [175/351] user-guide\messaging\yuanbao.md — 完成
+20:34:11   🔄 [176/351] 翻译中: user-guide\secrets\bitwarden.md (8274 chars)
+20:34:12   ✅ [176/351] user-guide\secrets\bitwarden.md — 完成
+20:34:13   🔄 [177/351] 翻译中: user-guide\secrets\index.md (626 chars)
+20:34:14   ✅ [177/351] user-guide\secrets\index.md — 完成
+20:34:15   🔄 [178/351] 翻译中: user-guide\skills\google-workspace.md (6398 chars)
+20:34:16   ✅ [178/351] user-guide\skills\google-workspace.md — 完成
+20:34:17   🔄 [179/351] 翻译中: user-guide\skills\bundled\apple\apple-apple-notes.md (2829 chars)
+20:34:52   ✅ [179/351] user-guide\skills\bundled\apple\apple-apple-notes.md — 完成
+20:34:53   🔄 [180/351] 翻译中: user-guide\skills\bundled\apple\apple-apple-reminders.md (4204 chars)
+20:34:54   ✅ [180/351] user-guide\skills\bundled\apple\apple-apple-reminders.md — 完成
+20:34:55   🔄 [181/351] 翻译中: user-guide\skills\bundled\apple\apple-findmy.md (4293 chars)
+20:34:57   ✅ [181/351] user-guide\skills\bundled\apple\apple-findmy.md — 完成
+20:34:58   🔄 [182/351] 翻译中: user-guide\skills\bundled\apple\apple-imessage.md (3028 chars)
+20:34:59   ✅ [182/351] user-guide\skills\bundled\apple\apple-imessage.md — 完成
+20:35:01   🔄 [183/351] 翻译中: user-guide\skills\bundled\apple\apple-macos-computer-use.md (7930 chars)
+20:35:05   ✅ [183/351] user-guide\skills\bundled\apple\apple-macos-computer-use.md — 完成
+20:35:06   🔄 [184/351] 翻译中: user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-claude-code.md (35076 chars)
+20:35:13   ✅ [184/351] user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-claude-code.md — 完成
+20:35:14   🔄 [185/351] 翻译中: user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-codex.md (6182 chars)
+20:35:16   ✅ [185/351] user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-codex.md — 完成
+20:35:17   🔄 [186/351] 翻译中: user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-hermes-agent.md (48005 chars)
+20:35:28   ✅ [186/351] user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-hermes-agent.md — 完成
+20:35:29   🔄 [187/351] 翻译中: user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-kanban-codex-lane.md (13657 chars)
+20:35:31   ✅ [187/351] user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-kanban-codex-lane.md — 完成
+20:35:32   🔄 [188/351] 翻译中: user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-opencode.md (8163 chars)
+20:35:33   ✅ [188/351] user-guide\skills\bundled\autonomous-ai-agents\autonomous-ai-agents-opencode.md — 完成
+20:35:34   🔄 [189/351] 翻译中: user-guide\skills\bundled\creative\creative-architecture-diagram.md (6620 chars)
+20:35:35   ✅ [189/351] user-guide\skills\bundled\creative\creative-architecture-diagram.md — 完成
+20:35:36   🔄 [190/351] 翻译中: user-guide\skills\bundled\creative\creative-ascii-art.md (11075 chars)
+20:35:48   ✅ [190/351] user-guide\skills\bundled\creative\creative-ascii-art.md — 完成
+20:35:49   🔄 [191/351] 翻译中: user-guide\skills\bundled\creative\creative-ascii-video.md (15388 chars)
+20:35:56   ✅ [191/351] user-guide\skills\bundled\creative\creative-ascii-video.md — 完成
+20:35:57   🔄 [192/351] 翻译中: user-guide\skills\bundled\creative\creative-baoyu-infographic.md (10916 chars)
+20:35:58   ✅ [192/351] user-guide\skills\bundled\creative\creative-baoyu-infographic.md — 完成
+20:35:59   🔄 [193/351] 翻译中: user-guide\skills\bundled\creative\creative-claude-design.md (20756 chars)
+20:36:07   ✅ [193/351] user-guide\skills\bundled\creative\creative-claude-design.md — 完成
+20:36:08   🔄 [194/351] 翻译中: user-guide\skills\bundled\creative\creative-comfyui.md (24036 chars)
+20:36:15   ✅ [194/351] user-guide\skills\bundled\creative\creative-comfyui.md — 完成
+20:36:16   🔄 [195/351] 翻译中: user-guide\skills\bundled\creative\creative-design-md.md (7900 chars)
+20:36:17   ✅ [195/351] user-guide\skills\bundled\creative\creative-design-md.md — 完成
+20:36:18   🔄 [196/351] 翻译中: user-guide\skills\bundled\creative\creative-excalidraw.md (7876 chars)
+20:36:20   ✅ [196/351] user-guide\skills\bundled\creative\creative-excalidraw.md — 完成
+20:36:21   🔄 [197/351] 翻译中: user-guide\skills\bundled\creative\creative-humanizer.md (30583 chars)
+20:36:29   ✅ [197/351] user-guide\skills\bundled\creative\creative-humanizer.md — 完成
+20:36:30   🔄 [198/351] 翻译中: user-guide\skills\bundled\creative\creative-manim-video.md (12622 chars)
+20:37:05   ✅ [198/351] user-guide\skills\bundled\creative\creative-manim-video.md — 完成
+20:37:06   🔄 [199/351] 翻译中: user-guide\skills\bundled\creative\creative-p5js.md (28051 chars)
+20:37:13   ✅ [199/351] user-guide\skills\bundled\creative\creative-p5js.md — 完成
+20:37:14   🔄 [200/351] 翻译中: user-guide\skills\bundled\creative\creative-popular-web-designs.md (10129 chars)
+20:37:16   ✅ [200/351] user-guide\skills\bundled\creative\creative-popular-web-designs.md — 完成
+20:37:17   🔄 [201/351] 翻译中: user-guide\skills\bundled\creative\creative-pretext.md (15041 chars)
+20:37:23   ✅ [201/351] user-guide\skills\bundled\creative\creative-pretext.md — 完成
+20:37:24   🔄 [202/351] 翻译中: user-guide\skills\bundled\creative\creative-sketch.md (10176 chars)
+20:37:27   ✅ [202/351] user-guide\skills\bundled\creative\creative-sketch.md — 完成
+20:37:28   🔄 [203/351] 翻译中: user-guide\skills\bundled\creative\creative-songwriting-and-ai-music.md (10614 chars)
+20:37:49   ✅ [203/351] user-guide\skills\bundled\creative\creative-songwriting-and-ai-music.md — 完成
+20:37:50   🔄 [204/351] 翻译中: user-guide\skills\bundled\creative\creative-touchdesigner-mcp.md (16218 chars)
+20:37:57   ✅ [204/351] user-guide\skills\bundled\creative\creative-touchdesigner-mcp.md — 完成
+20:37:58   🔄 [205/351] 翻译中: user-guide\skills\bundled\data-science\data-science-jupyter-live-kernel.md (5912 chars)
+20:38:23   ✅ [205/351] user-guide\skills\bundled\data-science\data-science-jupyter-live-kernel.md — 完成
+20:38:24   🔄 [206/351] 翻译中: user-guide\skills\bundled\dogfood\dogfood-dogfood.md (6894 chars)
+20:38:26   ✅ [206/351] user-guide\skills\bundled\dogfood\dogfood-dogfood.md — 完成
+20:38:27   🔄 [207/351] 翻译中: user-guide\skills\bundled\email\email-himalaya.md (7677 chars)
+20:38:28   ✅ [207/351] user-guide\skills\bundled\email\email-himalaya.md — 完成
+20:38:29   🔄 [208/351] 翻译中: user-guide\skills\bundled\github\github-codebase-inspection.md (4300 chars)
+20:38:31   ✅ [208/351] user-guide\skills\bundled\github\github-codebase-inspection.md — 完成
+20:38:32   🔄 [209/351] 翻译中: user-guide\skills\bundled\github\github-github-auth.md (8493 chars)
+20:38:33   ✅ [209/351] user-guide\skills\bundled\github\github-github-auth.md — 完成
+20:38:34   🔄 [210/351] 翻译中: user-guide\skills\bundled\github\github-github-code-review.md (14316 chars)
+20:38:41   ✅ [210/351] user-guide\skills\bundled\github\github-github-code-review.md — 完成
+20:38:42   🔄 [211/351] 翻译中: user-guide\skills\bundled\github\github-github-issues.md (10099 chars)
+20:38:44   ✅ [211/351] user-guide\skills\bundled\github\github-github-issues.md — 完成
+20:38:45   🔄 [212/351] 翻译中: user-guide\skills\bundled\github\github-github-pr-workflow.md (10804 chars)
+20:38:46   ✅ [212/351] user-guide\skills\bundled\github\github-github-pr-workflow.md — 完成
+20:38:47   🔄 [213/351] 翻译中: user-guide\skills\bundled\github\github-github-repo-management.md (14587 chars)
+20:38:54   ✅ [213/351] user-guide\skills\bundled\github\github-github-repo-management.md — 完成
+20:38:55   🔄 [214/351] 翻译中: user-guide\skills\bundled\media\media-gif-search.md (3351 chars)
+20:38:56   ✅ [214/351] user-guide\skills\bundled\media\media-gif-search.md — 完成
+20:38:57   🔄 [215/351] 翻译中: user-guide\skills\bundled\media\media-heartmula.md (7034 chars)
+20:38:58   ✅ [215/351] user-guide\skills\bundled\media\media-heartmula.md — 完成
+20:38:59   🔄 [216/351] 翻译中: user-guide\skills\bundled\media\media-songsee.md (2880 chars)
+20:39:01   ✅ [216/351] user-guide\skills\bundled\media\media-songsee.md — 完成
+20:39:02   🔄 [217/351] 翻译中: user-guide\skills\bundled\media\media-youtube-content.md (4005 chars)
+20:39:03   ✅ [217/351] user-guide\skills\bundled\media\media-youtube-content.md — 完成
+20:39:04   🔄 [218/351] 翻译中: user-guide\skills\bundled\mlops\mlops-evaluation-lm-evaluation-harness.md (13114 chars)
+20:39:11   ✅ [218/351] user-guide\skills\bundled\mlops\mlops-evaluation-lm-evaluation-harness.md — 完成
+20:39:12   🔄 [219/351] 翻译中: user-guide\skills\bundled\mlops\mlops-evaluation-weights-and-biases.md (13088 chars)
+20:39:19   ✅ [219/351] user-guide\skills\bundled\mlops\mlops-evaluation-weights-and-biases.md — 完成
+20:39:20   🔄 [220/351] 翻译中: user-guide\skills\bundled\mlops\mlops-huggingface-hub.md (4290 chars)
+20:39:21   ✅ [220/351] user-guide\skills\bundled\mlops\mlops-huggingface-hub.md — 完成
+20:39:22   🔄 [221/351] 翻译中: user-guide\skills\bundled\mlops\mlops-inference-llama-cpp.md (9964 chars)
+20:39:23   ✅ [221/351] user-guide\skills\bundled\mlops\mlops-inference-llama-cpp.md — 完成
+20:39:24   🔄 [222/351] 翻译中: user-guide\skills\bundled\mlops\mlops-inference-vllm.md (10091 chars)
+20:39:26   ✅ [222/351] user-guide\skills\bundled\mlops\mlops-inference-vllm.md — 完成
+20:39:27   🔄 [223/351] 翻译中: user-guide\skills\bundled\mlops\mlops-models-audiocraft.md (16310 chars)
+20:39:34   ✅ [223/351] user-guide\skills\bundled\mlops\mlops-models-audiocraft.md — 完成
+20:39:35   🔄 [224/351] 翻译中: user-guide\skills\bundled\mlops\mlops-models-segment-anything.md (14212 chars)
+20:39:42   ✅ [224/351] user-guide\skills\bundled\mlops\mlops-models-segment-anything.md — 完成
+20:39:43   🔄 [225/351] 翻译中: user-guide\skills\bundled\note-taking\note-taking-obsidian.md (3577 chars)
+20:39:44   ✅ [225/351] user-guide\skills\bundled\note-taking\note-taking-obsidian.md — 完成
+20:39:45   🔄 [226/351] 翻译中: user-guide\skills\bundled\productivity\productivity-airtable.md (11739 chars)
+20:39:46   ✅ [226/351] user-guide\skills\bundled\productivity\productivity-airtable.md — 完成
+20:39:47   🔄 [227/351] 翻译中: user-guide\skills\bundled\productivity\productivity-google-workspace.md (13773 chars)
+20:39:58   ✅ [227/351] user-guide\skills\bundled\productivity\productivity-google-workspace.md — 完成
+20:39:59   🔄 [228/351] 翻译中: user-guide\skills\bundled\productivity\productivity-maps.md (7230 chars)
+20:40:00   ✅ [228/351] user-guide\skills\bundled\productivity\productivity-maps.md — 完成
+20:40:01   🔄 [229/351] 翻译中: user-guide\skills\bundled\productivity\productivity-nano-pdf.md (2001 chars)
+20:40:02   ✅ [229/351] user-guide\skills\bundled\productivity\productivity-nano-pdf.md — 完成
+20:40:03   🔄 [230/351] 翻译中: user-guide\skills\bundled\productivity\productivity-notion.md (15127 chars)
+20:40:10   ✅ [230/351] user-guide\skills\bundled\productivity\productivity-notion.md — 完成
+20:40:11   🔄 [231/351] 翻译中: user-guide\skills\bundled\productivity\productivity-ocr-and-documents.md (5953 chars)
+20:40:12   ✅ [231/351] user-guide\skills\bundled\productivity\productivity-ocr-and-documents.md — 完成
+20:40:13   🔄 [232/351] 翻译中: user-guide\skills\bundled\productivity\productivity-petdex.md (4084 chars)
+20:40:14   ✅ [232/351] user-guide\skills\bundled\productivity\productivity-petdex.md — 完成
+20:40:15   🔄 [233/351] 翻译中: user-guide\skills\bundled\productivity\productivity-powerpoint.md (10160 chars)
+20:40:17   ✅ [233/351] user-guide\skills\bundled\productivity\productivity-powerpoint.md — 完成
+20:40:18   🔄 [234/351] 翻译中: user-guide\skills\bundled\productivity\productivity-teams-meeting-pipeline.md (7292 chars)
+20:40:19   ✅ [234/351] user-guide\skills\bundled\productivity\productivity-teams-meeting-pipeline.md — 完成
+20:40:20   🔄 [235/351] 翻译中: user-guide\skills\bundled\research\research-arxiv.md (10801 chars)
+20:40:21   ✅ [235/351] user-guide\skills\bundled\research\research-arxiv.md — 完成
+20:40:22   🔄 [236/351] 翻译中: user-guide\skills\bundled\research\research-blogwatcher.md (5654 chars)
+20:40:23   ✅ [236/351] user-guide\skills\bundled\research\research-blogwatcher.md — 完成
+20:40:24   🔄 [237/351] 翻译中: user-guide\skills\bundled\research\research-llm-wiki.md (20714 chars)
+20:40:31   ✅ [237/351] user-guide\skills\bundled\research\research-llm-wiki.md — 完成
+20:40:32   🔄 [238/351] 翻译中: user-guide\skills\bundled\research\research-polymarket.md (3553 chars)
+20:40:33   ✅ [238/351] user-guide\skills\bundled\research\research-polymarket.md — 完成
+20:40:34   🔄 [239/351] 翻译中: user-guide\skills\bundled\research\research-research-paper-writing.md (105770 chars)
+20:40:41   ✅ [239/351] user-guide\skills\bundled\research\research-research-paper-writing.md — 完成
+20:40:42   🔄 [240/351] 翻译中: user-guide\skills\bundled\smart-home\smart-home-openhue.md (3273 chars)
+20:40:43   ✅ [240/351] user-guide\skills\bundled\smart-home\smart-home-openhue.md — 完成
+20:40:44   🔄 [241/351] 翻译中: user-guide\skills\bundled\social-media\social-media-xurl.md (15930 chars)
+20:40:51   ✅ [241/351] user-guide\skills\bundled\social-media\social-media-xurl.md — 完成
+20:40:52   🔄 [242/351] 翻译中: user-guide\skills\bundled\software-development\software-development-hermes-agent-skill-authoring.md (8397 chars)
+20:40:54   ✅ [242/351] user-guide\skills\bundled\software-development\software-development-hermes-agent-skill-authoring.md — 完成
+20:40:55   🔄 [243/351] 翻译中: user-guide\skills\bundled\software-development\software-development-node-inspect-debugger.md (11704 chars)
+20:40:56   ✅ [243/351] user-guide\skills\bundled\software-development\software-development-node-inspect-debugger.md — 完成
+20:40:57   🔄 [244/351] 翻译中: user-guide\skills\bundled\software-development\software-development-plan.md (9889 chars)
+20:40:59   ✅ [244/351] user-guide\skills\bundled\software-development\software-development-plan.md — 完成
+20:41:00   🔄 [245/351] 翻译中: user-guide\skills\bundled\software-development\software-development-python-debugpy.md (14007 chars)
+20:41:07   ✅ [245/351] user-guide\skills\bundled\software-development\software-development-python-debugpy.md — 完成
+20:41:08   🔄 [246/351] 翻译中: user-guide\skills\bundled\software-development\software-development-requesting-code-review.md (9489 chars)
+20:41:09   ✅ [246/351] user-guide\skills\bundled\software-development\software-development-requesting-code-review.md — 完成
+20:41:10   🔄 [247/351] 翻译中: user-guide\skills\bundled\software-development\software-development-simplify-code.md (11804 chars)
+20:41:12   ✅ [247/351] user-guide\skills\bundled\software-development\software-development-simplify-code.md — 完成
+20:41:13   🔄 [248/351] 翻译中: user-guide\skills\bundled\software-development\software-development-spike.md (9579 chars)
+20:41:14   ✅ [248/351] user-guide\skills\bundled\software-development\software-development-spike.md — 完成
+20:41:15   🔄 [249/351] 翻译中: user-guide\skills\bundled\software-development\software-development-systematic-debugging.md (11423 chars)
+20:41:17   ✅ [249/351] user-guide\skills\bundled\software-development\software-development-systematic-debugging.md — 完成
+20:41:18   🔄 [250/351] 翻译中: user-guide\skills\bundled\software-development\software-development-test-driven-development.md (10503 chars)
+20:41:19   ✅ [250/351] user-guide\skills\bundled\software-development\software-development-test-driven-development.md — 完成
+20:41:20   ⏭ [251/351] user-guide\skills\bundled\yuanbao\yuanbao-yuanbao.md — 已包含中文，跳过
+20:41:20   🔄 [252/351] 翻译中: user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-antigravity-cli.md (7452 chars)
+20:41:22   ✅ [252/351] user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-antigravity-cli.md — 完成
+20:41:23   🔄 [253/351] 翻译中: user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-blackbox.md (6376 chars)
+20:41:24   ✅ [253/351] user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-blackbox.md — 完成
+20:41:25   🔄 [254/351] 翻译中: user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-grok.md (13913 chars)
+20:41:32   ✅ [254/351] user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-grok.md — 完成
+20:41:33   🔄 [255/351] 翻译中: user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-honcho.md (20301 chars)
+20:41:40   ✅ [255/351] user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-honcho.md — 完成
+20:41:41   🔄 [256/351] 翻译中: user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-openhands.md (9359 chars)
+20:41:43   ✅ [256/351] user-guide\skills\optional\autonomous-ai-agents\autonomous-ai-agents-openhands.md — 完成
+20:41:44   🔄 [257/351] 翻译中: user-guide\skills\optional\blockchain\blockchain-evm.md (9117 chars)
+20:41:45   ✅ [257/351] user-guide\skills\optional\blockchain\blockchain-evm.md — 完成
+20:41:46   🔄 [258/351] 翻译中: user-guide\skills\optional\blockchain\blockchain-hyperliquid.md (7612 chars)
+20:41:47   ✅ [258/351] user-guide\skills\optional\blockchain\blockchain-hyperliquid.md — 完成
+20:41:48   🔄 [259/351] 翻译中: user-guide\skills\optional\blockchain\blockchain-solana.md (7284 chars)
+20:41:49   ✅ [259/351] user-guide\skills\optional\blockchain\blockchain-solana.md — 完成
+20:41:50   🔄 [260/351] 翻译中: user-guide\skills\optional\communication\communication-one-three-one-rule.md (5811 chars)
+20:41:52   ✅ [260/351] user-guide\skills\optional\communication\communication-one-three-one-rule.md — 完成
+20:41:53   🔄 [261/351] 翻译中: user-guide\skills\optional\creative\creative-baoyu-article-illustrator.md (12104 chars)
+20:41:54   ✅ [261/351] user-guide\skills\optional\creative\creative-baoyu-article-illustrator.md — 完成
+20:41:55   🔄 [262/351] 翻译中: user-guide\skills\optional\creative\creative-baoyu-comic.md (16157 chars)
+20:42:02   ✅ [262/351] user-guide\skills\optional\creative\creative-baoyu-comic.md — 完成
+20:42:03   🔄 [263/351] 翻译中: user-guide\skills\optional\creative\creative-blender-mcp.md (4859 chars)
+20:42:04   ✅ [263/351] user-guide\skills\optional\creative\creative-blender-mcp.md — 完成
+20:42:05   🔄 [264/351] 翻译中: user-guide\skills\optional\creative\creative-concept-diagrams.md (18128 chars)
+20:42:12   ✅ [264/351] user-guide\skills\optional\creative\creative-concept-diagrams.md — 完成
+20:42:13   🔄 [265/351] 翻译中: user-guide\skills\optional\creative\creative-creative-ideation.md (10930 chars)
+20:42:14   ✅ [265/351] user-guide\skills\optional\creative\creative-creative-ideation.md — 完成
+20:42:15   🔄 [266/351] 翻译中: user-guide\skills\optional\creative\creative-hyperframes.md (16375 chars)
+20:42:22   ✅ [266/351] user-guide\skills\optional\creative\creative-hyperframes.md — 完成
+20:42:23   🔄 [267/351] 翻译中: user-guide\skills\optional\creative\creative-kanban-video-orchestrator.md (13199 chars)
+20:42:25   ✅ [267/351] user-guide\skills\optional\creative\creative-kanban-video-orchestrator.md — 完成
+20:42:26   🔄 [268/351] 翻译中: user-guide\skills\optional\creative\creative-meme-generation.md (6267 chars)
+20:42:27   ✅ [268/351] user-guide\skills\optional\creative\creative-meme-generation.md — 完成
+20:42:28   🔄 [269/351] 翻译中: user-guide\skills\optional\creative\creative-pixel-art.md (8061 chars)
+20:42:30   ✅ [269/351] user-guide\skills\optional\creative\creative-pixel-art.md — 完成
+20:42:31   🔄 [270/351] 翻译中: user-guide\skills\optional\devops\devops-cli.md (5296 chars)
+20:42:32   ✅ [270/351] user-guide\skills\optional\devops\devops-cli.md — 完成
+20:42:33   🔄 [271/351] 翻译中: user-guide\skills\optional\devops\devops-docker-management.md (11098 chars)
+20:42:35   ✅ [271/351] user-guide\skills\optional\devops\devops-docker-management.md — 完成
+20:42:36   🔄 [272/351] 翻译中: user-guide\skills\optional\devops\devops-hermes-s6-container-supervision.md (12199 chars)
+20:42:37   ✅ [272/351] user-guide\skills\optional\devops\devops-hermes-s6-container-supervision.md — 完成
+20:42:38   🔄 [273/351] 翻译中: user-guide\skills\optional\devops\devops-pinggy-tunnel.md (14263 chars)
+20:42:45   ✅ [273/351] user-guide\skills\optional\devops\devops-pinggy-tunnel.md — 完成
+20:42:46   🔄 [274/351] 翻译中: user-guide\skills\optional\devops\devops-watchers.md (5097 chars)
+20:42:47   ✅ [274/351] user-guide\skills\optional\devops\devops-watchers.md — 完成
+20:42:48   🔄 [275/351] 翻译中: user-guide\skills\optional\dogfood\dogfood-adversarial-ux-test.md (9917 chars)
+20:42:49   ✅ [275/351] user-guide\skills\optional\dogfood\dogfood-adversarial-ux-test.md — 完成
+20:42:50   🔄 [276/351] 翻译中: user-guide\skills\optional\email\email-agentmail.md (4818 chars)
+20:42:51   ✅ [276/351] user-guide\skills\optional\email\email-agentmail.md — 完成
+20:42:52   🔄 [277/351] 翻译中: user-guide\skills\optional\finance\finance-3-statement-model.md (22922 chars)
+20:42:59   ✅ [277/351] user-guide\skills\optional\finance\finance-3-statement-model.md — 完成
+20:43:00   🔄 [278/351] 翻译中: user-guide\skills\optional\finance\finance-comps-analysis.md (30791 chars)
+20:43:08   ✅ [278/351] user-guide\skills\optional\finance\finance-comps-analysis.md — 完成
+20:43:09   🔄 [279/351] 翻译中: user-guide\skills\optional\finance\finance-dcf-model.md (50467 chars)
+20:43:16   ✅ [279/351] user-guide\skills\optional\finance\finance-dcf-model.md — 完成
+20:43:17   🔄 [280/351] 翻译中: user-guide\skills\optional\finance\finance-excel-author.md (10029 chars)
+20:43:19   ✅ [280/351] user-guide\skills\optional\finance\finance-excel-author.md — 完成
+20:43:20   🔄 [281/351] 翻译中: user-guide\skills\optional\finance\finance-lbo-model.md (17977 chars)
+20:43:27   ✅ [281/351] user-guide\skills\optional\finance\finance-lbo-model.md — 完成
+20:43:28   🔄 [282/351] 翻译中: user-guide\skills\optional\finance\finance-merger-model.md (6502 chars)
+20:43:30   ✅ [282/351] user-guide\skills\optional\finance\finance-merger-model.md — 完成
+20:43:31   🔄 [283/351] 翻译中: user-guide\skills\optional\finance\finance-pptx-author.md (7364 chars)
+20:43:32   ✅ [283/351] user-guide\skills\optional\finance\finance-pptx-author.md — 完成
+20:43:33   🔄 [284/351] 翻译中: user-guide\skills\optional\finance\finance-stocks.md (3605 chars)
+20:43:34   ✅ [284/351] user-guide\skills\optional\finance\finance-stocks.md — 完成
+20:43:35   🔄 [285/351] 翻译中: user-guide\skills\optional\gaming\gaming-minecraft-modpack-server.md (7201 chars)
+20:43:37   ✅ [285/351] user-guide\skills\optional\gaming\gaming-minecraft-modpack-server.md — 完成
+20:43:38   🔄 [286/351] 翻译中: user-guide\skills\optional\gaming\gaming-pokemon-player.md (9250 chars)
+20:43:39   ✅ [286/351] user-guide\skills\optional\gaming\gaming-pokemon-player.md — 完成
+20:43:40   🔄 [287/351] 翻译中: user-guide\skills\optional\health\health-fitness-nutrition.md (10290 chars)
+20:43:41   ✅ [287/351] user-guide\skills\optional\health\health-fitness-nutrition.md — 完成
+20:43:42   🔄 [288/351] 翻译中: user-guide\skills\optional\health\health-neuroskill-bci.md (17317 chars)
+20:43:49   ✅ [288/351] user-guide\skills\optional\health\health-neuroskill-bci.md — 完成
+20:43:50   🔄 [289/351] 翻译中: user-guide\skills\optional\mcp\mcp-fastmcp.md (9076 chars)
+20:43:52   ✅ [289/351] user-guide\skills\optional\mcp\mcp-fastmcp.md — 完成
+20:43:53   🔄 [290/351] 翻译中: user-guide\skills\optional\mcp\mcp-mcporter.md (3844 chars)
+20:43:54   ✅ [290/351] user-guide\skills\optional\mcp\mcp-mcporter.md — 完成
+20:43:55   🔄 [291/351] 翻译中: user-guide\skills\optional\migration\migration-openclaw-migration.md (16834 chars)
+20:44:02   ✅ [291/351] user-guide\skills\optional\migration\migration-openclaw-migration.md — 完成
+20:44:03   🔄 [292/351] 翻译中: user-guide\skills\optional\mlops\mlops-accelerate.md (9347 chars)
+20:44:04   ✅ [292/351] user-guide\skills\optional\mlops\mlops-accelerate.md — 完成
+20:44:05   🔄 [293/351] 翻译中: user-guide\skills\optional\mlops\mlops-chroma.md (9903 chars)
+20:44:06   ✅ [293/351] user-guide\skills\optional\mlops\mlops-chroma.md — 完成
+20:44:07   🔄 [294/351] 翻译中: user-guide\skills\optional\mlops\mlops-clip.md (7606 chars)
+20:44:08   ✅ [294/351] user-guide\skills\optional\mlops\mlops-clip.md — 完成
+20:44:09   🔄 [295/351] 翻译中: user-guide\skills\optional\mlops\mlops-faiss.md (5843 chars)
+20:44:10   ✅ [295/351] user-guide\skills\optional\mlops\mlops-faiss.md — 完成
+20:44:11   🔄 [296/351] 翻译中: user-guide\skills\optional\mlops\mlops-flash-attention.md (10860 chars)
+20:44:13   ✅ [296/351] user-guide\skills\optional\mlops\mlops-flash-attention.md — 完成
+20:44:14   🔄 [297/351] 翻译中: user-guide\skills\optional\mlops\mlops-guidance.md (15242 chars)
+20:44:21   ✅ [297/351] user-guide\skills\optional\mlops\mlops-guidance.md — 完成
+20:44:22   🔄 [298/351] 翻译中: user-guide\skills\optional\mlops\mlops-huggingface-tokenizers.md (14866 chars)
+20:44:29   ✅ [298/351] user-guide\skills\optional\mlops\mlops-huggingface-tokenizers.md — 完成
+20:44:30   🔄 [299/351] 翻译中: user-guide\skills\optional\mlops\mlops-inference-outlines.md (16468 chars)
+20:44:36   ✅ [299/351] user-guide\skills\optional\mlops\mlops-inference-outlines.md — 完成
+20:44:37   🔄 [300/351] 翻译中: user-guide\skills\optional\mlops\mlops-instructor.md (17594 chars)
+20:44:45   ✅ [300/351] user-guide\skills\optional\mlops\mlops-instructor.md — 完成
+20:44:46   🔄 [301/351] 翻译中: user-guide\skills\optional\mlops\mlops-lambda-labs.md (13177 chars)
+20:44:53   ✅ [301/351] user-guide\skills\optional\mlops\mlops-lambda-labs.md — 完成
+20:44:54   🔄 [302/351] 翻译中: user-guide\skills\optional\mlops\mlops-llava.md (8538 chars)
+20:44:55   ✅ [302/351] user-guide\skills\optional\mlops\mlops-llava.md — 完成
+20:44:56   🔄 [303/351] 翻译中: user-guide\skills\optional\mlops\mlops-modal.md (9487 chars)
+20:44:58   ✅ [303/351] user-guide\skills\optional\mlops\mlops-modal.md — 完成
+20:44:59   🔄 [304/351] 翻译中: user-guide\skills\optional\mlops\mlops-nemo-curator.md (10253 chars)
+20:45:00   ✅ [304/351] user-guide\skills\optional\mlops\mlops-nemo-curator.md — 完成
+20:45:01   🔄 [305/351] 翻译中: user-guide\skills\optional\mlops\mlops-obliteratus.md (16169 chars)
+20:45:08   ✅ [305/351] user-guide\skills\optional\mlops\mlops-obliteratus.md — 完成
+20:45:09   🔄 [306/351] 翻译中: user-guide\skills\optional\mlops\mlops-peft.md (13198 chars)
+20:45:16   ✅ [306/351] user-guide\skills\optional\mlops\mlops-peft.md — 完成
+20:45:17   🔄 [307/351] 翻译中: user-guide\skills\optional\mlops\mlops-pinecone.md (8592 chars)
+20:45:18   ✅ [307/351] user-guide\skills\optional\mlops\mlops-pinecone.md — 完成
+20:45:19   🔄 [308/351] 翻译中: user-guide\skills\optional\mlops\mlops-pytorch-fsdp.md (160267 chars)
+20:45:26   ✅ [308/351] user-guide\skills\optional\mlops\mlops-pytorch-fsdp.md — 完成
+20:45:27   🔄 [309/351] 翻译中: user-guide\skills\optional\mlops\mlops-pytorch-lightning.md (10229 chars)
+20:45:28   ✅ [309/351] user-guide\skills\optional\mlops\mlops-pytorch-lightning.md — 完成
+20:45:29   🔄 [310/351] 翻译中: user-guide\skills\optional\mlops\mlops-qdrant.md (14431 chars)
+20:45:36   ✅ [310/351] user-guide\skills\optional\mlops\mlops-qdrant.md — 完成
+20:45:37   🔄 [311/351] 翻译中: user-guide\skills\optional\mlops\mlops-research-dspy.md (15909 chars)
+20:45:44   ✅ [311/351] user-guide\skills\optional\mlops\mlops-research-dspy.md — 完成
+20:45:45   🔄 [312/351] 翻译中: user-guide\skills\optional\mlops\mlops-saelens.md (13817 chars)
+20:45:52   ✅ [312/351] user-guide\skills\optional\mlops\mlops-saelens.md — 完成
+20:45:53   🔄 [313/351] 翻译中: user-guide\skills\optional\mlops\mlops-simpo.md (6915 chars)
+20:45:55   ✅ [313/351] user-guide\skills\optional\mlops\mlops-simpo.md — 完成
+20:45:56   🔄 [314/351] 翻译中: user-guide\skills\optional\mlops\mlops-slime.md (11956 chars)
+20:46:03   ✅ [314/351] user-guide\skills\optional\mlops\mlops-slime.md — 完成
+20:46:04   🔄 [315/351] 翻译中: user-guide\skills\optional\mlops\mlops-stable-diffusion.md (13992 chars)
+20:46:11   ✅ [315/351] user-guide\skills\optional\mlops\mlops-stable-diffusion.md — 完成
+20:46:12   🔄 [316/351] 翻译中: user-guide\skills\optional\mlops\mlops-tensorrt-llm.md (6135 chars)
+20:46:13   ✅ [316/351] user-guide\skills\optional\mlops\mlops-tensorrt-llm.md — 完成
+20:46:14   🔄 [317/351] 翻译中: user-guide\skills\optional\mlops\mlops-torchtitan.md (10092 chars)
+20:46:16   ✅ [317/351] user-guide\skills\optional\mlops\mlops-torchtitan.md — 完成
+20:46:17   🔄 [318/351] 翻译中: user-guide\skills\optional\mlops\mlops-training-axolotl.md (5612 chars)
+20:46:19   ✅ [318/351] user-guide\skills\optional\mlops\mlops-training-axolotl.md — 完成
+20:46:20   🔄 [319/351] 翻译中: user-guide\skills\optional\mlops\mlops-training-trl-fine-tuning.md (13564 chars)
+20:46:32   ✅ [319/351] user-guide\skills\optional\mlops\mlops-training-trl-fine-tuning.md — 完成
+20:46:33   🔄 [320/351] 翻译中: user-guide\skills\optional\mlops\mlops-training-unsloth.md (3008 chars)
+20:46:34   ✅ [320/351] user-guide\skills\optional\mlops\mlops-training-unsloth.md — 完成
+20:46:35   🔄 [321/351] 翻译中: user-guide\skills\optional\mlops\mlops-whisper.md (8174 chars)
+20:46:37   ✅ [321/351] user-guide\skills\optional\mlops\mlops-whisper.md — 完成
+20:46:38   🔄 [322/351] 翻译中: user-guide\skills\optional\payments\payments-mpp-agent.md (5876 chars)
+20:46:39   ✅ [322/351] user-guide\skills\optional\payments\payments-mpp-agent.md — 完成
+20:46:40   🔄 [323/351] 翻译中: user-guide\skills\optional\payments\payments-stripe-link-cli.md (7579 chars)
+20:46:42   ✅ [323/351] user-guide\skills\optional\payments\payments-stripe-link-cli.md — 完成
+20:46:43   🔄 [324/351] 翻译中: user-guide\skills\optional\payments\payments-stripe-projects.md (5383 chars)
+20:46:44   ✅ [324/351] user-guide\skills\optional\payments\payments-stripe-projects.md — 完成
+20:46:45   🔄 [325/351] 翻译中: user-guide\skills\optional\productivity\productivity-canvas.md (3963 chars)
+20:46:47   ✅ [325/351] user-guide\skills\optional\productivity\productivity-canvas.md — 完成
+20:46:48   🔄 [326/351] 翻译中: user-guide\skills\optional\productivity\productivity-here-now.md (9379 chars)
+20:46:50   ✅ [326/351] user-guide\skills\optional\productivity\productivity-here-now.md — 完成
+20:46:51   🔄 [327/351] 翻译中: user-guide\skills\optional\productivity\productivity-memento-flashcards.md (13808 chars)
+20:46:58   ✅ [327/351] user-guide\skills\optional\productivity\productivity-memento-flashcards.md — 完成
+20:46:59   🔄 [328/351] 翻译中: user-guide\skills\optional\productivity\productivity-shop.md (18042 chars)
+20:47:07   ✅ [328/351] user-guide\skills\optional\productivity\productivity-shop.md — 完成
+20:47:08   🔄 [329/351] 翻译中: user-guide\skills\optional\productivity\productivity-shopify.md (15234 chars)
+20:47:16   ✅ [329/351] user-guide\skills\optional\productivity\productivity-shopify.md — 完成
+20:47:17   🔄 [330/351] 翻译中: user-guide\skills\optional\productivity\productivity-siyuan.md (9781 chars)
+20:47:19   ✅ [330/351] user-guide\skills\optional\productivity\productivity-siyuan.md — 完成
+20:47:20   🔄 [331/351] 翻译中: user-guide\skills\optional\productivity\productivity-telephony.md (13849 chars)
+20:47:27   ✅ [331/351] user-guide\skills\optional\productivity\productivity-telephony.md — 完成
+20:47:28   🔄 [332/351] 翻译中: user-guide\skills\optional\research\research-bioinformatics.md (14454 chars)
+20:47:36   ✅ [332/351] user-guide\skills\optional\research\research-bioinformatics.md — 完成
+20:47:37   🔄 [333/351] 翻译中: user-guide\skills\optional\research\research-darwinian-evolver.md (9299 chars)
+20:47:38   ✅ [333/351] user-guide\skills\optional\research\research-darwinian-evolver.md — 完成
+20:47:39   🔄 [334/351] 翻译中: user-guide\skills\optional\research\research-domain-intel.md (5208 chars)
+20:47:40   ✅ [334/351] user-guide\skills\optional\research\research-domain-intel.md — 完成
+20:47:41   🔄 [335/351] 翻译中: user-guide\skills\optional\research\research-drug-discovery.md (9909 chars)
+20:47:44   ✅ [335/351] user-guide\skills\optional\research\research-drug-discovery.md — 完成
+20:47:45   🔄 [336/351] 翻译中: user-guide\skills\optional\research\research-duckduckgo-search.md (9202 chars)
+20:47:46   ✅ [336/351] user-guide\skills\optional\research\research-duckduckgo-search.md — 完成
+20:47:47   🔄 [337/351] 翻译中: user-guide\skills\optional\research\research-gitnexus-explorer.md (7962 chars)
+20:47:49   ✅ [337/351] user-guide\skills\optional\research\research-gitnexus-explorer.md — 完成
+20:47:50   🔄 [338/351] 翻译中: user-guide\skills\optional\research\research-osint-investigation.md (12869 chars)
+20:47:52   ✅ [338/351] user-guide\skills\optional\research\research-osint-investigation.md — 完成
+20:47:53   🔄 [339/351] 翻译中: user-guide\skills\optional\research\research-parallel-cli.md (11831 chars)
+20:47:55   ✅ [339/351] user-guide\skills\optional\research\research-parallel-cli.md — 完成
+20:47:56   🔄 [340/351] 翻译中: user-guide\skills\optional\research\research-qmd.md (13867 chars)
+20:48:03   ✅ [340/351] user-guide\skills\optional\research\research-qmd.md — 完成
+20:48:04   🔄 [341/351] 翻译中: user-guide\skills\optional\research\research-scrapling.md (9826 chars)
+20:48:05   ✅ [341/351] user-guide\skills\optional\research\research-scrapling.md — 完成
+20:48:06   🔄 [342/351] 翻译中: user-guide\skills\optional\research\research-searxng-search.md (8079 chars)
+20:48:08   ✅ [342/351] user-guide\skills\optional\research\research-searxng-search.md — 完成
+20:48:09   🔄 [343/351] 翻译中: user-guide\skills\optional\security\security-1password.md (5018 chars)
+20:48:10   ✅ [343/351] user-guide\skills\optional\security\security-1password.md — 完成
+20:48:11   🔄 [344/351] 翻译中: user-guide\skills\optional\security\security-godmode.md (20685 chars)
+20:48:18   ✅ [344/351] user-guide\skills\optional\security\security-godmode.md — 完成
+20:48:19   🔄 [345/351] 翻译中: user-guide\skills\optional\security\security-oss-forensics.md (21580 chars)
+20:48:27   ✅ [345/351] user-guide\skills\optional\security\security-oss-forensics.md — 完成
+20:48:28   🔄 [346/351] 翻译中: user-guide\skills\optional\security\security-sherlock.md (6655 chars)
+20:48:29   ✅ [346/351] user-guide\skills\optional\security\security-sherlock.md — 完成
+20:48:30   🔄 [347/351] 翻译中: user-guide\skills\optional\security\security-web-pentest.md (13576 chars)
+20:48:32   ✅ [347/351] user-guide\skills\optional\security\security-web-pentest.md — 完成
+20:48:33   🔄 [348/351] 翻译中: user-guide\skills\optional\software-development\software-development-code-wiki.md (16248 chars)
+20:48:41   ✅ [348/351] user-guide\skills\optional\software-development\software-development-code-wiki.md — 完成
+20:48:42   🔄 [349/351] 翻译中: user-guide\skills\optional\software-development\software-development-rest-graphql-debug.md (16432 chars)
+20:48:52   ✅ [349/351] user-guide\skills\optional\software-development\software-development-rest-graphql-debug.md — 完成
+20:48:53   🔄 [350/351] 翻译中: user-guide\skills\optional\software-development\software-development-subagent-driven-development.md (11752 chars)
+20:48:55   ✅ [350/351] user-guide\skills\optional\software-development\software-development-subagent-driven-development.md — 完成
+20:48:56   🔄 [351/351] 翻译中: user-guide\skills\optional\web-development\web-development-page-agent.md (9841 chars)
+20:48:57   ✅ [351/351] user-guide\skills\optional\web-development\web-development-page-agent.md — 完成
+20:48:58 
+==================================================
+20:48:58 翻译完成!
+20:48:58 总文件: 351
+20:48:58 成功: 351
+20:48:58 失败: 0
+20:48:58 英文原版备份在: C:\Users\50148\projects\openclaw中文社区网站\website\i18n\en\docusaurus-plugin-content-docs\current

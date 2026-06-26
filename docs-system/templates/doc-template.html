@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}} | OpenClaw 中文社区</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<meta name="generator" content="OpenClaw Docs v1">
+<meta name="docusaurus_locale" content="zh-Hans">
+<meta name="docusaurus_tag" content="docs-default-current">
+<meta name="docsearch:language" content="zh-Hans">
+<meta name="docsearch:docusaurus_tag" content="docs-default-current">
+<link rel="icon" href="/img/favicon.svg">
+<!-- 主站完整样式 -->
+<link rel="stylesheet" href="/assets/css/styles.5c1b7790.css">
+<!-- 文档专用样式 -->
+<link rel="stylesheet" href="/assets/css/docs.css">
+<!-- Docusaurus 运行时 - 实现无跳转路由 -->
+<script src="/assets/js/runtime~main.a183f9fb.js" defer></script>
+<script src="/assets/js/main.68955185.js" defer></script>
+</head>
+<body class="navigation-with-keyboard">
+<!-- SVG 符号（Docusaurus 依赖） -->
+<svg style="display:none">
+  <symbol id="theme-svg-external-link" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/>
+  </symbol>
+</svg>
+
+<div id="__docusaurus">
+  <!-- ======== 与主站一致的导航栏 ======== -->
+  <nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top">
+    <div class="navbar__inner">
+      <div class="theme-layout-navbar-left navbar__items">
+        <button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button">
+          <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+            <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
+          </svg>
+        </button>
+        <a class="navbar__brand" href="/">
+          <img src="/img/logo.png" alt="OpenClaw 中文社区" class="navbar__logo" style="height:32px">
+          <b class="navbar__title text--truncate">OpenClaw 中文社区</b>
+        </a>
+        <a class="navbar__item navbar__link navbar__link--active" href="/docs/">文档</a>
+        <a class="navbar__item navbar__link" href="/community">社区</a>
+        <a class="navbar__item navbar__link" href="/skills">技能</a>
+        <a class="navbar__item navbar__link" href="/daily">日报</a>
+        <a class="navbar__item navbar__link navbar-releases-link" href="/releases">版本</a>
+      </div>
+      <div class="theme-layout-navbar-right navbar__items navbar__items--right">
+        <div class="navbar__item dropdown dropdown--hoverable dropdown--right">
+          <a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_izfr">
+              <path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+            </svg>简体中文
+          </a>
+          <ul class="dropdown__menu">
+            <li><a href="/" target="_self" class="dropdown__link dropdown__link--active" lang="zh-CN">简体中文</a></li>
+            <li><a href="/zh-Hant/" target="_self" class="dropdown__link" lang="zh-Hant">繁體中文</a></li>
+            <li><a href="/en/" target="_self" class="dropdown__link" lang="en-US">English</a></li>
+          </ul>
+        </div>
+        <div class="navbarSearchContainer_W_j_">
+          <div class="navbar__search searchBarContainer_Wu0H" dir="ltr">
+            <input placeholder="搜索文档..." class="navbar__search-input searchInput_fMq5" value="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== 文档布局 ======== -->
+  <div class="docs-wrapper">
+    <aside class="doc-sidebar">
+      <div class="sidebar-content" id="sidebarRoot"></div>
+    </aside>
+    <main class="doc-main">
+      <div class="doc-content">
+        <article class="markdown">
+          {{CONTENT}}
+        </article>
+        <div class="doc-footer-nav">
+          <a href="/" class="doc-back-link">← 返回首页</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+const SIDEBAR_DATA = {{SIDEBAR_JSON}};
+const CURRENT_PATH = '{{CURRENT_PATH}}';
+
+// 等 Docusaurus 加载完成后执行
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof SIDEBAR_DATA !== 'undefined') {
+    renderSidebar(SIDEBAR_DATA, CURRENT_PATH);
+  }
+});
+function renderSidebar(data, currentPath) {
+  var root = document.getElementById('sidebarRoot');
+  if (!root) return;
+  var html = '';
+  for (var i = 0; i < data.length; i++) {
+    html += renderItem(data[i], currentPath);
+  }
+  root.innerHTML = html;
+  var active = root.querySelector('.sidebar-link.active');
+  if (active) {
+    var parent = active.closest('.sidebar-items');
+    while (parent) {
+      parent.classList.remove('collapsed');
+      var header = parent.previousElementSibling;
+      if (header && header.classList.contains('sidebar-category-header')) {
+        var arrow = header.querySelector('.arrow');
+        if (arrow) arrow.classList.add('open');
+      }
+      parent = parent.parentElement ? parent.parentElement.closest('.sidebar-items') : null;
+    }
+  }
+}
+function renderItem(item, currentPath) {
+  if (item.type === 'category') {
+    var expanded = isCatActive(item, currentPath);
+    var arrowCls = expanded ? 'arrow open' : 'arrow';
+    var itemsCls = expanded ? 'sidebar-items' : 'sidebar-items collapsed';
+    var h = '<div class="sidebar-category"><div class="sidebar-category-header" onclick="toggleCat(this)">' +
+      item.label + '<span class="' + arrowCls + '">▶</span></div><ul class="' + itemsCls + '">';
+    for (var j = 0; j < item.items.length; j++) {
+      h += '<li>' + renderItem(item.items[j], currentPath) + '</li>';
+    }
+    h += '</ul></div>';
+    return h;
+  } else {
+    var act = item.href === currentPath;
+    var cls = act ? 'sidebar-link active' : 'sidebar-link';
+    return '<a class="' + cls + '" href="' + item.href + '">' + item.label + '</a>';
+  }
+}
+function isCatActive(cat, path) {
+  for (var k = 0; k < cat.items.length; k++) {
+    var sub = cat.items[k];
+    if (sub.type === 'category') { if (isCatActive(sub, path)) return true; }
+    else if (sub.href === path) return true;
+  }
+  return false;
+}
+window.toggleCat = function(header) {
+  var items = header.nextElementSibling;
+  if (!items || !items.classList.contains('sidebar-items')) return;
+  items.classList.toggle('collapsed');
+  var arrow = header.querySelector('.arrow');
+  if (arrow) arrow.classList.toggle('open');
+};
+</script>
+</body>
+</html>

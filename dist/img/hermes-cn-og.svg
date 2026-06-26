@@ -7,7 +7,7 @@
   </defs>
   <rect width="1200" height="630" fill="url(#grid)"/>
   <circle cx="1000" cy="80" r="260" fill="#FFD700" opacity=".12"/>
-  <text x="90" y="180" fill="#FFE6CB" font-family="Georgia, serif" font-size="82" font-weight="700">Hermes Agent</text>
+  <text x="90" y="180" fill="#FFE6CB" font-family="Georgia, serif" font-size="82" font-weight="700">OpenClaw Agent</text>
   <text x="90" y="280" fill="#FFD700" font-family="Georgia, serif" font-size="62" font-weight="700">中文社区</text>
   <text x="90" y="380" fill="#FFE6CB" opacity=".72" font-family="Arial, sans-serif" font-size="34">会随着你一起成长的自治 AI Agent</text>
   <text x="90" y="458" fill="#FFE6CB" opacity=".56" font-family="Arial, sans-serif" font-size="25">官方文档翻译 · 中文指南 · 微信社区群 · 技能生态</text>

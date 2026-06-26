@@ -1,0 +1,353 @@
+uid=5_0 RootWebArea "OpenClaw 中文社区论坛 | OpenClaw 中文社区" url="http://localhost:3003/forum/"
+  uid=5_1 ignored
+    uid=5_2 generic
+      uid=5_3 generic
+        uid=5_4 region "跳到主要内容"
+          uid=5_5 link "跳到主要内容" url="http://localhost:3003/forum/#__docusaurus_skipToContent_fallback"
+            uid=5_6 StaticText "跳到主要内容"
+              uid=5_7 InlineTextBox "跳"
+              uid=5_7 InlineTextBox "到"
+              uid=5_7 InlineTextBox "主"
+              uid=5_7 InlineTextBox "要"
+              uid=5_7 InlineTextBox "内"
+              uid=5_7 InlineTextBox "容"
+        uid=5_8 banner
+          uid=5_9 generic
+            uid=5_10 ignored
+              uid=5_11 ignored
+                uid=5_12 link "推荐资源 | 优云智算 支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐49元/月起，按次调用，超高性价比！ 立即抢购 > 企业服务·UCloud" url="https://passport.compshare.cn/register?referral_code=HdzDF41Ry3BGN49EFalbN4"
+                  uid=5_13 ignored
+                    uid=5_14 ignored
+                      uid=5_15 StaticText "推荐资源 |"
+                        uid=5_7 InlineTextBox "推荐资源 |"
+                    uid=5_16 image "优云智算" url="http://localhost:3003/img/banner/youyun.png"
+                    uid=5_17 ignored
+                      uid=5_18 StaticText "支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐"
+                        uid=5_7 InlineTextBox "支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐"
+                      uid=5_19 emphasis
+                        uid=5_20 StaticText "49元"
+                          uid=5_7 InlineTextBox "49元"
+                      uid=5_21 StaticText "/月起，按次调用，超高性价比！"
+                        uid=5_7 InlineTextBox "/月起，按次调用，超高性价比！"
+                    uid=5_22 ignored
+                      uid=5_23 StaticText "立即抢购 >"
+                        uid=5_7 InlineTextBox "立即抢购 >"
+                  uid=5_24 ignored
+                    uid=5_25 StaticText "企业服务·UCloud"
+                      uid=5_7 InlineTextBox "企业服务·UCloud"
+                uid=5_26 link "了解详情 →" url="https://passport.ucloud.cn/?cps_code=BFkfQaBnaZJGEO75O5x4SY"
+                  uid=5_27 StaticText "了解详情 →"
+                    uid=5_7 InlineTextBox "了解详情 →"
+            uid=5_28 button "关闭横幅广告" description="关闭横幅（一天内不再显示）"
+        uid=5_29 navigation "主导航"
+          uid=5_30 ignored
+            uid=5_31 ignored
+              uid=5_32 link "OpenClaw 中文社区 OPENCLAW 中文社区" url="http://localhost:3003/"
+                uid=5_33 generic
+                  uid=5_34 image "OpenClaw 中文社区" url="http://localhost:3003/img/logo.png?v=20260608-logo"
+                uid=5_35 generic
+                  uid=5_36 StaticText "OPENCLAW 中文社区"
+                    uid=5_7 InlineTextBox "OPENCLAW 中文社区"
+              uid=5_37 link "文档" url="http://localhost:3003/#docs"
+                uid=5_38 StaticText "文档"
+                  uid=5_7 InlineTextBox "文档"
+              uid=5_39 link "社区" url="http://localhost:3003/community"
+                uid=5_40 StaticText "社区"
+                  uid=5_7 InlineTextBox "社区"
+              uid=5_41 link "论坛" url="http://localhost:3003/forum"
+                uid=5_42 StaticText "论坛"
+                  uid=5_7 InlineTextBox "论坛"
+              uid=5_43 link "技能" url="http://localhost:3003/#skills"
+                uid=5_44 StaticText "技能"
+                  uid=5_7 InlineTextBox "技能"
+              uid=5_45 link "日报" url="http://localhost:3003/daily"
+                uid=5_46 StaticText "日报"
+                  uid=5_7 InlineTextBox "日报"
+              uid=5_47 link "生态" url="http://localhost:3003/practice-guides"
+                uid=5_48 StaticText "生态"
+                  uid=5_7 InlineTextBox "生态"
+              uid=5_49 link "版本 v0.17.0" url="http://localhost:3003/releases"
+                uid=5_50 StaticText "版本"
+                  uid=5_7 InlineTextBox "版本"
+                uid=5_51 ignored
+                  uid=5_7 generic
+                    uid=5_7 StaticText "v0.17.0"
+                      uid=5_7 InlineTextBox "v0.17.0"
+              uid=5_52 link "桌面版 (opens in new tab)" url="https://desktop.openclaw.cn/"
+                uid=5_53 StaticText "桌面版"
+                  uid=5_7 InlineTextBox "桌面版"
+                uid=5_54 image "(opens in new tab)"
+                  uid=5_55 ignored
+            uid=5_56 ignored
+              uid=5_57 generic
+                uid=5_58 button "简体中文" expandable haspopup="menu"
+                  uid=5_59 StaticText "简体中文"
+                    uid=5_7 InlineTextBox "简体中文"
+                  uid=5_60 generic
+                uid=5_61 ignored
+                uid=5_62 ignored
+                uid=5_63 ignored
+              uid=5_64 ignored
+                uid=5_65 generic
+                  uid=5_66 textbox "Search"
+                    uid=5_67 ignored
+                    uid=5_68 generic
+        uid=5_69 generic
+          uid=5_70 main
+            uid=5_71 region "中文社区论坛"
+              uid=5_72 generic
+                uid=5_73 ignored
+                  uid=5_74 StaticText "OPENCLAW FORUM"
+                    uid=5_7 InlineTextBox "OPENCLAW FORUM"
+                  uid=5_75 heading "中文社区论坛" level="1"
+                    uid=5_76 StaticText "中文社区论坛"
+                      uid=5_7 InlineTextBox "中文社区论坛"
+                  uid=5_77 paragraph
+                    uid=5_78 StaticText "微信 / QQ 扫码进入腾讯频道，发帖、讨论、查看社区公告与日报。"
+                      uid=5_7 InlineTextBox "微信 / QQ 扫码进入腾讯频道，发帖、讨论、查看社"
+                      uid=5_7 InlineTextBox "区公告与日报。"
+                uid=5_79 generic
+                  uid=5_80 image "OpenClaw 中文社区论坛频道二维码" url="http://localhost:3003/img/community/qq-channel-qr.jpg"
+                uid=5_81 ignored
+                  uid=5_82 StaticText "WECHAT / QQ"
+                    uid=5_7 InlineTextBox "WECHAT / QQ"
+                  uid=5_83 strong
+                    uid=5_84 StaticText "扫码加入频道"
+                      uid=5_7 InlineTextBox "扫码加入频道"
+              uid=5_85 article
+                uid=5_86 ignored
+                  uid=5_87 StaticText "FORUM NOTES"
+                    uid=5_7 InlineTextBox "FORUM NOTES"
+                  uid=5_88 heading "论坛说明" level="2"
+                    uid=5_89 StaticText "论坛说明"
+                      uid=5_7 InlineTextBox "论坛说明"
+                uid=5_90 ignored
+                  uid=5_91 generic
+                    uid=5_92 ignored
+                      uid=5_93 StaticText "01"
+                        uid=5_7 InlineTextBox "01"
+                    uid=5_94 ignored
+                      uid=5_95 heading "腾讯频道承载论坛" level="3"
+                        uid=5_96 StaticText "腾讯频道承载论坛"
+                          uid=5_7 InlineTextBox "腾讯频道承载论坛"
+                      uid=5_97 paragraph
+                        uid=5_98 StaticText "OpenClaw 中文社区论坛目前设置在腾讯频道，使用方式接近 Discord，适合按主题沉淀讨论、公告与长期内容。"
+                          uid=5_7 InlineTextBox "OpenClaw 中文社区论坛目前设置在腾讯频道，使用方式接近 "
+                          uid=5_7 InlineTextBox "Discord，适合按主题沉淀讨论、公告与长期内容。"
+                  uid=5_99 generic
+                    uid=5_100 ignored
+                      uid=5_101 StaticText "02"
+                        uid=5_7 InlineTextBox "02"
+                    uid=5_102 ignored
+                      uid=5_103 heading "微信 / QQ 均可加入" level="3"
+                        uid=5_104 StaticText "微信 / QQ 均可加入"
+                          uid=5_7 InlineTextBox "微信 / QQ 均可加入"
+                      uid=5_105 paragraph
+                        uid=5_106 StaticText "使用微信或 QQ 扫描左侧二维码都可以进入频道。加入后可以自由发帖、回复和参与频道内讨论。"
+                          uid=5_7 InlineTextBox "使用微信或 QQ 扫描左侧二维码都可以进入频道。加入后可以自"
+                          uid=5_7 InlineTextBox "由发帖、回复和参与频道内讨论。"
+                  uid=5_107 generic
+                    uid=5_108 ignored
+                      uid=5_109 StaticText "03"
+                        uid=5_7 InlineTextBox "03"
+                    uid=5_110 ignored
+                      uid=5_111 heading "社区信息集中推送" level="3"
+                        uid=5_112 StaticText "社区信息集中推送"
+                          uid=5_7 InlineTextBox "社区信息集中推送"
+                      uid=5_113 paragraph
+                        uid=5_114 StaticText "社区最新公告、每日社区日报，以及 AI 前沿新闻都会在频道内同步，方便成员持续跟进重点动态。"
+                          uid=5_7 InlineTextBox "社区最新公告、每日社区日报，以及 AI 前沿新闻都会在频道内"
+                          uid=5_7 InlineTextBox "同步，方便成员持续跟进重点动态。"
+                  uid=5_115 generic
+                    uid=5_116 ignored
+                      uid=5_117 StaticText "04"
+                        uid=5_7 InlineTextBox "04"
+                    uid=5_118 ignored
+                      uid=5_119 heading "后续接入 OpenClaw 节点" level="3"
+                        uid=5_120 StaticText "后续接入 OpenClaw 节点"
+                          uid=5_7 InlineTextBox "后续接入 OpenClaw 节点"
+                      uid=5_121 paragraph
+                        uid=5_122 StaticText "频道后续会接入 OpenClaw 节点，让社区成员可以在论坛场景中直接使用 Agent 能力完成问答、检索和协作。"
+                          uid=5_7 InlineTextBox "频道后续会接入 OpenClaw 节点，让社区成员可以在论坛场景中"
+                          uid=5_7 InlineTextBox "直接使用 Agent 能力完成问答、检索和协作。"
+        uid=5_123 contentinfo
+          uid=5_124 generic
+            uid=5_125 ignored
+              uid=5_126 generic "OPENCLAW"
+                uid=5_127 ignored
+                  uid=5_128 StaticText "OPENCLAW"
+                    uid=5_7 InlineTextBox "OPENCLAW"
+              uid=5_129 ignored
+                uid=5_130 paragraph
+                  uid=5_131 StaticText "思之所至，行之所达。"
+                    uid=5_7 InlineTextBox "思之所至，行之所达。"
+                uid=5_132 paragraph
+                  uid=5_133 StaticText "As Thought Reaches, So Action Arrives."
+                    uid=5_7 InlineTextBox "As Thought Reaches, So Action Arrives."
+              uid=5_134 ignored
+                uid=5_135 link "加入社区" url="http://localhost:3003/community"
+                  uid=5_136 StaticText "加入社区"
+                    uid=5_7 InlineTextBox "加入社区"
+                uid=5_137 link "浏览文档" url="http://localhost:3003/docs/getting-started/quickstart"
+                  uid=5_138 StaticText "浏览文档"
+                    uid=5_7 InlineTextBox "浏览文档"
+              uid=5_139 paragraph
+                uid=5_140 StaticText "OpenClaw 中文社区 · 探索AI Agent技术"
+                  uid=5_7 InlineTextBox "OpenClaw 中文社区 · 探索AI Agent技术"
+                uid=5_141 link "行业落地" url="https://openclaw.cn/community#industry-groups"
+                  uid=5_142 StaticText "行业落地"
+                    uid=5_7 InlineTextBox "行业落地"
+                uid=5_143 StaticText "应用"
+                  uid=5_7 InlineTextBox "应用"
+            uid=5_144 ignored
+              uid=5_145 generic
+                uid=5_146 sectionheader
+                  uid=5_147 ignored
+                    uid=5_148 StaticText "I · CONTENTS"
+                      uid=5_7 InlineTextBox "I · CONTENTS"
+                  uid=5_149 ignored
+                    uid=5_150 StaticText "文档"
+                      uid=5_7 InlineTextBox "文档"
+                uid=5_151 list
+                  uid=5_152 listitem level="1"
+                    uid=5_153 link "快速开始" url="http://localhost:3003/docs/getting-started/quickstart"
+                      uid=5_154 generic
+                      uid=5_155 ignored
+                        uid=5_156 StaticText "快速开始"
+                          uid=5_7 InlineTextBox "快速开始"
+                  uid=5_157 listitem level="1"
+                    uid=5_158 link "安装指南" url="http://localhost:3003/docs/getting-started/installation"
+                      uid=5_159 generic
+                      uid=5_160 ignored
+                        uid=5_161 StaticText "安装指南"
+                          uid=5_7 InlineTextBox "安装指南"
+                  uid=5_162 listitem level="1"
+                    uid=5_163 link "配置 OpenClaw" url="http://localhost:3003/docs/user-guide/configuration"
+                      uid=5_164 generic
+                      uid=5_165 ignored
+                        uid=5_166 StaticText "配置 OpenClaw"
+                          uid=5_7 InlineTextBox "配置 OpenClaw"
+                  uid=5_167 listitem level="1"
+                    uid=5_168 link "CLI 参考" url="http://localhost:3003/docs/reference/cli-commands"
+                      uid=5_169 generic
+                      uid=5_170 ignored
+                        uid=5_171 StaticText "CLI 参考"
+                          uid=5_7 InlineTextBox "CLI 参考"
+                  uid=5_172 listitem level="1"
+                    uid=5_173 link "版本更新" url="http://localhost:3003/releases"
+                      uid=5_174 generic
+                      uid=5_175 ignored
+                        uid=5_176 StaticText "版本更新"
+                          uid=5_7 InlineTextBox "版本更新"
+              uid=5_177 generic
+                uid=5_178 sectionheader
+                  uid=5_179 ignored
+                    uid=5_180 StaticText "II · COMMUNITY"
+                      uid=5_7 InlineTextBox "II · COMMUNITY"
+                  uid=5_181 ignored
+                    uid=5_182 StaticText "社区"
+                      uid=5_7 InlineTextBox "社区"
+                uid=5_183 list
+                  uid=5_184 listitem level="1"
+                    uid=5_185 link "加入社区群" url="http://localhost:3003/community"
+                      uid=5_186 generic
+                      uid=5_187 ignored
+                        uid=5_188 StaticText "加入社区群"
+                          uid=5_7 InlineTextBox "加入社区群"
+                  uid=5_189 listitem level="1"
+                    uid=5_190 link "日报订阅" url="http://localhost:3003/daily"
+                      uid=5_191 generic
+                      uid=5_192 ignored
+                        uid=5_193 StaticText "日报订阅"
+                          uid=5_7 InlineTextBox "日报订阅"
+                  uid=5_194 listitem level="1"
+                    uid=5_195 link "生态" url="http://localhost:3003/practice-guides"
+                      uid=5_196 generic
+                      uid=5_197 ignored
+                        uid=5_198 StaticText "生态"
+                          uid=5_7 InlineTextBox "生态"
+                  uid=5_199 listitem level="1"
+                    uid=5_200 link "Skill Atlas" url="http://localhost:3003/skills"
+                      uid=5_201 generic
+                      uid=5_202 ignored
+                        uid=5_203 StaticText "Skill Atlas"
+                          uid=5_7 InlineTextBox "Skill Atlas"
+              uid=5_204 generic
+                uid=5_205 sectionheader
+                  uid=5_206 ignored
+                    uid=5_207 StaticText "III · UPSTREAM"
+                      uid=5_7 InlineTextBox "III · UPSTREAM"
+                  uid=5_208 ignored
+                    uid=5_209 StaticText "来源"
+                      uid=5_7 InlineTextBox "来源"
+                uid=5_210 list
+                  uid=5_211 listitem level="1"
+                    uid=5_212 link "OpenClaw 官网" url="https://openclaw.ai/"
+                      uid=5_213 generic
+                      uid=5_214 ignored
+                        uid=5_215 StaticText "OpenClaw 官网"
+                          uid=5_7 InlineTextBox "OpenClaw 官网"
+                  uid=5_216 listitem level="1"
+                    uid=5_217 link "openclaw/openclaw" url="https://github.com/openclaw/openclaw"
+                      uid=5_218 generic
+                      uid=5_219 ignored
+                        uid=5_220 StaticText "openclaw/openclaw"
+                          uid=5_7 InlineTextBox "openclaw/openclaw"
+                  uid=5_221 listitem level="1"
+                    uid=5_222 link "OpenClaw" url="https://openclaw.ai/"
+                      uid=5_223 generic
+                      uid=5_224 ignored
+                        uid=5_225 StaticText "OpenClaw"
+                          uid=5_7 InlineTextBox "OpenClaw"
+                  uid=5_226 listitem level="1"
+                    uid=5_227 link "Agent Skills 规范" url="https://agentskills.io/"
+                      uid=5_228 generic
+                      uid=5_229 ignored
+                        uid=5_230 StaticText "Agent Skills 规范"
+                          uid=5_7 InlineTextBox "Agent Skills 规范"
+              uid=5_231 generic
+                uid=5_232 sectionheader
+                  uid=5_233 ignored
+                    uid=5_234 StaticText "IV · SITE"
+                      uid=5_7 InlineTextBox "IV · SITE"
+                  uid=5_235 ignored
+                    uid=5_236 StaticText "本站"
+                      uid=5_7 InlineTextBox "本站"
+                uid=5_237 list
+                  uid=5_238 listitem level="1"
+                    uid=5_239 link "关于本站" url="http://localhost:3003/about"
+                      uid=5_240 generic
+                      uid=5_241 ignored
+                        uid=5_242 StaticText "关于本站"
+                          uid=5_7 InlineTextBox "关于本站"
+                  uid=5_243 listitem level="1"
+                    uid=5_244 link "使用条款" url="http://localhost:3003/terms"
+                      uid=5_245 generic
+                      uid=5_246 ignored
+                        uid=5_247 StaticText "使用条款"
+                          uid=5_7 InlineTextBox "使用条款"
+                  uid=5_248 listitem level="1"
+                    uid=5_249 link "隐私政策" url="http://localhost:3003/privacy"
+                      uid=5_250 generic
+                      uid=5_251 ignored
+                        uid=5_252 StaticText "隐私政策"
+                          uid=5_7 InlineTextBox "隐私政策"
+            uid=5_253 ignored
+              uid=5_254 ignored
+                uid=5_255 ignored
+                  uid=5_256 StaticText "© 2026 · OpenClaw 中文社区 · All rights reserved"
+                    uid=5_7 InlineTextBox "© 2026 · OpenClaw 中文社区 · All rights reserved"
+              uid=5_257 ignored
+                uid=5_258 ignored
+                  uid=5_259 StaticText "Site design by"
+                    uid=5_7 InlineTextBox "Site design by"
+                  uid=5_260 link "Enzo Li" url="https://eynzof.com/"
+                    uid=5_261 StaticText "Enzo Li"
+                      uid=5_7 InlineTextBox "Enzo Li"
+                uid=5_262 ignored
+                  uid=5_263 StaticText "v"
+                    uid=5_7 InlineTextBox "v"
+                  uid=5_264 StaticText "2026.04.25"
+                    uid=5_7 InlineTextBox "2026.04.25"
+      uid=5_265 StaticText "\n\n"
+        uid=5_7 InlineTextBox "\n\n"

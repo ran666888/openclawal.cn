@@ -1,0 +1,3197 @@
+[
+  {
+    "type": "category",
+    "label": "automation",
+    "items": [
+      {
+        "type": "link",
+        "label": "自动化",
+        "href": "/docs/automation/"
+      },
+      {
+        "type": "link",
+        "label": "凭证监控",
+        "href": "/docs/automation/auth-monitoring/"
+      },
+      {
+        "type": "link",
+        "label": "ClawFlow",
+        "href": "/docs/automation/clawflow/"
+      },
+      {
+        "type": "link",
+        "label": "定时任务",
+        "href": "/docs/automation/cron-jobs/"
+      },
+      {
+        "type": "link",
+        "label": "Cron 与 Heartbeat",
+        "href": "/docs/automation/cron-vs-heartbeat/"
+      },
+      {
+        "type": "link",
+        "label": "Gmail PubSub",
+        "href": "/docs/automation/gmail-pubsub/"
+      },
+      {
+        "type": "link",
+        "label": "钩子",
+        "href": "/docs/automation/hooks/"
+      },
+      {
+        "type": "link",
+        "label": "投票",
+        "href": "/docs/automation/poll/"
+      },
+      {
+        "type": "link",
+        "label": "常设指令",
+        "href": "/docs/automation/standing-orders/"
+      },
+      {
+        "type": "link",
+        "label": "任务流程",
+        "href": "/docs/automation/taskflow/"
+      },
+      {
+        "type": "link",
+        "label": "后台任务",
+        "href": "/docs/automation/tasks/"
+      },
+      {
+        "type": "link",
+        "label": "自动化故障排除",
+        "href": "/docs/automation/troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "Webhooks",
+        "href": "/docs/automation/webhook/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "brave-search",
+    "items": [
+      {
+        "type": "link",
+        "label": "Brave 搜索",
+        "href": "/docs/brave-search/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "channels",
+    "items": [
+      {
+        "type": "link",
+        "label": "聊天渠道",
+        "href": "/docs/channels/"
+      },
+      {
+        "type": "link",
+        "label": "访问组",
+        "href": "/docs/channels/access-groups/"
+      },
+      {
+        "type": "link",
+        "label": "广播组",
+        "href": "/docs/channels/broadcast-groups/"
+      },
+      {
+        "type": "link",
+        "label": "渠道路由",
+        "href": "/docs/channels/channel-routing/"
+      },
+      {
+        "type": "link",
+        "label": "ClickClack",
+        "href": "/docs/channels/clickclack/"
+      },
+      {
+        "type": "link",
+        "label": "Discord",
+        "href": "/docs/channels/discord/"
+      },
+      {
+        "type": "link",
+        "label": "Feishu",
+        "href": "/docs/channels/feishu/"
+      },
+      {
+        "type": "link",
+        "label": "Google Chat",
+        "href": "/docs/channels/googlechat/"
+      },
+      {
+        "type": "link",
+        "label": "WhatsApp 群组消息",
+        "href": "/docs/channels/group-messages/"
+      },
+      {
+        "type": "link",
+        "label": "群组",
+        "href": "/docs/channels/groups/"
+      },
+      {
+        "type": "link",
+        "label": "Coming from BlueBubbles",
+        "href": "/docs/channels/imessage-from-bluebubbles/"
+      },
+      {
+        "type": "link",
+        "label": "iMessage",
+        "href": "/docs/channels/imessage/"
+      },
+      {
+        "type": "link",
+        "label": "IRC",
+        "href": "/docs/channels/irc/"
+      },
+      {
+        "type": "link",
+        "label": "行",
+        "href": "/docs/channels/line/"
+      },
+      {
+        "type": "link",
+        "label": "渠道位置解析",
+        "href": "/docs/channels/location/"
+      },
+      {
+        "type": "link",
+        "label": "Matrix 迁移",
+        "href": "/docs/channels/matrix-migration/"
+      },
+      {
+        "type": "link",
+        "label": "Matrix 呈现元数据",
+        "href": "/docs/channels/matrix-presentation/"
+      },
+      {
+        "type": "link",
+        "label": "安静预览的 Matrix 推送规则",
+        "href": "/docs/channels/matrix-push-rules/"
+      },
+      {
+        "type": "link",
+        "label": "Matrix",
+        "href": "/docs/channels/matrix/"
+      },
+      {
+        "type": "link",
+        "label": "Mattermost",
+        "href": "/docs/channels/mattermost/"
+      },
+      {
+        "type": "link",
+        "label": "Microsoft Teams",
+        "href": "/docs/channels/msteams/"
+      },
+      {
+        "type": "link",
+        "label": "Nextcloud Talk",
+        "href": "/docs/channels/nextcloud-talk/"
+      },
+      {
+        "type": "link",
+        "label": "Nostr",
+        "href": "/docs/channels/nostr/"
+      },
+      {
+        "type": "link",
+        "label": "配对",
+        "href": "/docs/channels/pairing/"
+      },
+      {
+        "type": "link",
+        "label": "QA channel",
+        "href": "/docs/channels/qa-channel/"
+      },
+      {
+        "type": "link",
+        "label": "QQ Bot",
+        "href": "/docs/channels/qqbot/"
+      },
+      {
+        "type": "link",
+        "label": "Signal",
+        "href": "/docs/channels/signal/"
+      },
+      {
+        "type": "link",
+        "label": "Slack",
+        "href": "/docs/channels/slack/"
+      },
+      {
+        "type": "link",
+        "label": "Synology Chat",
+        "href": "/docs/channels/synology-chat/"
+      },
+      {
+        "type": "link",
+        "label": "Telegram",
+        "href": "/docs/channels/telegram/"
+      },
+      {
+        "type": "link",
+        "label": "Tlon",
+        "href": "/docs/channels/tlon/"
+      },
+      {
+        "type": "link",
+        "label": "渠道故障排除",
+        "href": "/docs/channels/troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "Twitch",
+        "href": "/docs/channels/twitch/"
+      },
+      {
+        "type": "link",
+        "label": "微信",
+        "href": "/docs/channels/wechat/"
+      },
+      {
+        "type": "link",
+        "label": "WhatsApp",
+        "href": "/docs/channels/whatsapp/"
+      },
+      {
+        "type": "link",
+        "label": "腾讯元宝",
+        "href": "/docs/channels/yuanbao/"
+      },
+      {
+        "type": "link",
+        "label": "Zalo",
+        "href": "/docs/channels/zalo/"
+      },
+      {
+        "type": "link",
+        "label": "Zalo 个人版",
+        "href": "/docs/channels/zalouser/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "clawhub",
+    "items": [
+      {
+        "type": "link",
+        "label": "发布",
+        "href": "/docs/clawhub/publishing/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "cli",
+    "items": [
+      {
+        "type": "link",
+        "label": "CLI 参考",
+        "href": "/docs/cli/"
+      },
+      {
+        "type": "link",
+        "label": "ACP",
+        "href": "/docs/cli/acp/"
+      },
+      {
+        "type": "link",
+        "label": "智能体",
+        "href": "/docs/cli/agent/"
+      },
+      {
+        "type": "link",
+        "label": "智能体",
+        "href": "/docs/cli/agents/"
+      },
+      {
+        "type": "link",
+        "label": "批准",
+        "href": "/docs/cli/approvals/"
+      },
+      {
+        "type": "link",
+        "label": "备份",
+        "href": "/docs/cli/backup/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器",
+        "href": "/docs/cli/browser/"
+      },
+      {
+        "type": "link",
+        "label": "渠道",
+        "href": "/docs/cli/channels/"
+      },
+      {
+        "type": "link",
+        "label": "Clawbot",
+        "href": "/docs/cli/clawbot/"
+      },
+      {
+        "type": "link",
+        "label": "`openclaw commitments`",
+        "href": "/docs/cli/commitments/"
+      },
+      {
+        "type": "link",
+        "label": "补全",
+        "href": "/docs/cli/completion/"
+      },
+      {
+        "type": "link",
+        "label": "配置",
+        "href": "/docs/cli/config/"
+      },
+      {
+        "type": "link",
+        "label": "配置",
+        "href": "/docs/cli/configure/"
+      },
+      {
+        "type": "link",
+        "label": "Crestodian",
+        "href": "/docs/cli/crestodian/"
+      },
+      {
+        "type": "link",
+        "label": "Cron",
+        "href": "/docs/cli/cron/"
+      },
+      {
+        "type": "link",
+        "label": "守护进程",
+        "href": "/docs/cli/daemon/"
+      },
+      {
+        "type": "link",
+        "label": "仪表盘",
+        "href": "/docs/cli/dashboard/"
+      },
+      {
+        "type": "link",
+        "label": "设备",
+        "href": "/docs/cli/devices/"
+      },
+      {
+        "type": "link",
+        "label": "目录",
+        "href": "/docs/cli/directory/"
+      },
+      {
+        "type": "link",
+        "label": "DNS",
+        "href": "/docs/cli/dns/"
+      },
+      {
+        "type": "link",
+        "label": "文档",
+        "href": "/docs/cli/docs/"
+      },
+      {
+        "type": "link",
+        "label": "Doctor",
+        "href": "/docs/cli/doctor/"
+      },
+      {
+        "type": "link",
+        "label": "流程（重定向）",
+        "href": "/docs/cli/flows/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关",
+        "href": "/docs/cli/gateway/"
+      },
+      {
+        "type": "link",
+        "label": "健康状态",
+        "href": "/docs/cli/health/"
+      },
+      {
+        "type": "link",
+        "label": "钩子",
+        "href": "/docs/cli/hooks/"
+      },
+      {
+        "type": "link",
+        "label": "推理 CLI",
+        "href": "/docs/cli/infer/"
+      },
+      {
+        "type": "link",
+        "label": "日志",
+        "href": "/docs/cli/logs/"
+      },
+      {
+        "type": "link",
+        "label": "MCP",
+        "href": "/docs/cli/mcp/"
+      },
+      {
+        "type": "link",
+        "label": "记忆",
+        "href": "/docs/cli/memory/"
+      },
+      {
+        "type": "link",
+        "label": "消息",
+        "href": "/docs/cli/message/"
+      },
+      {
+        "type": "link",
+        "label": "迁移",
+        "href": "/docs/cli/migrate/"
+      },
+      {
+        "type": "link",
+        "label": "Models",
+        "href": "/docs/cli/models/"
+      },
+      {
+        "type": "link",
+        "label": "节点",
+        "href": "/docs/cli/node/"
+      },
+      {
+        "type": "link",
+        "label": "节点",
+        "href": "/docs/cli/nodes/"
+      },
+      {
+        "type": "link",
+        "label": "新手引导",
+        "href": "/docs/cli/onboard/"
+      },
+      {
+        "type": "link",
+        "label": "配对",
+        "href": "/docs/cli/pairing/"
+      },
+      {
+        "type": "link",
+        "label": "路径",
+        "href": "/docs/cli/path/"
+      },
+      {
+        "type": "link",
+        "label": "插件",
+        "href": "/docs/cli/plugins/"
+      },
+      {
+        "type": "link",
+        "label": "代理",
+        "href": "/docs/cli/proxy/"
+      },
+      {
+        "type": "link",
+        "label": "二维码",
+        "href": "/docs/cli/qr/"
+      },
+      {
+        "type": "link",
+        "label": "重置",
+        "href": "/docs/cli/reset/"
+      },
+      {
+        "type": "link",
+        "label": "沙箱 CLI",
+        "href": "/docs/cli/sandbox/"
+      },
+      {
+        "type": "link",
+        "label": "密钥",
+        "href": "/docs/cli/secrets/"
+      },
+      {
+        "type": "link",
+        "label": "安全",
+        "href": "/docs/cli/security/"
+      },
+      {
+        "type": "link",
+        "label": "会话",
+        "href": "/docs/cli/sessions/"
+      },
+      {
+        "type": "link",
+        "label": "设置",
+        "href": "/docs/cli/setup/"
+      },
+      {
+        "type": "link",
+        "label": "Skills",
+        "href": "/docs/cli/skills/"
+      },
+      {
+        "type": "link",
+        "label": "openclaw status",
+        "href": "/docs/cli/status/"
+      },
+      {
+        "type": "link",
+        "label": "系统",
+        "href": "/docs/cli/system/"
+      },
+      {
+        "type": "link",
+        "label": "`openclaw tasks`",
+        "href": "/docs/cli/tasks/"
+      },
+      {
+        "type": "link",
+        "label": "文本用户界面",
+        "href": "/docs/cli/tui/"
+      },
+      {
+        "type": "link",
+        "label": "卸载",
+        "href": "/docs/cli/uninstall/"
+      },
+      {
+        "type": "link",
+        "label": "更新",
+        "href": "/docs/cli/update/"
+      },
+      {
+        "type": "link",
+        "label": "语音通话",
+        "href": "/docs/cli/voicecall/"
+      },
+      {
+        "type": "link",
+        "label": "网络钩子",
+        "href": "/docs/cli/webhooks/"
+      },
+      {
+        "type": "link",
+        "label": "维基",
+        "href": "/docs/cli/wiki/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "concepts",
+    "items": [
+      {
+        "type": "link",
+        "label": "主动记忆",
+        "href": "/docs/concepts/active-memory/"
+      },
+      {
+        "type": "link",
+        "label": "Agent loop",
+        "href": "/docs/concepts/agent-loop/"
+      },
+      {
+        "type": "link",
+        "label": "Agent Runtimes",
+        "href": "/docs/concepts/agent-runtimes/"
+      },
+      {
+        "type": "link",
+        "label": "Agent 工作区",
+        "href": "/docs/concepts/agent-workspace/"
+      },
+      {
+        "type": "link",
+        "label": "智能体运行时",
+        "href": "/docs/concepts/agent/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关架构",
+        "href": "/docs/concepts/architecture/"
+      },
+      {
+        "type": "link",
+        "label": "渠道停靠",
+        "href": "/docs/concepts/channel-docking/"
+      },
+      {
+        "type": "link",
+        "label": "推断式跟进承诺",
+        "href": "/docs/concepts/commitments/"
+      },
+      {
+        "type": "link",
+        "label": "压缩",
+        "href": "/docs/concepts/compaction/"
+      },
+      {
+        "type": "link",
+        "label": "上下文引擎",
+        "href": "/docs/concepts/context-engine/"
+      },
+      {
+        "type": "link",
+        "label": "上下文",
+        "href": "/docs/concepts/context/"
+      },
+      {
+        "type": "link",
+        "label": "委托架构",
+        "href": "/docs/concepts/delegate-architecture/"
+      },
+      {
+        "type": "link",
+        "label": "Dreaming",
+        "href": "/docs/concepts/dreaming/"
+      },
+      {
+        "type": "link",
+        "label": "实验性功能",
+        "href": "/docs/concepts/experimental-features/"
+      },
+      {
+        "type": "link",
+        "label": "功能",
+        "href": "/docs/concepts/features/"
+      },
+      {
+        "type": "link",
+        "label": "Mantis Slack 桌面端运行手册",
+        "href": "/docs/concepts/mantis-slack-desktop-runbook/"
+      },
+      {
+        "type": "link",
+        "label": "Mantis",
+        "href": "/docs/concepts/mantis/"
+      },
+      {
+        "type": "link",
+        "label": "Markdown 格式",
+        "href": "/docs/concepts/markdown-formatting/"
+      },
+      {
+        "type": "link",
+        "label": "内置记忆引擎",
+        "href": "/docs/concepts/memory-builtin/"
+      },
+      {
+        "type": "link",
+        "label": "Honcho 记忆",
+        "href": "/docs/concepts/memory-honcho/"
+      },
+      {
+        "type": "link",
+        "label": "QMD 记忆引擎",
+        "href": "/docs/concepts/memory-qmd/"
+      },
+      {
+        "type": "link",
+        "label": "记忆搜索",
+        "href": "/docs/concepts/memory-search/"
+      },
+      {
+        "type": "link",
+        "label": "记忆概览",
+        "href": "/docs/concepts/memory/"
+      },
+      {
+        "type": "link",
+        "label": "消息生命周期重构",
+        "href": "/docs/concepts/message-lifecycle-refactor/"
+      },
+      {
+        "type": "link",
+        "label": "消息",
+        "href": "/docs/concepts/messages/"
+      },
+      {
+        "type": "link",
+        "label": "模型故障转移",
+        "href": "/docs/concepts/model-failover/"
+      },
+      {
+        "type": "link",
+        "label": "模型提供商",
+        "href": "/docs/concepts/model-providers/"
+      },
+      {
+        "type": "link",
+        "label": "Models CLI",
+        "href": "/docs/concepts/models/"
+      },
+      {
+        "type": "link",
+        "label": "多智能体路由",
+        "href": "/docs/concepts/multi-agent/"
+      },
+      {
+        "type": "link",
+        "label": "OAuth",
+        "href": "/docs/concepts/oauth/"
+      },
+      {
+        "type": "link",
+        "label": "并行专家通道",
+        "href": "/docs/concepts/parallel-specialist-lanes/"
+      },
+      {
+        "type": "link",
+        "label": "在线状态",
+        "href": "/docs/concepts/presence/"
+      },
+      {
+        "type": "link",
+        "label": "进度草稿",
+        "href": "/docs/concepts/progress-drafts/"
+      },
+      {
+        "type": "link",
+        "label": "QA overview",
+        "href": "/docs/concepts/qa-e2e-automation/"
+      },
+      {
+        "type": "link",
+        "label": "Matrix QA",
+        "href": "/docs/concepts/qa-matrix/"
+      },
+      {
+        "type": "link",
+        "label": "Steering queue",
+        "href": "/docs/concepts/queue-steering/"
+      },
+      {
+        "type": "link",
+        "label": "命令队列",
+        "href": "/docs/concepts/queue/"
+      },
+      {
+        "type": "link",
+        "label": "重试策略",
+        "href": "/docs/concepts/retry/"
+      },
+      {
+        "type": "link",
+        "label": "会话裁剪",
+        "href": "/docs/concepts/session-pruning/"
+      },
+      {
+        "type": "link",
+        "label": "会话工具",
+        "href": "/docs/concepts/session-tool/"
+      },
+      {
+        "type": "link",
+        "label": "会话管理",
+        "href": "/docs/concepts/session/"
+      },
+      {
+        "type": "link",
+        "label": "SOUL.md 人格指南",
+        "href": "/docs/concepts/soul/"
+      },
+      {
+        "type": "link",
+        "label": "流式传输和分块",
+        "href": "/docs/concepts/streaming/"
+      },
+      {
+        "type": "link",
+        "label": "系统提示词",
+        "href": "/docs/concepts/system-prompt/"
+      },
+      {
+        "type": "link",
+        "label": "时区",
+        "href": "/docs/concepts/timezone/"
+      },
+      {
+        "type": "link",
+        "label": "TypeBox",
+        "href": "/docs/concepts/typebox/"
+      },
+      {
+        "type": "link",
+        "label": "输入状态指示器",
+        "href": "/docs/concepts/typing-indicators/"
+      },
+      {
+        "type": "link",
+        "label": "使用情况跟踪",
+        "href": "/docs/concepts/usage-tracking/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "date-time",
+    "items": [
+      {
+        "type": "link",
+        "label": "日期和时间",
+        "href": "/docs/date-time/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "gateway",
+    "items": [
+      {
+        "type": "link",
+        "label": "Gateway 网关运行手册",
+        "href": "/docs/gateway/"
+      },
+      {
+        "type": "link",
+        "label": "身份验证",
+        "href": "/docs/gateway/authentication/"
+      },
+      {
+        "type": "link",
+        "label": "后台 exec 和进程工具",
+        "href": "/docs/gateway/background-process/"
+      },
+      {
+        "type": "link",
+        "label": "Bonjour 设备发现",
+        "href": "/docs/gateway/bonjour/"
+      },
+      {
+        "type": "link",
+        "label": "桥接协议",
+        "href": "/docs/gateway/bridge-protocol/"
+      },
+      {
+        "type": "link",
+        "label": "CLI 后端",
+        "href": "/docs/gateway/cli-backends/"
+      },
+      {
+        "type": "link",
+        "label": "配置 — 智能体",
+        "href": "/docs/gateway/config-agents/"
+      },
+      {
+        "type": "link",
+        "label": "配置 — 渠道",
+        "href": "/docs/gateway/config-channels/"
+      },
+      {
+        "type": "link",
+        "label": "配置 — 工具和自定义提供商",
+        "href": "/docs/gateway/config-tools/"
+      },
+      {
+        "type": "link",
+        "label": "配置示例",
+        "href": "/docs/gateway/configuration-examples/"
+      },
+      {
+        "type": "link",
+        "label": "配置参考",
+        "href": "/docs/gateway/configuration-reference/"
+      },
+      {
+        "type": "link",
+        "label": "配置",
+        "href": "/docs/gateway/configuration/"
+      },
+      {
+        "type": "link",
+        "label": "诊断导出",
+        "href": "/docs/gateway/diagnostics/"
+      },
+      {
+        "type": "link",
+        "label": "设备发现和传输协议",
+        "href": "/docs/gateway/discovery/"
+      },
+      {
+        "type": "link",
+        "label": "Doctor",
+        "href": "/docs/gateway/doctor/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关锁",
+        "href": "/docs/gateway/gateway-lock/"
+      },
+      {
+        "type": "link",
+        "label": "健康检查",
+        "href": "/docs/gateway/health/"
+      },
+      {
+        "type": "link",
+        "label": "Heartbeat",
+        "href": "/docs/gateway/heartbeat/"
+      },
+      {
+        "type": "link",
+        "label": "本地模型服务",
+        "href": "/docs/gateway/local-model-services/"
+      },
+      {
+        "type": "link",
+        "label": "本地模型",
+        "href": "/docs/gateway/local-models/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关日志记录",
+        "href": "/docs/gateway/logging/"
+      },
+      {
+        "type": "link",
+        "label": "多个 Gateway 网关",
+        "href": "/docs/gateway/multiple-gateways/"
+      },
+      {
+        "type": "link",
+        "label": "网络模型",
+        "href": "/docs/gateway/network-model/"
+      },
+      {
+        "type": "link",
+        "label": "OpenAI 聊天补全",
+        "href": "/docs/gateway/openai-http-api/"
+      },
+      {
+        "type": "link",
+        "label": "OpenResponses API",
+        "href": "/docs/gateway/openresponses-http-api/"
+      },
+      {
+        "type": "link",
+        "label": "OpenShell",
+        "href": "/docs/gateway/openshell/"
+      },
+      {
+        "type": "link",
+        "label": "OpenTelemetry 导出",
+        "href": "/docs/gateway/opentelemetry/"
+      },
+      {
+        "type": "link",
+        "label": "操作员权限范围",
+        "href": "/docs/gateway/operator-scopes/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关拥有的配对",
+        "href": "/docs/gateway/pairing/"
+      },
+      {
+        "type": "link",
+        "label": "Prometheus 指标",
+        "href": "/docs/gateway/prometheus/"
+      },
+      {
+        "type": "link",
+        "label": "Gateway 网关协议",
+        "href": "/docs/gateway/protocol/"
+      },
+      {
+        "type": "link",
+        "label": "远程 Gateway 网关设置",
+        "href": "/docs/gateway/remote-gateway-readme/"
+      },
+      {
+        "type": "link",
+        "label": "远程访问",
+        "href": "/docs/gateway/remote/"
+      },
+      {
+        "type": "link",
+        "label": "沙箱、工具策略与提权",
+        "href": "/docs/gateway/sandbox-vs-tool-policy-vs-elevated/"
+      },
+      {
+        "type": "link",
+        "label": "沙箱隔离",
+        "href": "/docs/gateway/sandboxing/"
+      },
+      {
+        "type": "link",
+        "label": "Secrets apply 计划契约",
+        "href": "/docs/gateway/secrets-plan-contract/"
+      },
+      {
+        "type": "link",
+        "label": "机密信息管理",
+        "href": "/docs/gateway/secrets/"
+      },
+      {
+        "type": "link",
+        "label": "安全",
+        "href": "/docs/gateway/security/"
+      },
+      {
+        "type": "link",
+        "label": "安全审计检查",
+        "href": "/docs/gateway/security/audit-checks/"
+      },
+      {
+        "type": "link",
+        "label": "安全文件操作",
+        "href": "/docs/gateway/security/secure-file-operations/"
+      },
+      {
+        "type": "link",
+        "label": "Tailscale",
+        "href": "/docs/gateway/tailscale/"
+      },
+      {
+        "type": "link",
+        "label": "工具调用 API",
+        "href": "/docs/gateway/tools-invoke-http-api/"
+      },
+      {
+        "type": "link",
+        "label": "故障排除",
+        "href": "/docs/gateway/troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "受信任代理身份验证",
+        "href": "/docs/gateway/trusted-proxy-auth/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "help",
+    "items": [
+      {
+        "type": "link",
+        "label": "帮助",
+        "href": "/docs/help/"
+      },
+      {
+        "type": "link",
+        "label": "调试",
+        "href": "/docs/help/debugging/"
+      },
+      {
+        "type": "link",
+        "label": "环境变量",
+        "href": "/docs/help/environment/"
+      },
+      {
+        "type": "link",
+        "label": "常见问题：首次运行设置",
+        "href": "/docs/help/faq-first-run/"
+      },
+      {
+        "type": "link",
+        "label": "常见问题：模型和凭证",
+        "href": "/docs/help/faq-models/"
+      },
+      {
+        "type": "link",
+        "label": "常见问题",
+        "href": "/docs/help/faq/"
+      },
+      {
+        "type": "link",
+        "label": "脚本",
+        "href": "/docs/help/scripts/"
+      },
+      {
+        "type": "link",
+        "label": "测试：实时套件",
+        "href": "/docs/help/testing-live/"
+      },
+      {
+        "type": "link",
+        "label": "更新和插件测试",
+        "href": "/docs/help/testing-updates-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "测试",
+        "href": "/docs/help/testing/"
+      },
+      {
+        "type": "link",
+        "label": "常规故障排除",
+        "href": "/docs/help/troubleshooting/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "install",
+    "items": [
+      {
+        "type": "link",
+        "label": "安装",
+        "href": "/docs/install/"
+      },
+      {
+        "type": "link",
+        "label": "Ansible",
+        "href": "/docs/install/ansible/"
+      },
+      {
+        "type": "link",
+        "label": "Azure",
+        "href": "/docs/install/azure/"
+      },
+      {
+        "type": "link",
+        "label": "Bun（实验性）",
+        "href": "/docs/install/bun/"
+      },
+      {
+        "type": "link",
+        "label": "ClawDock",
+        "href": "/docs/install/clawdock/"
+      },
+      {
+        "type": "link",
+        "label": "发布渠道",
+        "href": "/docs/install/development-channels/"
+      },
+      {
+        "type": "link",
+        "label": "DigitalOcean",
+        "href": "/docs/install/digitalocean/"
+      },
+      {
+        "type": "link",
+        "label": "Docker VM 运行时",
+        "href": "/docs/install/docker-vm-runtime/"
+      },
+      {
+        "type": "link",
+        "label": "Docker",
+        "href": "/docs/install/docker/"
+      },
+      {
+        "type": "link",
+        "label": "exe.dev",
+        "href": "/docs/install/exe-dev/"
+      },
+      {
+        "type": "link",
+        "label": "Fly.io",
+        "href": "/docs/install/fly/"
+      },
+      {
+        "type": "link",
+        "label": "GCP",
+        "href": "/docs/install/gcp/"
+      },
+      {
+        "type": "link",
+        "label": "Hetzner",
+        "href": "/docs/install/hetzner/"
+      },
+      {
+        "type": "link",
+        "label": "Hostinger",
+        "href": "/docs/install/hostinger/"
+      },
+      {
+        "type": "link",
+        "label": "安装程序内部机制",
+        "href": "/docs/install/installer/"
+      },
+      {
+        "type": "link",
+        "label": "Kubernetes",
+        "href": "/docs/install/kubernetes/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 虚拟机",
+        "href": "/docs/install/macos-vm/"
+      },
+      {
+        "type": "link",
+        "label": "从 Claude 迁移",
+        "href": "/docs/install/migrating-claude/"
+      },
+      {
+        "type": "link",
+        "label": "从 Hermes 迁移",
+        "href": "/docs/install/migrating-hermes/"
+      },
+      {
+        "type": "link",
+        "label": "迁移指南",
+        "href": "/docs/install/migrating/"
+      },
+      {
+        "type": "link",
+        "label": "Nix",
+        "href": "/docs/install/nix/"
+      },
+      {
+        "type": "link",
+        "label": "Node.js",
+        "href": "/docs/install/node/"
+      },
+      {
+        "type": "link",
+        "label": "Northflank",
+        "href": "/docs/install/northflank/"
+      },
+      {
+        "type": "link",
+        "label": "Oracle Cloud",
+        "href": "/docs/install/oracle/"
+      },
+      {
+        "type": "link",
+        "label": "Podman",
+        "href": "/docs/install/podman/"
+      },
+      {
+        "type": "link",
+        "label": "Railway",
+        "href": "/docs/install/railway/"
+      },
+      {
+        "type": "link",
+        "label": "Raspberry Pi",
+        "href": "/docs/install/raspberry-pi/"
+      },
+      {
+        "type": "link",
+        "label": "Render",
+        "href": "/docs/install/render/"
+      },
+      {
+        "type": "link",
+        "label": "卸载",
+        "href": "/docs/install/uninstall/"
+      },
+      {
+        "type": "link",
+        "label": "更新",
+        "href": "/docs/install/updating/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "logging",
+    "items": [
+      {
+        "type": "link",
+        "label": "日志记录",
+        "href": "/docs/logging/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "network",
+    "items": [
+      {
+        "type": "link",
+        "label": "网络",
+        "href": "/docs/network/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "nodes",
+    "items": [
+      {
+        "type": "link",
+        "label": "节点",
+        "href": "/docs/nodes/"
+      },
+      {
+        "type": "link",
+        "label": "音频和语音消息",
+        "href": "/docs/nodes/audio/"
+      },
+      {
+        "type": "link",
+        "label": "摄像头捕获",
+        "href": "/docs/nodes/camera/"
+      },
+      {
+        "type": "link",
+        "label": "图像和媒体支持",
+        "href": "/docs/nodes/images/"
+      },
+      {
+        "type": "link",
+        "label": "位置命令",
+        "href": "/docs/nodes/location-command/"
+      },
+      {
+        "type": "link",
+        "label": "媒体理解",
+        "href": "/docs/nodes/media-understanding/"
+      },
+      {
+        "type": "link",
+        "label": "Talk 模式",
+        "href": "/docs/nodes/talk/"
+      },
+      {
+        "type": "link",
+        "label": "Node 故障排除",
+        "href": "/docs/nodes/troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "语音唤醒",
+        "href": "/docs/nodes/voicewake/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "perplexity",
+    "items": [
+      {
+        "type": "link",
+        "label": "Perplexity 搜索",
+        "href": "/docs/perplexity/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "platforms",
+    "items": [
+      {
+        "type": "link",
+        "label": "平台",
+        "href": "/docs/platforms/"
+      },
+      {
+        "type": "link",
+        "label": "Android 应用",
+        "href": "/docs/platforms/android/"
+      },
+      {
+        "type": "link",
+        "label": "DigitalOcean（平台）",
+        "href": "/docs/platforms/digitalocean/"
+      },
+      {
+        "type": "link",
+        "label": "iOS 应用",
+        "href": "/docs/platforms/ios/"
+      },
+      {
+        "type": "link",
+        "label": "Linux 应用",
+        "href": "/docs/platforms/linux/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 上的 Gateway 网关",
+        "href": "/docs/platforms/mac/bundled-gateway/"
+      },
+      {
+        "type": "link",
+        "label": "画布",
+        "href": "/docs/platforms/mac/canvas/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 上的 Gateway 网关生命周期",
+        "href": "/docs/platforms/mac/child-process/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 开发环境设置",
+        "href": "/docs/platforms/mac/dev-setup/"
+      },
+      {
+        "type": "link",
+        "label": "健康检查（macOS）",
+        "href": "/docs/platforms/mac/health/"
+      },
+      {
+        "type": "link",
+        "label": "菜单栏图标",
+        "href": "/docs/platforms/mac/icon/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 日志记录",
+        "href": "/docs/platforms/mac/logging/"
+      },
+      {
+        "type": "link",
+        "label": "菜单栏",
+        "href": "/docs/platforms/mac/menu-bar/"
+      },
+      {
+        "type": "link",
+        "label": "躲猫猫桥接",
+        "href": "/docs/platforms/mac/peekaboo/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 权限",
+        "href": "/docs/platforms/mac/permissions/"
+      },
+      {
+        "type": "link",
+        "label": "远程控制",
+        "href": "/docs/platforms/mac/remote/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 签名",
+        "href": "/docs/platforms/mac/signing/"
+      },
+      {
+        "type": "link",
+        "label": "Skills（macOS）",
+        "href": "/docs/platforms/mac/skills/"
+      },
+      {
+        "type": "link",
+        "label": "语音叠加层",
+        "href": "/docs/platforms/mac/voice-overlay/"
+      },
+      {
+        "type": "link",
+        "label": "语音唤醒（macOS）",
+        "href": "/docs/platforms/mac/voicewake/"
+      },
+      {
+        "type": "link",
+        "label": "WebChat（macOS）",
+        "href": "/docs/platforms/mac/webchat/"
+      },
+      {
+        "type": "link",
+        "label": "macOS IPC",
+        "href": "/docs/platforms/mac/xpc/"
+      },
+      {
+        "type": "link",
+        "label": "macOS 应用",
+        "href": "/docs/platforms/macos/"
+      },
+      {
+        "type": "link",
+        "label": "Oracle Cloud（平台）",
+        "href": "/docs/platforms/oracle/"
+      },
+      {
+        "type": "link",
+        "label": "Raspberry Pi（平台）",
+        "href": "/docs/platforms/raspberry-pi/"
+      },
+      {
+        "type": "link",
+        "label": "Windows",
+        "href": "/docs/platforms/windows/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "plugins",
+    "items": [
+      {
+        "type": "link",
+        "label": "添加能力（贡献者指南）",
+        "href": "/docs/plugins/adding-capabilities/"
+      },
+      {
+        "type": "link",
+        "label": "注册工具",
+        "href": "/docs/plugins/agent-tools/"
+      },
+      {
+        "type": "link",
+        "label": "插件架构内部机制",
+        "href": "/docs/plugins/architecture-internals/"
+      },
+      {
+        "type": "link",
+        "label": "插件内部机制",
+        "href": "/docs/plugins/architecture/"
+      },
+      {
+        "type": "link",
+        "label": "构建插件（重定向）",
+        "href": "/docs/plugins/building-extensions/"
+      },
+      {
+        "type": "link",
+        "label": "构建插件",
+        "href": "/docs/plugins/building-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "插件包",
+        "href": "/docs/plugins/bundles/"
+      },
+      {
+        "type": "link",
+        "label": "构建 CLI 后端插件",
+        "href": "/docs/plugins/cli-backend-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "Codex Computer Use",
+        "href": "/docs/plugins/codex-computer-use/"
+      },
+      {
+        "type": "link",
+        "label": "Codex harness reference",
+        "href": "/docs/plugins/codex-harness-reference/"
+      },
+      {
+        "type": "link",
+        "label": "Codex harness runtime",
+        "href": "/docs/plugins/codex-harness-runtime/"
+      },
+      {
+        "type": "link",
+        "label": "Codex harness",
+        "href": "/docs/plugins/codex-harness/"
+      },
+      {
+        "type": "link",
+        "label": "Native Codex plugins",
+        "href": "/docs/plugins/codex-native-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "社区插件",
+        "href": "/docs/plugins/community/"
+      },
+      {
+        "type": "link",
+        "label": "插件兼容性",
+        "href": "/docs/plugins/compatibility/"
+      },
+      {
+        "type": "link",
+        "label": "插件依赖解析",
+        "href": "/docs/plugins/dependency-resolution/"
+      },
+      {
+        "type": "link",
+        "label": "Google Meet 插件",
+        "href": "/docs/plugins/google-meet/"
+      },
+      {
+        "type": "link",
+        "label": "插件钩子",
+        "href": "/docs/plugins/hooks/"
+      },
+      {
+        "type": "link",
+        "label": "插件安装覆盖项",
+        "href": "/docs/plugins/install-overrides/"
+      },
+      {
+        "type": "link",
+        "label": "管理插件",
+        "href": "/docs/plugins/manage-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "插件清单",
+        "href": "/docs/plugins/manifest/"
+      },
+      {
+        "type": "link",
+        "label": "Memory LanceDB",
+        "href": "/docs/plugins/memory-lancedb/"
+      },
+      {
+        "type": "link",
+        "label": "记忆 wiki",
+        "href": "/docs/plugins/memory-wiki/"
+      },
+      {
+        "type": "link",
+        "label": "消息呈现",
+        "href": "/docs/plugins/message-presentation/"
+      },
+      {
+        "type": "link",
+        "label": "OC Path 插件",
+        "href": "/docs/plugins/oc-path/"
+      },
+      {
+        "type": "link",
+        "label": "插件清册",
+        "href": "/docs/plugins/plugin-inventory/"
+      },
+      {
+        "type": "link",
+        "label": "插件参考",
+        "href": "/docs/plugins/reference/"
+      },
+      {
+        "type": "link",
+        "label": "ACPx 插件",
+        "href": "/docs/plugins/reference/acpx/"
+      },
+      {
+        "type": "link",
+        "label": "Alibaba 插件",
+        "href": "/docs/plugins/reference/alibaba/"
+      },
+      {
+        "type": "link",
+        "label": "Amazon Bedrock Mantle 插件",
+        "href": "/docs/plugins/reference/amazon-bedrock-mantle/"
+      },
+      {
+        "type": "link",
+        "label": "Amazon Bedrock 插件",
+        "href": "/docs/plugins/reference/amazon-bedrock/"
+      },
+      {
+        "type": "link",
+        "label": "Anthropic Vertex 插件",
+        "href": "/docs/plugins/reference/anthropic-vertex/"
+      },
+      {
+        "type": "link",
+        "label": "Anthropic 插件",
+        "href": "/docs/plugins/reference/anthropic/"
+      },
+      {
+        "type": "link",
+        "label": "Arcee 插件",
+        "href": "/docs/plugins/reference/arcee/"
+      },
+      {
+        "type": "link",
+        "label": "Azure Speech 插件",
+        "href": "/docs/plugins/reference/azure-speech/"
+      },
+      {
+        "type": "link",
+        "label": "Bonjour 插件",
+        "href": "/docs/plugins/reference/bonjour/"
+      },
+      {
+        "type": "link",
+        "label": "Brave 插件",
+        "href": "/docs/plugins/reference/brave/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器插件",
+        "href": "/docs/plugins/reference/browser/"
+      },
+      {
+        "type": "link",
+        "label": "BytePlus 插件",
+        "href": "/docs/plugins/reference/byteplus/"
+      },
+      {
+        "type": "link",
+        "label": "Canvas 插件",
+        "href": "/docs/plugins/reference/canvas/"
+      },
+      {
+        "type": "link",
+        "label": "Cerebras 插件",
+        "href": "/docs/plugins/reference/cerebras/"
+      },
+      {
+        "type": "link",
+        "label": "Chutes 插件",
+        "href": "/docs/plugins/reference/chutes/"
+      },
+      {
+        "type": "link",
+        "label": "Clickclack 插件",
+        "href": "/docs/plugins/reference/clickclack/"
+      },
+      {
+        "type": "link",
+        "label": "Cloudflare AI Gateway 插件",
+        "href": "/docs/plugins/reference/cloudflare-ai-gateway/"
+      },
+      {
+        "type": "link",
+        "label": "Codex 插件",
+        "href": "/docs/plugins/reference/codex/"
+      },
+      {
+        "type": "link",
+        "label": "ComfyUI 插件",
+        "href": "/docs/plugins/reference/comfy/"
+      },
+      {
+        "type": "link",
+        "label": "Copilot Proxy 插件",
+        "href": "/docs/plugins/reference/copilot-proxy/"
+      },
+      {
+        "type": "link",
+        "label": "Deepgram 插件",
+        "href": "/docs/plugins/reference/deepgram/"
+      },
+      {
+        "type": "link",
+        "label": "DeepInfra 插件",
+        "href": "/docs/plugins/reference/deepinfra/"
+      },
+      {
+        "type": "link",
+        "label": "DeepSeek 插件",
+        "href": "/docs/plugins/reference/deepseek/"
+      },
+      {
+        "type": "link",
+        "label": "诊断 OpenTelemetry 插件",
+        "href": "/docs/plugins/reference/diagnostics-otel/"
+      },
+      {
+        "type": "link",
+        "label": "诊断 Prometheus 插件",
+        "href": "/docs/plugins/reference/diagnostics-prometheus/"
+      },
+      {
+        "type": "link",
+        "label": "Diffs 插件",
+        "href": "/docs/plugins/reference/diffs/"
+      },
+      {
+        "type": "link",
+        "label": "Discord 插件",
+        "href": "/docs/plugins/reference/discord/"
+      },
+      {
+        "type": "link",
+        "label": "文档提取插件",
+        "href": "/docs/plugins/reference/document-extract/"
+      },
+      {
+        "type": "link",
+        "label": "DuckDuckGo 插件",
+        "href": "/docs/plugins/reference/duckduckgo/"
+      },
+      {
+        "type": "link",
+        "label": "Elevenlabs 插件",
+        "href": "/docs/plugins/reference/elevenlabs/"
+      },
+      {
+        "type": "link",
+        "label": "Exa 插件",
+        "href": "/docs/plugins/reference/exa/"
+      },
+      {
+        "type": "link",
+        "label": "fal 插件",
+        "href": "/docs/plugins/reference/fal/"
+      },
+      {
+        "type": "link",
+        "label": "Feishu 插件",
+        "href": "/docs/plugins/reference/feishu/"
+      },
+      {
+        "type": "link",
+        "label": "文件传输插件",
+        "href": "/docs/plugins/reference/file-transfer/"
+      },
+      {
+        "type": "link",
+        "label": "Firecrawl 插件",
+        "href": "/docs/plugins/reference/firecrawl/"
+      },
+      {
+        "type": "link",
+        "label": "Fireworks 插件",
+        "href": "/docs/plugins/reference/fireworks/"
+      },
+      {
+        "type": "link",
+        "label": "GitHub Copilot 插件",
+        "href": "/docs/plugins/reference/github-copilot/"
+      },
+      {
+        "type": "link",
+        "label": "Google Meet 插件",
+        "href": "/docs/plugins/reference/google-meet/"
+      },
+      {
+        "type": "link",
+        "label": "Google 插件",
+        "href": "/docs/plugins/reference/google/"
+      },
+      {
+        "type": "link",
+        "label": "Google Chat 插件",
+        "href": "/docs/plugins/reference/googlechat/"
+      },
+      {
+        "type": "link",
+        "label": "Gradium 插件",
+        "href": "/docs/plugins/reference/gradium/"
+      },
+      {
+        "type": "link",
+        "label": "Groq 插件",
+        "href": "/docs/plugins/reference/groq/"
+      },
+      {
+        "type": "link",
+        "label": "Hugging Face 插件",
+        "href": "/docs/plugins/reference/huggingface/"
+      },
+      {
+        "type": "link",
+        "label": "iMessage 插件",
+        "href": "/docs/plugins/reference/imessage/"
+      },
+      {
+        "type": "link",
+        "label": "Inworld 插件",
+        "href": "/docs/plugins/reference/inworld/"
+      },
+      {
+        "type": "link",
+        "label": "IRC 插件",
+        "href": "/docs/plugins/reference/irc/"
+      },
+      {
+        "type": "link",
+        "label": "Kilocode 插件",
+        "href": "/docs/plugins/reference/kilocode/"
+      },
+      {
+        "type": "link",
+        "label": "Kimi 插件",
+        "href": "/docs/plugins/reference/kimi/"
+      },
+      {
+        "type": "link",
+        "label": "LINE 插件",
+        "href": "/docs/plugins/reference/line/"
+      },
+      {
+        "type": "link",
+        "label": "LiteLLM 插件",
+        "href": "/docs/plugins/reference/litellm/"
+      },
+      {
+        "type": "link",
+        "label": "LLM 任务插件",
+        "href": "/docs/plugins/reference/llm-task/"
+      },
+      {
+        "type": "link",
+        "label": "LM Studio 插件",
+        "href": "/docs/plugins/reference/lmstudio/"
+      },
+      {
+        "type": "link",
+        "label": "Lobster 插件",
+        "href": "/docs/plugins/reference/lobster/"
+      },
+      {
+        "type": "link",
+        "label": "Matrix 插件",
+        "href": "/docs/plugins/reference/matrix/"
+      },
+      {
+        "type": "link",
+        "label": "Mattermost 插件",
+        "href": "/docs/plugins/reference/mattermost/"
+      },
+      {
+        "type": "link",
+        "label": "Memory Core 插件",
+        "href": "/docs/plugins/reference/memory-core/"
+      },
+      {
+        "type": "link",
+        "label": "Memory LanceDB 插件",
+        "href": "/docs/plugins/reference/memory-lancedb/"
+      },
+      {
+        "type": "link",
+        "label": "Memory Wiki 插件",
+        "href": "/docs/plugins/reference/memory-wiki/"
+      },
+      {
+        "type": "link",
+        "label": "Microsoft Foundry 插件",
+        "href": "/docs/plugins/reference/microsoft-foundry/"
+      },
+      {
+        "type": "link",
+        "label": "Microsoft 插件",
+        "href": "/docs/plugins/reference/microsoft/"
+      },
+      {
+        "type": "link",
+        "label": "迁移 Claude 插件",
+        "href": "/docs/plugins/reference/migrate-claude/"
+      },
+      {
+        "type": "link",
+        "label": "迁移 Hermes 插件",
+        "href": "/docs/plugins/reference/migrate-hermes/"
+      },
+      {
+        "type": "link",
+        "label": "MiniMax 插件",
+        "href": "/docs/plugins/reference/minimax/"
+      },
+      {
+        "type": "link",
+        "label": "Mistral 插件",
+        "href": "/docs/plugins/reference/mistral/"
+      },
+      {
+        "type": "link",
+        "label": "Moonshot 插件",
+        "href": "/docs/plugins/reference/moonshot/"
+      },
+      {
+        "type": "link",
+        "label": "Microsoft Teams 插件",
+        "href": "/docs/plugins/reference/msteams/"
+      },
+      {
+        "type": "link",
+        "label": "Nextcloud Talk 插件",
+        "href": "/docs/plugins/reference/nextcloud-talk/"
+      },
+      {
+        "type": "link",
+        "label": "Nostr 插件",
+        "href": "/docs/plugins/reference/nostr/"
+      },
+      {
+        "type": "link",
+        "label": "NVIDIA 插件",
+        "href": "/docs/plugins/reference/nvidia/"
+      },
+      {
+        "type": "link",
+        "label": "OC Path 插件",
+        "href": "/docs/plugins/reference/oc-path/"
+      },
+      {
+        "type": "link",
+        "label": "Ollama 插件",
+        "href": "/docs/plugins/reference/ollama/"
+      },
+      {
+        "type": "link",
+        "label": "Open Prose 插件",
+        "href": "/docs/plugins/reference/open-prose/"
+      },
+      {
+        "type": "link",
+        "label": "OpenAI 插件",
+        "href": "/docs/plugins/reference/openai/"
+      },
+      {
+        "type": "link",
+        "label": "OpenCode Go 插件",
+        "href": "/docs/plugins/reference/opencode-go/"
+      },
+      {
+        "type": "link",
+        "label": "OpenCode 插件",
+        "href": "/docs/plugins/reference/opencode/"
+      },
+      {
+        "type": "link",
+        "label": "OpenRouter 插件",
+        "href": "/docs/plugins/reference/openrouter/"
+      },
+      {
+        "type": "link",
+        "label": "Openshell 插件",
+        "href": "/docs/plugins/reference/openshell/"
+      },
+      {
+        "type": "link",
+        "label": "Perplexity 插件",
+        "href": "/docs/plugins/reference/perplexity/"
+      },
+      {
+        "type": "link",
+        "label": "QA Channel 插件",
+        "href": "/docs/plugins/reference/qa-channel/"
+      },
+      {
+        "type": "link",
+        "label": "QA Lab 插件",
+        "href": "/docs/plugins/reference/qa-lab/"
+      },
+      {
+        "type": "link",
+        "label": "QA Matrix 插件",
+        "href": "/docs/plugins/reference/qa-matrix/"
+      },
+      {
+        "type": "link",
+        "label": "Qianfan 插件",
+        "href": "/docs/plugins/reference/qianfan/"
+      },
+      {
+        "type": "link",
+        "label": "QQ Bot 插件",
+        "href": "/docs/plugins/reference/qqbot/"
+      },
+      {
+        "type": "link",
+        "label": "Qwen 插件",
+        "href": "/docs/plugins/reference/qwen/"
+      },
+      {
+        "type": "link",
+        "label": "Runway 插件",
+        "href": "/docs/plugins/reference/runway/"
+      },
+      {
+        "type": "link",
+        "label": "SearXNG 插件",
+        "href": "/docs/plugins/reference/searxng/"
+      },
+      {
+        "type": "link",
+        "label": "Senseaudio 插件",
+        "href": "/docs/plugins/reference/senseaudio/"
+      },
+      {
+        "type": "link",
+        "label": "SGLang 插件",
+        "href": "/docs/plugins/reference/sglang/"
+      },
+      {
+        "type": "link",
+        "label": "Signal 插件",
+        "href": "/docs/plugins/reference/signal/"
+      },
+      {
+        "type": "link",
+        "label": "Slack 插件",
+        "href": "/docs/plugins/reference/slack/"
+      },
+      {
+        "type": "link",
+        "label": "StepFun 插件",
+        "href": "/docs/plugins/reference/stepfun/"
+      },
+      {
+        "type": "link",
+        "label": "Synology Chat 插件",
+        "href": "/docs/plugins/reference/synology-chat/"
+      },
+      {
+        "type": "link",
+        "label": "合成插件",
+        "href": "/docs/plugins/reference/synthetic/"
+      },
+      {
+        "type": "link",
+        "label": "Tavily 插件",
+        "href": "/docs/plugins/reference/tavily/"
+      },
+      {
+        "type": "link",
+        "label": "Telegram 插件",
+        "href": "/docs/plugins/reference/telegram/"
+      },
+      {
+        "type": "link",
+        "label": "腾讯插件",
+        "href": "/docs/plugins/reference/tencent/"
+      },
+      {
+        "type": "link",
+        "label": "Tlon 插件",
+        "href": "/docs/plugins/reference/tlon/"
+      },
+      {
+        "type": "link",
+        "label": "Together 插件",
+        "href": "/docs/plugins/reference/together/"
+      },
+      {
+        "type": "link",
+        "label": "Tokenjuice 插件",
+        "href": "/docs/plugins/reference/tokenjuice/"
+      },
+      {
+        "type": "link",
+        "label": "TTS 本地 CLI 插件",
+        "href": "/docs/plugins/reference/tts-local-cli/"
+      },
+      {
+        "type": "link",
+        "label": "Twitch 插件",
+        "href": "/docs/plugins/reference/twitch/"
+      },
+      {
+        "type": "link",
+        "label": "Venice 插件",
+        "href": "/docs/plugins/reference/venice/"
+      },
+      {
+        "type": "link",
+        "label": "Vercel AI Gateway 网关插件",
+        "href": "/docs/plugins/reference/vercel-ai-gateway/"
+      },
+      {
+        "type": "link",
+        "label": "vLLM 插件",
+        "href": "/docs/plugins/reference/vllm/"
+      },
+      {
+        "type": "link",
+        "label": "语音通话插件",
+        "href": "/docs/plugins/reference/voice-call/"
+      },
+      {
+        "type": "link",
+        "label": "Volcengine 插件",
+        "href": "/docs/plugins/reference/volcengine/"
+      },
+      {
+        "type": "link",
+        "label": "Voyage 插件",
+        "href": "/docs/plugins/reference/voyage/"
+      },
+      {
+        "type": "link",
+        "label": "Vydra 插件",
+        "href": "/docs/plugins/reference/vydra/"
+      },
+      {
+        "type": "link",
+        "label": "网页可读性插件",
+        "href": "/docs/plugins/reference/web-readability/"
+      },
+      {
+        "type": "link",
+        "label": "Webhook 插件",
+        "href": "/docs/plugins/reference/webhooks/"
+      },
+      {
+        "type": "link",
+        "label": "WhatsApp 插件",
+        "href": "/docs/plugins/reference/whatsapp/"
+      },
+      {
+        "type": "link",
+        "label": "xAI 插件",
+        "href": "/docs/plugins/reference/xai/"
+      },
+      {
+        "type": "link",
+        "label": "Xiaomi 插件",
+        "href": "/docs/plugins/reference/xiaomi/"
+      },
+      {
+        "type": "link",
+        "label": "Z.AI 插件",
+        "href": "/docs/plugins/reference/zai/"
+      },
+      {
+        "type": "link",
+        "label": "Zalo 插件",
+        "href": "/docs/plugins/reference/zalo/"
+      },
+      {
+        "type": "link",
+        "label": "Zalo 个人插件",
+        "href": "/docs/plugins/reference/zalouser/"
+      },
+      {
+        "type": "link",
+        "label": "Agent harness plugins",
+        "href": "/docs/plugins/sdk-agent-harness/"
+      },
+      {
+        "type": "link",
+        "label": "频道入口 API",
+        "href": "/docs/plugins/sdk-channel-ingress/"
+      },
+      {
+        "type": "link",
+        "label": "频道消息 API",
+        "href": "/docs/plugins/sdk-channel-message/"
+      },
+      {
+        "type": "link",
+        "label": "构建渠道插件",
+        "href": "/docs/plugins/sdk-channel-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "频道轮次内核",
+        "href": "/docs/plugins/sdk-channel-turn/"
+      },
+      {
+        "type": "link",
+        "label": "插件入口点",
+        "href": "/docs/plugins/sdk-entrypoints/"
+      },
+      {
+        "type": "link",
+        "label": "插件 SDK 迁移",
+        "href": "/docs/plugins/sdk-migration/"
+      },
+      {
+        "type": "link",
+        "label": "插件 SDK 概览",
+        "href": "/docs/plugins/sdk-overview/"
+      },
+      {
+        "type": "link",
+        "label": "构建提供商插件",
+        "href": "/docs/plugins/sdk-provider-plugins/"
+      },
+      {
+        "type": "link",
+        "label": "插件运行时辅助工具",
+        "href": "/docs/plugins/sdk-runtime/"
+      },
+      {
+        "type": "link",
+        "label": "插件设置和配置",
+        "href": "/docs/plugins/sdk-setup/"
+      },
+      {
+        "type": "link",
+        "label": "插件 SDK 子路径",
+        "href": "/docs/plugins/sdk-subpaths/"
+      },
+      {
+        "type": "link",
+        "label": "插件测试",
+        "href": "/docs/plugins/sdk-testing/"
+      },
+      {
+        "type": "link",
+        "label": "语音通话插件",
+        "href": "/docs/plugins/voice-call/"
+      },
+      {
+        "type": "link",
+        "label": "网络钩子插件",
+        "href": "/docs/plugins/webhooks/"
+      },
+      {
+        "type": "link",
+        "label": "Zalo 个人插件",
+        "href": "/docs/plugins/zalouser/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "prose",
+    "items": [
+      {
+        "type": "link",
+        "label": "OpenProse",
+        "href": "/docs/prose/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "providers",
+    "items": [
+      {
+        "type": "link",
+        "label": "提供商目录",
+        "href": "/docs/providers/"
+      },
+      {
+        "type": "link",
+        "label": "Alibaba Model Studio",
+        "href": "/docs/providers/alibaba/"
+      },
+      {
+        "type": "link",
+        "label": "Anthropic",
+        "href": "/docs/providers/anthropic/"
+      },
+      {
+        "type": "link",
+        "label": "Arcee AI",
+        "href": "/docs/providers/arcee/"
+      },
+      {
+        "type": "link",
+        "label": "Azure Speech",
+        "href": "/docs/providers/azure-speech/"
+      },
+      {
+        "type": "link",
+        "label": "Amazon Bedrock Mantle",
+        "href": "/docs/providers/bedrock-mantle/"
+      },
+      {
+        "type": "link",
+        "label": "Amazon Bedrock",
+        "href": "/docs/providers/bedrock/"
+      },
+      {
+        "type": "link",
+        "label": "Cerebras",
+        "href": "/docs/providers/cerebras/"
+      },
+      {
+        "type": "link",
+        "label": "Chutes",
+        "href": "/docs/providers/chutes/"
+      },
+      {
+        "type": "link",
+        "label": "Claude Max API 代理",
+        "href": "/docs/providers/claude-max-api-proxy/"
+      },
+      {
+        "type": "link",
+        "label": "Cloudflare AI Gateway",
+        "href": "/docs/providers/cloudflare-ai-gateway/"
+      },
+      {
+        "type": "link",
+        "label": "ComfyUI",
+        "href": "/docs/providers/comfy/"
+      },
+      {
+        "type": "link",
+        "label": "Deepgram",
+        "href": "/docs/providers/deepgram/"
+      },
+      {
+        "type": "link",
+        "label": "DeepInfra",
+        "href": "/docs/providers/deepinfra/"
+      },
+      {
+        "type": "link",
+        "label": "DeepSeek",
+        "href": "/docs/providers/deepseek/"
+      },
+      {
+        "type": "link",
+        "label": "ElevenLabs",
+        "href": "/docs/providers/elevenlabs/"
+      },
+      {
+        "type": "link",
+        "label": "Fal",
+        "href": "/docs/providers/fal/"
+      },
+      {
+        "type": "link",
+        "label": "烟花",
+        "href": "/docs/providers/fireworks/"
+      },
+      {
+        "type": "link",
+        "label": "GitHub Copilot",
+        "href": "/docs/providers/github-copilot/"
+      },
+      {
+        "type": "link",
+        "label": "Google (Gemini)",
+        "href": "/docs/providers/google/"
+      },
+      {
+        "type": "link",
+        "label": "Gradium",
+        "href": "/docs/providers/gradium/"
+      },
+      {
+        "type": "link",
+        "label": "Groq",
+        "href": "/docs/providers/groq/"
+      },
+      {
+        "type": "link",
+        "label": "Hugging Face（推理）",
+        "href": "/docs/providers/huggingface/"
+      },
+      {
+        "type": "link",
+        "label": "推断",
+        "href": "/docs/providers/inferrs/"
+      },
+      {
+        "type": "link",
+        "label": "Inworld",
+        "href": "/docs/providers/inworld/"
+      },
+      {
+        "type": "link",
+        "label": "Kilo Gateway 网关",
+        "href": "/docs/providers/kilocode/"
+      },
+      {
+        "type": "link",
+        "label": "LiteLLM",
+        "href": "/docs/providers/litellm/"
+      },
+      {
+        "type": "link",
+        "label": "LM Studio",
+        "href": "/docs/providers/lmstudio/"
+      },
+      {
+        "type": "link",
+        "label": "MiniMax",
+        "href": "/docs/providers/minimax/"
+      },
+      {
+        "type": "link",
+        "label": "Mistral",
+        "href": "/docs/providers/mistral/"
+      },
+      {
+        "type": "link",
+        "label": "模型提供商快速开始",
+        "href": "/docs/providers/models/"
+      },
+      {
+        "type": "link",
+        "label": "Moonshot AI",
+        "href": "/docs/providers/moonshot/"
+      },
+      {
+        "type": "link",
+        "label": "NVIDIA",
+        "href": "/docs/providers/nvidia/"
+      },
+      {
+        "type": "link",
+        "label": "Ollama",
+        "href": "/docs/providers/ollama/"
+      },
+      {
+        "type": "link",
+        "label": "OpenAI",
+        "href": "/docs/providers/openai/"
+      },
+      {
+        "type": "link",
+        "label": "OpenCode Go",
+        "href": "/docs/providers/opencode-go/"
+      },
+      {
+        "type": "link",
+        "label": "OpenCode",
+        "href": "/docs/providers/opencode/"
+      },
+      {
+        "type": "link",
+        "label": "OpenRouter",
+        "href": "/docs/providers/openrouter/"
+      },
+      {
+        "type": "link",
+        "label": "Perplexity",
+        "href": "/docs/providers/perplexity-provider/"
+      },
+      {
+        "type": "link",
+        "label": "千帆",
+        "href": "/docs/providers/qianfan/"
+      },
+      {
+        "type": "link",
+        "label": "Qwen",
+        "href": "/docs/providers/qwen/"
+      },
+      {
+        "type": "link",
+        "label": "跑道",
+        "href": "/docs/providers/runway/"
+      },
+      {
+        "type": "link",
+        "label": "SenseAudio",
+        "href": "/docs/providers/senseaudio/"
+      },
+      {
+        "type": "link",
+        "label": "SGLang",
+        "href": "/docs/providers/sglang/"
+      },
+      {
+        "type": "link",
+        "label": "StepFun",
+        "href": "/docs/providers/stepfun/"
+      },
+      {
+        "type": "link",
+        "label": "Synthetic",
+        "href": "/docs/providers/synthetic/"
+      },
+      {
+        "type": "link",
+        "label": "腾讯云（TokenHub）",
+        "href": "/docs/providers/tencent/"
+      },
+      {
+        "type": "link",
+        "label": "Together AI",
+        "href": "/docs/providers/together/"
+      },
+      {
+        "type": "link",
+        "label": "Venice AI",
+        "href": "/docs/providers/venice/"
+      },
+      {
+        "type": "link",
+        "label": "Vercel AI 网关",
+        "href": "/docs/providers/vercel-ai-gateway/"
+      },
+      {
+        "type": "link",
+        "label": "vLLM",
+        "href": "/docs/providers/vllm/"
+      },
+      {
+        "type": "link",
+        "label": "火山引擎（Doubao）",
+        "href": "/docs/providers/volcengine/"
+      },
+      {
+        "type": "link",
+        "label": "Vydra",
+        "href": "/docs/providers/vydra/"
+      },
+      {
+        "type": "link",
+        "label": "xAI",
+        "href": "/docs/providers/xai/"
+      },
+      {
+        "type": "link",
+        "label": "Xiaomi MiMo",
+        "href": "/docs/providers/xiaomi/"
+      },
+      {
+        "type": "link",
+        "label": "Z.AI",
+        "href": "/docs/providers/zai/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "reference",
+    "items": [
+      {
+        "type": "link",
+        "label": "默认 AGENTS.md",
+        "href": "/docs/reference/AGENTS.default/"
+      },
+      {
+        "type": "link",
+        "label": "发布策略",
+        "href": "/docs/reference/RELEASING/"
+      },
+      {
+        "type": "link",
+        "label": "API 使用量和费用",
+        "href": "/docs/reference/api-usage-costs/"
+      },
+      {
+        "type": "link",
+        "label": "应用现代化计划",
+        "href": "/docs/reference/application-modernization-plan/"
+      },
+      {
+        "type": "link",
+        "label": "致谢",
+        "href": "/docs/reference/credits/"
+      },
+      {
+        "type": "link",
+        "label": "设备型号数据库",
+        "href": "/docs/reference/device-models/"
+      },
+      {
+        "type": "link",
+        "label": "完整发布验证",
+        "href": "/docs/reference/full-release-validation/"
+      },
+      {
+        "type": "link",
+        "label": "记忆配置参考",
+        "href": "/docs/reference/memory-config/"
+      },
+      {
+        "type": "link",
+        "label": "提示词缓存",
+        "href": "/docs/reference/prompt-caching/"
+      },
+      {
+        "type": "link",
+        "label": "富输出协议",
+        "href": "/docs/reference/rich-output-protocol/"
+      },
+      {
+        "type": "link",
+        "label": "RPC 适配器",
+        "href": "/docs/reference/rpc/"
+      },
+      {
+        "type": "link",
+        "label": "SecretRef 凭证接口",
+        "href": "/docs/reference/secretref-credential-surface/"
+      },
+      {
+        "type": "link",
+        "label": "会话管理深入解析",
+        "href": "/docs/reference/session-management-compaction/"
+      },
+      {
+        "type": "link",
+        "label": "AGENTS.dev 模板",
+        "href": "/docs/reference/templates/AGENTS.dev/"
+      },
+      {
+        "type": "link",
+        "label": "BOOT.md 模板",
+        "href": "/docs/reference/templates/BOOT/"
+      },
+      {
+        "type": "link",
+        "label": "BOOTSTRAP.md 模板",
+        "href": "/docs/reference/templates/BOOTSTRAP/"
+      },
+      {
+        "type": "link",
+        "label": "AGENTS.md 模板",
+        "href": "/docs/reference/templates/CLAUDE/"
+      },
+      {
+        "type": "link",
+        "label": "HEARTBEAT.md 模板",
+        "href": "/docs/reference/templates/HEARTBEAT/"
+      },
+      {
+        "type": "link",
+        "label": "IDENTITY.dev 模板",
+        "href": "/docs/reference/templates/IDENTITY.dev/"
+      },
+      {
+        "type": "link",
+        "label": "IDENTITY 模板",
+        "href": "/docs/reference/templates/IDENTITY/"
+      },
+      {
+        "type": "link",
+        "label": "SOUL.dev 模板",
+        "href": "/docs/reference/templates/SOUL.dev/"
+      },
+      {
+        "type": "link",
+        "label": "SOUL.md 模板",
+        "href": "/docs/reference/templates/SOUL/"
+      },
+      {
+        "type": "link",
+        "label": "`TOOLS.dev` 模板",
+        "href": "/docs/reference/templates/TOOLS.dev/"
+      },
+      {
+        "type": "link",
+        "label": "TOOLS.md 模板",
+        "href": "/docs/reference/templates/TOOLS/"
+      },
+      {
+        "type": "link",
+        "label": "USER.dev 模板",
+        "href": "/docs/reference/templates/USER.dev/"
+      },
+      {
+        "type": "link",
+        "label": "`USER` 模板",
+        "href": "/docs/reference/templates/USER/"
+      },
+      {
+        "type": "link",
+        "label": "测试",
+        "href": "/docs/reference/test/"
+      },
+      {
+        "type": "link",
+        "label": "Token 用量和费用",
+        "href": "/docs/reference/token-use/"
+      },
+      {
+        "type": "link",
+        "label": "会话记录整理",
+        "href": "/docs/reference/transcript-hygiene/"
+      },
+      {
+        "type": "link",
+        "label": "新手引导参考",
+        "href": "/docs/reference/wizard/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "security",
+    "items": [
+      {
+        "type": "link",
+        "label": "为威胁模型做贡献",
+        "href": "/docs/security/CONTRIBUTING-THREAT-MODEL/"
+      },
+      {
+        "type": "link",
+        "label": "威胁模型（MITRE ATLAS）",
+        "href": "/docs/security/THREAT-MODEL-ATLAS/"
+      },
+      {
+        "type": "link",
+        "label": "形式化验证（安全模型）",
+        "href": "/docs/security/formal-verification/"
+      },
+      {
+        "type": "link",
+        "label": "事件响应",
+        "href": "/docs/security/incident-response/"
+      },
+      {
+        "type": "link",
+        "label": "网络代理",
+        "href": "/docs/security/network-proxy/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "start",
+    "items": [
+      {
+        "type": "link",
+        "label": "智能体启动引导",
+        "href": "/docs/start/bootstrapping/"
+      },
+      {
+        "type": "link",
+        "label": "文档目录",
+        "href": "/docs/start/docs-directory/"
+      },
+      {
+        "type": "link",
+        "label": "入门指南",
+        "href": "/docs/start/getting-started/"
+      },
+      {
+        "type": "link",
+        "label": "文档中心",
+        "href": "/docs/start/hubs/"
+      },
+      {
+        "type": "link",
+        "label": "OpenClaw 世界观",
+        "href": "/docs/start/lore/"
+      },
+      {
+        "type": "link",
+        "label": "新手引导概览",
+        "href": "/docs/start/onboarding-overview/"
+      },
+      {
+        "type": "link",
+        "label": "新手引导（macOS 应用）",
+        "href": "/docs/start/onboarding/"
+      },
+      {
+        "type": "link",
+        "label": "个人助理设置",
+        "href": "/docs/start/openclaw/"
+      },
+      {
+        "type": "link",
+        "label": "快速开始",
+        "href": "/docs/start/quickstart/"
+      },
+      {
+        "type": "link",
+        "label": "设置",
+        "href": "/docs/start/setup/"
+      },
+      {
+        "type": "link",
+        "label": "展示专区",
+        "href": "/docs/start/showcase/"
+      },
+      {
+        "type": "link",
+        "label": "CLI 自动化",
+        "href": "/docs/start/wizard-cli-automation/"
+      },
+      {
+        "type": "link",
+        "label": "CLI 设置参考",
+        "href": "/docs/start/wizard-cli-reference/"
+      },
+      {
+        "type": "link",
+        "label": "新手引导（CLI）",
+        "href": "/docs/start/wizard/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "tools",
+    "items": [
+      {
+        "type": "link",
+        "label": "概览",
+        "href": "/docs/tools/"
+      },
+      {
+        "type": "link",
+        "label": "ACP Agents 设置",
+        "href": "/docs/tools/acp-agents-setup/"
+      },
+      {
+        "type": "link",
+        "label": "ACP 智能体",
+        "href": "/docs/tools/acp-agents/"
+      },
+      {
+        "type": "link",
+        "label": "智能体发送",
+        "href": "/docs/tools/agent-send/"
+      },
+      {
+        "type": "link",
+        "label": "apply_patch 工具",
+        "href": "/docs/tools/apply-patch/"
+      },
+      {
+        "type": "link",
+        "label": "Brave 搜索",
+        "href": "/docs/tools/brave-search/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器控制 API",
+        "href": "/docs/tools/browser-control/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器故障排除",
+        "href": "/docs/tools/browser-linux-troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器登录",
+        "href": "/docs/tools/browser-login/"
+      },
+      {
+        "type": "link",
+        "label": "WSL2 + Windows + 远程 Chrome CDP 故障排除",
+        "href": "/docs/tools/browser-wsl2-windows-remote-cdp-troubleshooting/"
+      },
+      {
+        "type": "link",
+        "label": "浏览器（由 OpenClaw 管理）",
+        "href": "/docs/tools/browser/"
+      },
+      {
+        "type": "link",
+        "label": "顺便问几个附带问题",
+        "href": "/docs/tools/btw/"
+      },
+      {
+        "type": "link",
+        "label": "添加能力（重定向）",
+        "href": "/docs/tools/capability-cookbook/"
+      },
+      {
+        "type": "link",
+        "label": "ClawHub（重定向）",
+        "href": "/docs/tools/clawhub/"
+      },
+      {
+        "type": "link",
+        "label": "代码执行",
+        "href": "/docs/tools/code-execution/"
+      },
+      {
+        "type": "link",
+        "label": "创建技能",
+        "href": "/docs/tools/creating-skills/"
+      },
+      {
+        "type": "link",
+        "label": "Diffs",
+        "href": "/docs/tools/diffs/"
+      },
+      {
+        "type": "link",
+        "label": "DuckDuckGo 搜索",
+        "href": "/docs/tools/duckduckgo-search/"
+      },
+      {
+        "type": "link",
+        "label": "提升权限模式",
+        "href": "/docs/tools/elevated/"
+      },
+      {
+        "type": "link",
+        "label": "Exa 搜索",
+        "href": "/docs/tools/exa-search/"
+      },
+      {
+        "type": "link",
+        "label": "执行审批 — 高级",
+        "href": "/docs/tools/exec-approvals-advanced/"
+      },
+      {
+        "type": "link",
+        "label": "Exec 审批",
+        "href": "/docs/tools/exec-approvals/"
+      },
+      {
+        "type": "link",
+        "label": "Exec 工具",
+        "href": "/docs/tools/exec/"
+      },
+      {
+        "type": "link",
+        "label": "Firecrawl",
+        "href": "/docs/tools/firecrawl/"
+      },
+      {
+        "type": "link",
+        "label": "Gemini 搜索",
+        "href": "/docs/tools/gemini-search/"
+      },
+      {
+        "type": "link",
+        "label": "Grok 搜索",
+        "href": "/docs/tools/grok-search/"
+      },
+      {
+        "type": "link",
+        "label": "图像生成",
+        "href": "/docs/tools/image-generation/"
+      },
+      {
+        "type": "link",
+        "label": "Kimi 搜索",
+        "href": "/docs/tools/kimi-search/"
+      },
+      {
+        "type": "link",
+        "label": "LLM 任务",
+        "href": "/docs/tools/llm-task/"
+      },
+      {
+        "type": "link",
+        "label": "龙虾",
+        "href": "/docs/tools/lobster/"
+      },
+      {
+        "type": "link",
+        "label": "工具循环检测",
+        "href": "/docs/tools/loop-detection/"
+      },
+      {
+        "type": "link",
+        "label": "媒体概览",
+        "href": "/docs/tools/media-overview/"
+      },
+      {
+        "type": "link",
+        "label": "MiniMax 搜索",
+        "href": "/docs/tools/minimax-search/"
+      },
+      {
+        "type": "link",
+        "label": "多 Agent 沙盒和工具",
+        "href": "/docs/tools/multi-agent-sandbox-tools/"
+      },
+      {
+        "type": "link",
+        "label": "音乐生成",
+        "href": "/docs/tools/music-generation/"
+      },
+      {
+        "type": "link",
+        "label": "Ollama Web 搜索",
+        "href": "/docs/tools/ollama-search/"
+      },
+      {
+        "type": "link",
+        "label": "PDF 工具",
+        "href": "/docs/tools/pdf/"
+      },
+      {
+        "type": "link",
+        "label": "Perplexity 搜索",
+        "href": "/docs/tools/perplexity-search/"
+      },
+      {
+        "type": "link",
+        "label": "插件",
+        "href": "/docs/tools/plugin/"
+      },
+      {
+        "type": "link",
+        "label": "表情回应",
+        "href": "/docs/tools/reactions/"
+      },
+      {
+        "type": "link",
+        "label": "SearXNG 搜索",
+        "href": "/docs/tools/searxng-search/"
+      },
+      {
+        "type": "link",
+        "label": "Skills 配置",
+        "href": "/docs/tools/skills-config/"
+      },
+      {
+        "type": "link",
+        "label": "Skills",
+        "href": "/docs/tools/skills/"
+      },
+      {
+        "type": "link",
+        "label": "斜杠命令",
+        "href": "/docs/tools/slash-commands/"
+      },
+      {
+        "type": "link",
+        "label": "Steer",
+        "href": "/docs/tools/steer/"
+      },
+      {
+        "type": "link",
+        "label": "子智能体",
+        "href": "/docs/tools/subagents/"
+      },
+      {
+        "type": "link",
+        "label": "Tavily",
+        "href": "/docs/tools/tavily/"
+      },
+      {
+        "type": "link",
+        "label": "思考级别",
+        "href": "/docs/tools/thinking/"
+      },
+      {
+        "type": "link",
+        "label": "Tokenjuice",
+        "href": "/docs/tools/tokenjuice/"
+      },
+      {
+        "type": "link",
+        "label": "工具搜索",
+        "href": "/docs/tools/tool-search/"
+      },
+      {
+        "type": "link",
+        "label": "轨迹包",
+        "href": "/docs/tools/trajectory/"
+      },
+      {
+        "type": "link",
+        "label": "文本转语音",
+        "href": "/docs/tools/tts/"
+      },
+      {
+        "type": "link",
+        "label": "视频生成",
+        "href": "/docs/tools/video-generation/"
+      },
+      {
+        "type": "link",
+        "label": "网页获取",
+        "href": "/docs/tools/web-fetch/"
+      },
+      {
+        "type": "link",
+        "label": "Web 搜索",
+        "href": "/docs/tools/web/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "tts",
+    "items": [
+      {
+        "type": "link",
+        "label": "文本转语音",
+        "href": "/docs/tts/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "vps",
+    "items": [
+      {
+        "type": "link",
+        "label": "Linux 服务器",
+        "href": "/docs/vps/"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "web",
+    "items": [
+      {
+        "type": "link",
+        "label": "Web",
+        "href": "/docs/web/"
+      },
+      {
+        "type": "link",
+        "label": "控制界面",
+        "href": "/docs/web/control-ui/"
+      },
+      {
+        "type": "link",
+        "label": "仪表盘",
+        "href": "/docs/web/dashboard/"
+      },
+      {
+        "type": "link",
+        "label": "终端用户界面",
+        "href": "/docs/web/tui/"
+      },
+      {
+        "type": "link",
+        "label": "网页聊天",
+        "href": "/docs/web/webchat/"
+      }
+    ]
+  }
+]

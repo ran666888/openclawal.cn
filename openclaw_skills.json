@@ -1,0 +1,287 @@
+[
+  {
+    "cat": "效率工具",
+    "name": "1password",
+    "desc": "配置和使用 1Password CLI，管理登录、桌面集成和密钥读写。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "apple-notes",
+    "desc": "通过 macOS 上的 memo CLI 管理 Apple 备忘录。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "apple-reminders",
+    "desc": "管理 Apple 提醒事项，支持列出、添加、编辑、完成和删除。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "bear-notes",
+    "desc": "通过 grizzly CLI 创建、搜索和管理 Bear 笔记。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "blogwatcher",
+    "desc": "监控博客和 RSS/Atom 订阅源更新。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "blucli",
+    "desc": "BluOS CLI 控制音箱设备的发现、播放、分组和音量。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "camsnap",
+    "desc": "从 RTSP/ONVIF 摄像头抽取帧或片段。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "canvas",
+    "desc": "在连接的 OpenClaw 节点画布上展示 HTML，支持导航、执行和调试。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "clawhub",
+    "desc": "通过 ClawHub CLI 搜索、安装、更新、同步或发布 Agent 技能。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "coding-agent",
+    "desc": "Delegate coding work to Codex, Claude Code, or OpenCode as background workers; not simple edits or read-only code lookup."
+  },
+  {
+    "cat": "开发工具",
+    "name": "diagram-maker",
+    "desc": "创建 SVG/HTML 或 Excalidraw 图表，用于概念说明、架构图、流程图。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "discord",
+    "desc": "Discord 消息操作：发送、读取、编辑、删除、反应、投票、固定、回复、搜索等。"
+  },
+  {
+    "cat": "智能家居",
+    "name": "eightctl",
+    "desc": "控制 Eight Sleep 智能床垫（状态、温度、闹钟、定时）。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "gemini",
+    "desc": "Gemini CLI 单次提示、摘要、生成、技能、钩子、MCP 或 Gemma 路由。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "gh-issues",
+    "desc": "Fetch GitHub issues, select candidates, spawn background fix agents, open PRs, and optionally process PR review comments."
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "gifgrep",
+    "desc": "通过 CLI/TUI 搜索 GIF，下载结果并提取静态帧。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "github",
+    "desc": "GitHub CLI 管理 Issue、PR、CI 日志、评论、审查、发布和仓库。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "gog",
+    "desc": "Google Workspace CLI 管理 Gmail、日历、云端硬盘、联系人、表格和文档。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "goplaces",
+    "desc": "查询 Google Places，支持文本搜索、地点详情、解析、评论和 JSON 输出。"
+  },
+  {
+    "cat": "系统运维",
+    "name": "healthcheck",
+    "desc": "审计和加固 OpenClaw 主机：SSH、防火墙、更新、暴露面、备份、磁盘加密、网关安全。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "himalaya",
+    "desc": "Himalaya CLI 管理 IMAP/SMTP 邮件：列出、阅读、搜索、撰写、回复、转发、复制、移动、删除。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "imsg",
+    "desc": "iMessage/SMS CLI 查看聊天列表、历史记录和发送消息。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "mcporter",
+    "desc": "管理、配置、认证和调用 MCP 服务器/工具，支持 HTTP 或 stdio。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "meme-maker",
+    "desc": "搜索表情包模板，建议格式，生成本地或在线表情包。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "model-usage",
+    "desc": "汇总 CodexBar 本地费用日志，按模型统计 Codex 或 Claude 的消耗。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "nano-pdf",
+    "desc": "通过自然语言指令编辑 PDF。"
+  },
+  {
+    "cat": "系统运维",
+    "name": "node-connect",
+    "desc": "Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures."
+  },
+  {
+    "cat": "开发工具",
+    "name": "node-inspect-debugger",
+    "desc": "调试 Node.js，支持 node inspect、断点、CDP、堆快照和 CPU 分析。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "notion",
+    "desc": "Notion CLI/API 管理页面、Markdown 内容、数据源、文件、评论和搜索。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "obsidian",
+    "desc": "Work with Obsidian vaults using the official obsidian CLI: read/search/create/edit notes, tasks, links, properties, plugins."
+  },
+  {
+    "cat": "AI 助手",
+    "name": "openai-whisper",
+    "desc": "本地 Whisper CLI 语音转文字，无需 API Key。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "openai-whisper-api",
+    "desc": "调用 OpenAI 音频转录 API，支持 gpt-4o-transcribe 等模型。"
+  },
+  {
+    "cat": "智能家居",
+    "name": "openhue",
+    "desc": "通过 OpenHue CLI 控制 Philips Hue 灯具和场景。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "oracle",
+    "desc": "Oracle CLI second-model review/debug/refactor/design with selected files, dry-run token checks, API or browser engine."
+  },
+  {
+    "cat": "效率工具",
+    "name": "ordercli",
+    "desc": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP)."
+  },
+  {
+    "cat": "系统运维",
+    "name": "peekaboo",
+    "desc": "使用 Peekaboo CLI 捕获和自动化 macOS 界面。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "python-debugpy",
+    "desc": "调试 Python，支持 pdb、断点、事后检查和 debugpy 远程附加。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "sag",
+    "desc": "ElevenLabs 文字转语音，macOS say 风格体验。"
+  },
+  {
+    "cat": "系统运维",
+    "name": "session-logs",
+    "desc": "使用 jq 搜索和分析自己的会话日志（历史对话）。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "sherpa-onnx-tts",
+    "desc": "通过 sherpa-onnx 本地文字转语音，离线运行，无需云端。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "skill-creator",
+    "desc": "创建、编辑、审计、整理、验证或重构 AgentSkills 和 SKILL.md 文件。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "slack",
+    "desc": "Slack 工具操作：发送、读取、编辑、删除消息，反应，固定，查看成员信息。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "songsee",
+    "desc": "从音频生成频谱图和特征可视化。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "sonoscli",
+    "desc": "控制 Sonos 音箱（发现、状态、播放、音量、分组）。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "spike",
+    "desc": "运行快速原型验证可行性，对比方案并报告结论。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "spotify-player",
+    "desc": "终端 Spotify 播放/搜索，优先使用 spogo。"
+  },
+  {
+    "cat": "AI 助手",
+    "name": "summarize",
+    "desc": "摘要或转录 URL、YouTube 视频、播客、文章、PDF 和本地文件。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "taskflow",
+    "desc": "Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks."
+  },
+  {
+    "cat": "开发工具",
+    "name": "taskflow-inbox-triage",
+    "desc": "TaskFlow 示例：收件箱分类、意图路由、等待回复和后续摘要。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "things-mac",
+    "desc": "管理 Things 3 待办事项：添加、更新、列出、搜索和检查。"
+  },
+  {
+    "cat": "开发工具",
+    "name": "tmux",
+    "desc": "控制 tmux 会话/窗格：列出、捕获输出、发送按键、粘贴文本。"
+  },
+  {
+    "cat": "效率工具",
+    "name": "trello",
+    "desc": "通过 Trello REST API 管理看板、列表和卡片。"
+  },
+  {
+    "cat": "媒体与创意",
+    "name": "video-frames",
+    "desc": "使用 ffmpeg 从视频提取帧或短片段。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "voice-call",
+    "desc": "通过 OpenClaw 语音通话插件发起语音通话。"
+  },
+  {
+    "cat": "通信与消息",
+    "name": "wacli",
+    "desc": "Send third-party WhatsApp messages or sync/search WhatsApp history via wacli, not normal active chats."
+  },
+  {
+    "cat": "效率工具",
+    "name": "weather",
+    "desc": "Current weather and forecasts with web_fetch, falling back to wttr.in curl for locations, rain, temperature, travel planning."
+  },
+  {
+    "cat": "通信与消息",
+    "name": "xurl",
+    "desc": "xurl CLI 管理 X/Twitter：发帖、回复、搜索、私信、媒体上传和 API 调用。"
+  }
+]

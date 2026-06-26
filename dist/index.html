@@ -1,117 +1,902 @@
 <!doctype html>
+
+
+
 <html lang="zh-CN" dir="ltr" class="plugin-pages plugin-id-default" data-has-hydrated="false">
+
+
+
 <head>
+
+
+
 <meta charset="UTF-8">
+
+
+
 <meta name="generator" content="Docusaurus v3.9.2">
+
+
+
 <title data-rh="true">OpenClaw 中文文档、安装教程与社区 | OpenClaw 中文社区</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:locale:alternate" content="zh_Hant"><meta data-rh="true" property="og:locale:alternate" content="en_US"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:locale" content="zh_CN"><meta data-rh="true" name="baidu-site-verification" content="codeva-wpmbn5jeN3"><meta data-rh="true" name="sogou_site_verification" content="51wZeFa2xc"><meta data-rh="true" name="bytedance-verification-code" content="T5/mFzwle+JzGgxxzASu"><meta data-rh="true" name="description" content="OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。"><meta data-rh="true" name="c58347c5658945c6145ea729b78cafb9236debfb" content="c58347c5658945c6145ea729b78cafb9236debfb"><meta data-rh="true" name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><meta data-rh="true" name="keywords" content="OpenClaw, OpenClaw 中文, OpenClaw 中文文档, OpenClaw 安装教程, OpenClaw 自托管, OpenClaw Windows, OpenClaw WSL2, 开源 AI Agent, AI Agent, MCP, 长期记忆, 技能系统, 飞书, 企业微信, 钉钉, QQ, Discord, 微信 Agent"><meta data-rh="true" property="og:url" content="https://openclaw.cn/"><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:title" content="OpenClaw 中文文档、安装教程与社区"><meta data-rh="true" property="og:description" content="OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。"><meta data-rh="true" property="og:image" content="https://openclaw.cn/img/openclaw-og.svg"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:title" content="OpenClaw 中文文档、安装教程与社区"><meta data-rh="true" name="twitter:description" content="OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。"><meta data-rh="true" name="twitter:image" content="https://openclaw.cn/img/openclaw-og.svg"><link data-rh="true" rel="icon" href="/img/favicon.svg?v=20260608-logo"><link data-rh="true" rel="alternate" href="https://openclaw.cn/" hreflang="zh-CN"><link data-rh="true" rel="alternate" href="https://openclaw.cn/zh-Hant/" hreflang="zh-Hant"><link data-rh="true" rel="alternate" href="https://openclaw.cn/en/" hreflang="en-US"><link data-rh="true" rel="alternate" href="https://openclaw.cn/" hreflang="x-default"><link data-rh="true" rel="canonical" href="https://openclaw.cn/"><script data-rh="true">function insertBanner(){var n=document.createElement("div");n.id="__docusaurus-base-url-issue-banner-container";n.innerHTML='\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(252, 229, 221); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n',document.body.prepend(n);var e=document.getElementById("__docusaurus-base-url-issue-banner-suggestion-container"),s=window.location.pathname,o="/"===s.substr(-1)?s:s+"/";e.innerHTML=o}document.addEventListener("DOMContentLoaded",function(){void 0===window.docusaurus&&insertBanner()})</script><link rel="preconnect" href="https://www.google-analytics.com">
+
+
+
 <link rel="preconnect" href="https://www.googletagmanager.com">
+
+
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+
+
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-XXXXXXXXXX",{anonymize_ip:!0})</script>
 
 
 
-<script>!function(){try{var e="hermes-banner-dismissed-until",t=localStorage.getItem(e);if(!t)return;var n=parseInt(t,10);if(isNaN(n)||n<=Date.now())return void localStorage.removeItem(e);var a=document.createElement("style");a.setAttribute("data-banner-dismiss","1"),a.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(a)}catch(e){}}()</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>!function(){try{var e="openclaw-banner-dismissed-until",t=localStorage.getItem(e);if(!t)return;var n=parseInt(t,10);if(isNaN(n)||n<=Date.now())return void localStorage.removeItem(e);var a=document.createElement("style");a.setAttribute("data-banner-dismiss","1"),a.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(a)}catch(e){}}()</script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png?v=20260608-logo">
+
+
+
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg?v=20260608-logo">
+
+
+
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=20260608-logo">
+
+
+
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png?v=20260608-logo">
+
+
+
 <link rel="shortcut icon" href="/favicon.ico?v=20260608-logo">
+
+
+
 <link rel="manifest" href="/site.webmanifest?v=20260608-logo">
-<meta name="theme-color" content="#2a2520">
+
+
+
+<meta name="theme-color" content="#041c1c">
+
+
+
 <meta name="application-name" content="OpenClaw 中文社区">
+
+
+
 <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
 <meta name="apple-mobile-web-app-title" content="OpenClaw 中文社区">
+
+
+
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="msapplication-TileColor" content="#2a2520">
+
+
+
+<meta name="msapplication-TileColor" content="#041c1c">
+
+
+
 <meta name="bytedance-verification-code" content="T5/mFzwle+JzGgxxzASu">
+
+
+
 <meta name="sogou_site_verification" content="51wZeFa2xc">
+
+
+
 <meta name="baidu-site-verification" content="codeva-wpmbn5jeN3">
-<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" async crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/styles.5c1b7790.css">
+
+
+
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" async crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/styles.5c1b7790.css?v=2">
+
+
+
 <script src="/assets/js/runtime~main.a183f9fb.js" defer="defer"></script>
+
+
+
 <script src="/assets/js/main.68955185.js" defer="defer"></script>
+
+
+
 <!-- ai-structured-data -->
+
+
+
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://openclaw.cn/#organization","@type":"Organization","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","logo":"https://openclaw.cn/img/logo.png","sameAs":["https://github.com/openclaw/openclaw","https://discord.gg/NousResearch"]},{"@id":"https://openclaw.cn/#website","@type":"WebSite","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","inLanguage":"zh-CN","description":"OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。","publisher":{"@id":"https://openclaw.cn/#organization"}},{"@id":"https://openclaw.cn/#webpage","@type":"WebPage","name":"OpenClaw 中文文档、Windows 安装教程与社区","url":"https://openclaw.cn/","description":"OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。","inLanguage":"zh-CN","isPartOf":{"@id":"https://openclaw.cn/#website"},"about":{"@id":"https://openclaw.cn/#software"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://openclaw.cn/img/openclaw-og.svg"}},{"@id":"https://openclaw.cn/#software","@type":"SoftwareApplication","name":"OpenClaw","applicationCategory":"DeveloperApplication","operatingSystem":"Windows, WSL2, Linux, macOS, Docker, VPS","description":"本地运行，隐私优先，支持长期记忆、Skills、MCP、消息网关、多平台接入与自动化任务。","author":{"@type":"Organization","name":"OpenClaw","url":"https://openclaw.ai"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","softwareHelp":"https://openclaw.cn/docs/getting-started/quickstart","downloadUrl":"https://github.com/openclaw/openclaw"},{"@id":"https://openclaw.cn/#breadcrumbs","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://openclaw.cn/"}]},{"@id":"https://openclaw.cn/#faq","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"OpenClaw 是什么？","acceptedAnswer":{"@type":"Answer","text":"OpenClaw 是一个开源、自托管、支持持久记忆，技能生态 的 AI Agent。它既能在终端中完成复杂任务，也能通过消息网关在 Telegram、Discord、Slack、微信等平台上持续工作。"}},{"@type":"Question","name":"它和 IDE 里的 AI 助手有什么区别？","acceptedAnswer":{"@type":"Answer","text":"OpenClaw 是一个自托管的 AI Gateway，连接你的聊天应用与 AI Agent。它不绑定任何 IDE，支持 Discord、iMessage、Signal、Slack、Telegram、WhatsApp 等多平台，一个 Gateway 进程同时服务多个渠道。"}},{"@type":"Question","name":"中文用户应该从哪里开始？","acceptedAnswer":{"@type":"Answer","text":"建议先阅读中文安装教程与快速开始；如果你使用的是 Windows，请优先阅读 Windows 安装指南，再根据场景配置模型、工具和消息网关。"}}]}]}</script>
-</head>
+
+
+
+<style>:root{--code-block:rgba(26,24,23,.4);--code-border:rgba(255,255,255,.08)}</style></head>
+
+
+
 <body class="navigation-with-keyboard">
+
+
+
 <svg style="display: none;"><defs>
+
+
+
 <symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+
+
+
 </defs></svg>
+
+
+
 <script>document.documentElement.setAttribute("data-theme","dark"),document.documentElement.setAttribute("data-theme-choice","dark"),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.png?v=20260608-logo"><link rel="preload" as="image" href="/img/banner/deepseek.png"><link rel="preload" as="image" href="/img/banner/minimax.png"><link rel="preload" as="image" href="/img/banner/kimi.png"><link rel="preload" as="image" href="/img/community/wechat-qr.jpg?v=20260611-wechat-qr-13"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_E_5w" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><div class="theme-announcement-bar announcementBar_mQZt" role="banner"><div class="content_shRJ announcementBarContent_YvQx">
+
+
+
   <div class="oc-announcement-track" data-slide-count="1">
-    <div class="oc-announcement-slide">
-    <a class="oc-announcement-link" href="https://passport.compshare.cn/register?referral_code=K50gMvv85OmEJ5T9ZDUtDE&ytag=GPU_YY_YX_openclaw.cn" target="_blank" rel="noopener noreferrer sponsored">
+
+
+
+    <div class="oc-announcement-slide" style="display:flex;flex-direction:row;align-items:center">
+
+
+
+    <a class="oc-announcement-link" href="https://passport.compshare.cn/register?referral_code=HdzDF41Ry3BGN49EFalbN4" target="_blank" rel="noopener noreferrer sponsored">
+
+
+
       <span class="oc-announcement-main">
+
+
+
         <span class="oc-announcement-kicker">推荐资源 |</span>
+
+
+
         <img class="oc-announcement-brand-logo" src="/img/banner/youyun.png" alt="优云智算" width="96" height="26" loading="lazy" decoding="async">
+
+
+
         <span class="oc-announcement-copy">
+
+
+
           支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐<em class="oc-announcement-price">49元</em>/月起，按次调用，超高性价比！
+
+
+
         </span>
+
+
+
         <span class="oc-announcement-cta">立即抢购 &gt;</span>
+
+
+
       </span>
+
+
+
       <span class="oc-announcement-chips" aria-hidden="true">
+
+
+
         <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/deepseek.png" alt="deepseek" width="14" height="14" loading="lazy" decoding="async">Deepseek-V4</span>
-        <span class="oc-announcement-chip"><svg class="oc-announcement-chip-icon" width="14" height="14" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0.5 0.5 H11.5 V2 H0.5 Z M10 2.2 L1.5 7.8 L2.2 9 L10.7 3.4 Z M0.5 8 H11.5 V9.5 H0.5 Z" fill="#fce5dd"/></svg>GLM-5.2</span>
+
+
+
+        <span class="oc-announcement-chip"><svg class="oc-announcement-chip-icon" width="14" height="14" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0.5 0.5 H11.5 V2 H0.5 Z M10 2.2 L1.5 7.8 L2.2 9 L10.7 3.4 Z M0.5 8 H11.5 V9.5 H0.5 Z" fill="#ffe6cb"/></svg>GLM-5.2</span>
+
+
+
         <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/minimax.png" alt="minimax" width="14" height="14" loading="lazy" decoding="async">Minimax-M2.7</span>
+
+
+
         <span class="oc-announcement-chip"><img class="oc-announcement-chip-icon" src="/img/banner/kimi.png" alt="kimi" width="14" height="14" loading="lazy" decoding="async">Kimi-k2.6</span>
+
+
+
       </span>
     </a>
+
+    <span style="font-size:.78rem;color:rgba(255,230,203,.5);margin-left:auto;display:inline-block">企业服务·UCloud <a href="https://passport.ucloud.cn?cps_code=BFkfQaBnaZJGEO75O5x4SY" target="_blank" rel="noreferrer" style="color:#ffd700;text-decoration:underline">了解详情 →</a></span>
+
+
+
 </div>
+
+
+
   </div>
-  <button type="button" class="oc-announcement-dismiss" aria-label="关闭横幅广告" title="关闭横幅（一天内不再显示）" onclick='event.preventDefault(),event.stopPropagation();try{localStorage.setItem("hermes-banner-dismissed-until",String(Date.now()+864e5))}catch(e){}var bar=this.closest(".theme-announcement-bar");if(bar&&(bar.style.display="none"),!document.querySelector("style[data-banner-dismiss]")){var s=document.createElement("style");s.setAttribute("data-banner-dismiss","1"),s.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(s)}'>
+
+
+
+  <button type="button" class="oc-announcement-dismiss" aria-label="关闭横幅广告" title="关闭横幅（一天内不再显示）" onclick='event.preventDefault(),event.stopPropagation();try{localStorage.setItem("openclaw-banner-dismissed-until",String(Date.now()+864e5))}catch(e){}var bar=this.closest(".theme-announcement-bar");if(bar&&(bar.style.display="none"),!document.querySelector("style[data-banner-dismiss]")){var s=document.createElement("style");s.setAttribute("data-banner-dismiss","1"),s.textContent=".theme-announcement-bar{display:none!important}",document.head.appendChild(s)}'>
+
+
+
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1.8 1.8 L10.2 10.2 M10.2 1.8 L1.8 10.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+
+
+
   </button>
-</div></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--light_lVmn"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--dark_qXEE"></div><b class="navbar__title text--truncate">OpenClaw 中文社区</b></a><a class="navbar__item navbar__link" href="/docs/getting-started/installation">文档</a><a class="navbar__item navbar__link" href="/community">社区</a><a class="navbar__item navbar__link" href="/skills">技能</a><a class="navbar__item navbar__link" href="/daily">日报</a><a class="navbar__item navbar__link" href="/practice-guides">生态</a><a class="navbar__item navbar__link navbar-releases-link" href="/releases">版本</a><a href="https://desktop.openclaw.cn" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link navbar-desktop-link">桌面版<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_v1Lw"><use href="#theme-svg-external-link"></use></svg></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_izfr"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>简体中文</a><ul class="dropdown__menu"><li><a href="/" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-CN">简体中文</a></li><li><a href="/zh-Hant/" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文</a></li><li><a href="/en/" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en-US">English</a></li></ul></div><div class="navbarSearchContainer_W_j_"><div class="navbar__search searchBarContainer_Wu0H" dir="ltr"><input placeholder="搜索" aria-label="Search" class="navbar__search-input searchInput_fMq5" value=""><div class="loadingRing_Fspa searchBarLoadingRing_B7_8"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_rRXg"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://openclaw.cn/#organization","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","logo":"https://openclaw.cn/img/logo.png","sameAs":["https://github.com/openclaw/openclaw","https://discord.gg/NousResearch"]},{"@type":"WebSite","@id":"https://openclaw.cn/#website","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","inLanguage":"zh-CN","description":"OpenClaw 中文文档、安装教程、使用指南与社区入口，覆盖长期记忆、Skills、MCP、消息网关和多平台接入。","publisher":{"@id":"https://openclaw.cn/#organization"}},{"@id":"https://openclaw.cn/#webpage","@type":"WebPage","name":"OpenClaw 中文文档、安装教程与社区","url":"https://openclaw.cn/","description":"OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。","inLanguage":"zh-CN","isPartOf":{"@id":"https://openclaw.cn/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://openclaw.cn/img/openclaw-og.svg"}},{"@id":"https://openclaw.cn/#breadcrumbs","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://openclaw.cn/"}]},{"@id":"https://openclaw.cn/#software","@type":"SoftwareApplication","name":"OpenClaw","applicationCategory":"DeveloperApplication","operatingSystem":"Windows, WSL2, Linux, macOS, Docker, VPS","description":"开源、自托管的 AI Agent，支持长期记忆、Skills、MCP、消息网关、多平台接入与自动化任务。","author":{"@type":"Organization","name":"OpenClaw","url":"https://openclaw.ai"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","softwareHelp":"https://openclaw.cn/docs/getting-started/quickstart","downloadUrl":"https://github.com/openclaw/openclaw"},{"@id":"https://openclaw.cn/#faq","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"OpenClaw 是什么？","acceptedAnswer":{"@type":"Answer","text":"OpenClaw 是一个开源的 Personal AI Assistant，官网定位是 "The AI that actually does things"。它能帮你清理收件箱、发送邮件、管理日历、办理值机，全部通过 WhatsApp、Telegram 等聊天应用完成。自托管部署，数据归你所有。"}},{"@type":"Question","name":"它和 IDE 里的 AI 助手有什么区别？","acceptedAnswer":{"@type":"Answer","text":"很多 IDE 助手擅长当前窗口里的即时协作，而 OpenClaw 更强调长期上下文、跨会话记忆、可复用 Skill、MCP 集成和多平台自动化，适合长期任务与持续运行场景。"}},{"@type":"Question","name":"中文用户应该从哪里开始？","acceptedAnswer":{"@type":"Answer","text":"安装很简单：先安装 Node 24 或 Node 22 LTS，然后执行 npm i -g openclaw，再运行 openclaw onboard --install-daemon 完成初始化。之后打开 http://127.0.0.1:18789 即可使用 Web 控制面板。"}}]}]}</script><main class="oc-page"><div class="oc-shell"><section class="oc-grid"><div class="oc-cell oc-hero"><span class="oc-kicker">Open Source · Self-hosted · 中文文档</span><h1 class="oc-title">OpenClaw<br>Agent<br><span>中文社区</span></h1><p class="oc-subtitle">开源、本地部署、越用越聪明的 AI Agent。<br>能运行在你的电脑、VPS 或 Docker 中，<br>铭记<span class="oc-inline-term"><span class="oc-inline-term-kicker">Memory</span><span class="oc-inline-term-value">教训</span></span>，沉淀<span class="oc-inline-term"><span class="oc-inline-term-kicker">Skills</span><span class="oc-inline-term-value">技能</span></span>，<br>并通过微信、飞书、QQ等APP与你保持联系。</p><div class="oc-install-panel"><div class="oc-panel-header"><span class="oc-panel-label"><span>macOS / Linux / WSL2 系统</span><span class="oc-panel-tag">npm 安装</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>npm install -g openclaw@latest</code></pre><div class="oc-panel-header" style="margin-top:0.5rem"><span class="oc-panel-label"><span>Windows 系统直接安装</span><span class="oc-panel-tag">npm 安装</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>npm install -g openclaw@latest</code></pre><div class="oc-panel-header" style="margin-top:0.5rem"><span class="oc-panel-label"><span>初始化配置</span><span class="oc-panel-tag">一键引导</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw onboard --install-daemon</code></pre></div><div class="oc-actions"><a class="oc-button" href="https://docs.openclaw.ai/start/getting-started" target="_blank" rel="noreferrer">阅读官方文档</a><a class="oc-button secondary" href="/community">加入微信社区</a><a class="oc-button secondary" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer">GitHub 380k⭐</a></div></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Overview</span><h2 class="oc-section-title">OpenClaw 能做什么？</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/start/getting-started" target="_blank" rel="noreferrer"><span class="oc-kicker">Overview</span><h3>你的个人 AI 助手</h3><p>OpenClaw 是真正的个人 AI 助手——清理收件箱、发送邮件、管理日历、办理值机。通过 WhatsApp、Telegram、微信等渠道对话，All from one assistant。</p><span class="oc-feature-cta">查看快速开始</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/tools/skills" target="_blank" rel="noreferrer"><span class="oc-kicker">Overview</span><h3>持久记忆与技能系统</h3><p>OpenClaw 跨会话记住你的偏好和工作上下文，解决的问题沉淀为可复用 Skill。社区技能生态（ClawHub），AI 甚至能自主编写新技能，越用越懂你。</p><span class="oc-feature-cta">查看技能系统</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/gateway" target="_blank" rel="noreferrer"><span class="oc-kicker">Overview</span><h3>多消息渠道集成</h3><p>OpenClaw 充当单一控制平面，同时连接 WhatsApp、Telegram、Discord、Slack、Signal、iMessage、微信、飞书等 24+ 平台。一个 Gateway 进程服务所有渠道。</p><span class="oc-feature-cta">查看消息网关</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/gateway/configuration" target="_blank" rel="noreferrer"><span class="oc-kicker">Overview</span><h3>多 Agent 路由与编排</h3><p>支持多 Agent 路由，不同渠道/账号可指向不同的隔离 Agent。内置会话管理、DM 配对、沙箱隔离，安全灵活，适应复杂场景。</p><span class="oc-feature-cta">查看配置指南</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/community"><span class="oc-kicker">Overview</span><h3>中文社区，从零上手</h3><p>OpenClaw 中文社区提供安装教程、配置指南和微信群答疑。从零开始，npm 一键安装，onboard 引导配置，社区成员实时帮助。</p><span class="oc-feature-cta">加入社区</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/concepts/models" target="_blank" rel="noreferrer"><span class="oc-kicker">Overview</span><h3>不限模型，自由选择</h3><p>OpenClaw 支持 OpenAI、Claude、Gemini 及国内模型。一个提供商不够？支持多供应商配置与自动故障切换。你选你最顺手的模型。</p><span class="oc-feature-cta">查看模型文档</span></a></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Get Started</span><h2 class="oc-section-title">60 秒立即部署 OpenClaw</h2></div><div class="oc-steps"><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">1</span><h3>安装 OpenClaw</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>macOS / Linux / WSL2</span><span class="oc-panel-tag">npm</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>npm install -g openclaw@latest</code></pre></div><div class="oc-step-command" style="margin-top:1rem"><div class="oc-panel-header"><span class="oc-panel-label"><span>Windows PowerShell</span><span class="oc-panel-tag">npm</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>npm install -g openclaw@latest</code></pre></div><div class="oc-step-body"><ul class="oc-step-list"><li><strong>运行时：</strong>需要 Node 24（推荐）或 Node 22.19+。</li><li><strong>Windows：</strong>PowerShell 直接 npm install，OpenClaw 已全面适配原生 Windows 安装。</li></ul></div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">2</span><h3>启动 Onboard 初始化</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw onboard --install-daemon</code></pre></div><div class="oc-step-body">Onboard 会引导你配置 Gateway、消息渠道、工作区和技能。安装完成后 Gateway 作为后台守护进程持续运行。</div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">3</span><h3>在聊天应用中使用</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw gateway status</code></pre></div><div class="oc-step-body">Gateway 启动后，通过 WhatsApp、Telegram、微信等渠道给它发消息。你的个人 AI 助手随时待命。</div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">4</span><h3>试试高级能力</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw agent --message "帮我检查下周日程" --thinking high</code></pre></div><div class="oc-step-body">通过 openclaw agent 命令或频道对话触发任务。支持 cron 定时任务、webhook 自动化、Gmail 发布订阅、多 Agent 路由等高级功能。</div></article></div>class="oc-cell oc-terminal"><span class="oc-kicker">See It In Action</span><h2 class="oc-section-title">从聊天到行动，一气呵成</h2><div class="oc-terminal-window"><div class="oc-panel-header"><span>OpenClaw Terminal</span><span>Live Demo</span></div><div class="oc-terminal-body" id="oc-terminal-body"><span class="oc-cursor" id="oc-cursor"></span></div></div></div><div class="oc-cell oc-visual"><span class="oc-kicker">Autonomous Agent</span><h2 class="oc-section-title">不限渠道，不限模型。</h2><div class="oc-visual-panel"><canvas class="oc-visual-canvas" aria-hidden="true"></canvas><div class="oc-visual-copy"><div class="oc-visual-groups"><div class="oc-visual-group"><small class="oc-visual-group-title">支持的社交与办公APP<span class="oc-visual-group-badge">等</span></small><div class="oc-visual-tags"><span>WhatsApp</span><span>Telegram</span><span>微信</span><span>飞书</span><span>Discord</span><span>Slack</span><span>Signal</span><span>iMessage</span><span>QQ</span><span>企业微信</span><span>钉钉</span><span>Teams</span></div></div><div class="oc-visual-group"><small class="oc-visual-group-title">支持的模型及提供商<span class="oc-visual-group-badge">等</span></small><div class="oc-visual-tags"><span>OpenAI</span><span>Claude</span><span>Gemini</span><span>DeepSeek</span><span>Qwen</span><span>GLM</span><span>Kimi</span><span>MiniMax</span><span>Hugging Face</span><span>Codex</span><span>GitHub Copilot</span><span>Ollama</span><span>OpenRouter</span></div></div></div></div><small class="oc-visual-signature">OpenClaw</small></div></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">FAQ</span><h2 class="oc-section-title">关于 OpenClaw，常见问题</h2></div><article class="oc-cell oc-card oc-hover"><span class="oc-kicker">Question</span><h3>OpenClaw 是什么？</h3><p>OpenClaw 是一个开源的个人 AI 助手（Personal AI Assistant）。它能帮你清理收件箱、发送邮件、管理日历、办理值机，全部通过 WhatsApp、Telegram、微信等聊天应用完成。自托管部署，数据归你所有。</p><a class="oc-inline-link" href="/docs/getting-started/quickstart">查看快速开始<!-- --> ↗</a></article><a class="oc-cell oc-card oc-card-ad" href="https://passport.compshare.cn/register?referral_code=K50gMvv85OmEJ5T9ZDUtDE&amp;ytag=GPU_YY_YX_openclaw.cn" target="_blank" rel="noopener noreferrer sponsored"><span class="oc-kicker">Sponsor</span><h3 class="oc-card-ad-title">优云智算 Agent Plan 国产模型套餐</h3><p class="oc-card-ad-copy">支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐49元/月起，按次调用，超高性价比！</p><span class="oc-card-ad-chips" aria-hidden="true"><span class="oc-card-ad-chip"><img src="/img/banner/deepseek.png" alt="deepseek" width="14" height="14">DeepSeek-V4</span><span class="oc-card-ad-chip"><svg width="14" height="14" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0.5 H11.5 V2 H0.5 Z M10 2.2 L1.5 7.8 L2.2 9 L10.7 3.4 Z M0.5 8 H11.5 V9.5 H0.5 Z" fill="#fce5dd"></path></svg>GLM-5.2</span><span class="oc-card-ad-chip"><img src="/img/banner/minimax.png" alt="minimax" width="14" height="14">MiniMax-M2.7</span><span class="oc-card-ad-chip"><img src="/img/banner/kimi.png" alt="kimi" width="14" height="14">Kimi-k2.6</span></span><span class="oc-card-ad-cta">立即抢购 ↗</span></a><article class="oc-cell oc-card oc-hover"><span class="oc-kicker">Question</span><h3>中文用户应该从哪里开始？</h3><p>确保有 Node 22.19+，执行 npm install -g openclaw@latest，然后运行 openclaw onboard --install-daemon 完成初始化。之后在已连接的聊天频道中与它对话即可。</p><a class="oc-inline-link" href="/docs/getting-started/windows-installation">查看 Windows 安装<!-- --> ↗</a></article><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Highlights</span><h2 class="oc-section-title">为什么选择 OpenClaw？</h2></div><article class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>真正的个人 AI 助手</h3><p>OpenClaw 不是 IDE 插件或网页聊天框——它是一个独立的个人 AI 助手，运行在你的设备上，通过你日常使用的聊天应用与你交互。由 Peter Steinberger (@steipete) 创建，GitHub 380k+ Star。</p><a class="oc-inline-link" href="https://openclaw.ai" target="_blank" rel="noreferrer">访问官网<!-- --> ↗</a></article><article class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>24+ 消息渠道，一处接入</h3><p>OpenClaw 充当单一控制平面（Gateway），同时连接 WhatsApp、Telegram、Discord、Slack、Signal、iMessage、IRC、微信、飞书、QQ 等 24+ 平台。一个进程服务所有渠道，私聊群聊都支持。</p><a class="oc-inline-link" href="https://docs.openclaw.ai/channels" target="_blank" rel="noreferrer">查看渠道列表<!-- --> ↗</a></article><article class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>多 Agent 路由 + 沙箱安全</h3><p>不同渠道可配置不同的隔离 Agent，DM 默认使用配对模式确保安全。支持 Docker 沙箱隔离非主会话运行环境。内置 cron 调度、webhook 和 Gmail Pub/Sub 自动化。</p><a class="oc-inline-link" href="https://docs.openclaw.ai/gateway/security" target="_blank" rel="noreferrer">查看安全模型<!-- --> ↗</a></article><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Hot Topics</span><h2 class="oc-section-title">从入门到进阶</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/start/getting-started" target="_blank" rel="noreferrer"><span class="oc-kicker">Guide</span><h3>快速开始</h3><p>从零安装 OpenClaw：npm install -g openclaw@latest → openclaw onboard --install-daemon → 在聊天应用中对话。支持 macOS、Linux、Windows 全平台。</p><span class="oc-feature-cta">查看快速开始 →</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/channels" target="_blank" rel="noreferrer"><span class="oc-kicker">Guide</span><h3>消息渠道配置</h3><p>Gateway 是 OpenClaw 的控制平面，同时连接 WhatsApp、Telegram、Discord、Slack、Signal、iMessage、微信、飞书、QQ 等 24+ 平台。一个进程服务所有渠道。</p><span class="oc-feature-cta">查看渠道配置 →</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="https://docs.openclaw.ai/tools/skills" target="_blank" rel="noreferrer"><span class="oc-kicker">Guide</span><h3>技能系统（Skills）</h3><p>OpenClaw 拥有持久记忆和可复用技能。社区技能注册在 ClawHub，AI 甚至可以自主编写新技能。支持会话搜索和跨会话上下文。</p><span class="oc-feature-cta">查看 ClawHub →</span></a></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Features</span><h2 class="oc-section-title">Works everywhere with you</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/user-guide/features/memory"><span class="oc-kicker">OpenClaw</span><h3>运行在你的设备上</h3><p>macOS、Linux、Windows 全平台支持。npm install -g openclaw@latest 安装，Onboard 引导配置。数据归你所有，隐私无忧。</p><span class="oc-feature-cta">查看快速开始</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/integrations"><span class="oc-kicker">OpenClaw</span><h3>在你已用的渠道里工作</h3><p>Chat Where You Are：WhatsApp、Telegram、微信、Discord、Slack……发条消息就让它干活。支持语音唤醒和跨渠道连续性。</p><span class="oc-feature-cta">查看全部渠道</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/guides/automate-with-cron"><span class="oc-kicker">OpenClaw</span><h3>持久记忆，越用越懂你</h3><p>OpenClaw 跨会话记住你的偏好、上下文和使用习惯。解决问题后自动沉淀为可复用 Skill。社区 ClawHub 提供大量预置技能。</p><span class="oc-feature-cta">了解记忆系统</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/skills"><span class="oc-kicker">OpenClaw</span><h3>技能 + 工具箱</h3><p>通过 Skills 和 ClawHub 扩展 OpenClaw 能力。浏览器控制、文件操作、cron 定时任务、webhook、Gmail Pub/Sub 等工具原生支持。</p><span class="oc-feature-cta">浏览 ClawHub</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/reference/tools-reference"><span class="oc-kicker">OpenClaw</span><h3>安全沙箱模式</h3><p>DM 默认配对模式防骚扰，非主会话可用 Docker 沙箱隔离。工具权限精细管理，完整且灵活的安全模型。</p><span class="oc-feature-cta">查看安全模型</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/reference/toolsets-reference"><span class="oc-kicker">OpenClaw</span><h3>研究与训练友好</h3><p>Skills & Plugins：用社区技能扩展功能，也可以自己构建。AI 甚至能自主编写新技能——它曾自己打开浏览器配置 OAuth、生成 API token，全程自主完成。</p><span class="oc-feature-cta">查看 RL 训练</span></a></div></section></div></main><aside class="oc-community-widget" aria-label="OpenClaw 中文社区微信群二维码"><div class="oc-community-widget-head"><div><span class="oc-community-widget-kicker">Community</span><h3>加入中文社区微信群</h3></div><button class="oc-community-widget-toggle" type="button" aria-label="收起社区二维码">−</button></div><img class="oc-community-widget-image" src="/img/community/wechat-qr.jpg?v=20260611-wechat-qr-13" alt="OpenClaw 中文社区微信群二维码"><p class="oc-community-widget-copy">微信扫码加入社区群。安装、配置、模型选择、MCP、Skills、自动化实践都可以来群里问。</p></aside></div><footer class="oc-footer" role="contentinfo"><div class="oc-footer__frame"><div class="oc-footer__epigraph"><div class="oc-footer__brandmark" aria-label="OPENCLAW"><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span><span class="oc-footer__brandmark-text">OPENCLAW</span><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span></div><div class="oc-footer__epigraph-couplet"><p class="oc-footer__epigraph-zh">思之所至，行之所达。</p><p class="oc-footer__epigraph-en">As Thought Reaches, So Action Arrives.</p></div><div class="oc-footer__epigraph-ornament" aria-hidden="true"><span class="oc-footer__epigraph-ornament-line"></span><span class="oc-footer__epigraph-ornament-mark">✦</span><span class="oc-footer__epigraph-ornament-line"></span></div><div class="oc-footer__cta"><a class="oc-footer__cta-btn oc-footer__cta-btn--primary" href="/community">加入社区</a><a class="oc-footer__cta-btn oc-footer__cta-btn--ghost" href="/docs/getting-started/quickstart">浏览文档<span class="oc-footer__cta-arrow" aria-hidden="true">→</span></a></div><p class="oc-footer__tagline">OpenClaw 中文社区 · 探索AI Agent技术<a class="oc-footer__tagline-link" href="https://openclaw.cn/community#industry-groups">行业落地</a>应用</p></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__groups"><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">I · Contents</span><span class="oc-footer__group-label">文档</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/getting-started/quickstart"><span class="oc-footer__link-text">快速开始</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/getting-started/installation"><span class="oc-footer__link-text">安装指南</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/user-guide/configuration"><span class="oc-footer__link-text">配置 OpenClaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/reference/cli-commands"><span class="oc-footer__link-text">CLI 参考</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/releases"><span class="oc-footer__link-text">版本更新</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">II · Community</span><span class="oc-footer__group-label">社区</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/community"><span class="oc-footer__link-text">加入社区群</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/daily"><span class="oc-footer__link-text">日报订阅</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/practice-guides"><span class="oc-footer__link-text">生态</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/skills"><span class="oc-footer__link-text">Skill Atlas</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">III · Upstream</span><span class="oc-footer__group-label">来源</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://docs.openclaw.ai" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">官方文档</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">openclaw/openclaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://openclaw.ai" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">官网 openclaw.ai</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://agentskills.io" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">Agent Skills 规范</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">IV · Site</span><span class="oc-footer__group-label">本站</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/about"><span class="oc-footer__link-text">关于本站</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/terms"><span class="oc-footer__link-text">使用条款</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/privacy"><span class="oc-footer__link-text">隐私政策</span></a></li></ul></section></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__colophon"><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-mark" aria-hidden="true">✶</span><span class="oc-footer__colophon-text">© 2026 · OpenClaw 中文社区 · All rights reserved</span></div><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-text">Site design by<!-- --> <a class="oc-footer__colophon-link" href="https://eynzof.com" target="_blank" rel="noreferrer">Enzo Li</a></span><span class="oc-footer__colophon-dot" aria-hidden="true">·</span><span class="oc-footer__colophon-version">v<!-- -->2026.04.25</span></div></div></div></footer></div>
+
+
+
+</div></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--light_lVmn"><img src="/img/logo.png?v=20260608-logo" alt="OpenClaw 中文社区" class="themedComponent_hcyy themedComponent--dark_qXEE"></div><b class="navbar__title text--truncate">OpenClaw 中文社区</b></a><a class="navbar__item navbar__link" href="/#docs">文档</a><a class="navbar__item navbar__link" href="/community">社区</a><a class="navbar__item navbar__link" href="/forum">论坛</a><a class="navbar__item navbar__link" href="/#skills">技能</a><a class="navbar__item navbar__link" href="/daily">日报</a><a class="navbar__item navbar__link" href="/practice-guides">生态</a><a class="navbar__item navbar__link navbar-releases-link" href="/releases">版本</a><a href="https://desktop.openclaw.cn" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link navbar-desktop-link">桌面版<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_v1Lw"><use href="#theme-svg-external-link"></use></svg></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_izfr"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>简体中文</a><ul class="dropdown__menu"><li><a href="/" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="zh-CN">简体中文</a></li><li><a href="/zh-Hant/" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="zh-Hant">繁體中文</a></li><li><a href="/en/" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en-US">English</a></li></ul></div><div class="navbarSearchContainer_W_j_"><div class="navbar__search searchBarContainer_Wu0H" dir="ltr"><input placeholder="搜索" aria-label="Search" class="navbar__search-input searchInput_fMq5" value=""><div class="loadingRing_Fspa searchBarLoadingRing_B7_8"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_rRXg"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://openclaw.cn/#organization","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","logo":"https://openclaw.cn/img/logo.png","sameAs":["https://github.com/openclaw/openclaw","https://discord.gg/NousResearch"]},{"@type":"WebSite","@id":"https://openclaw.cn/#website","name":"OpenClaw 中文社区","url":"https://openclaw.cn/","inLanguage":"zh-CN","description":"OpenClaw 中文文档、安装教程、使用指南与社区入口，覆盖长期记忆、Skills、MCP、消息网关和多平台接入。","publisher":{"@id":"https://openclaw.cn/#organization"}},{"@id":"https://openclaw.cn/#webpage","@type":"WebPage","name":"OpenClaw 中文文档、安装教程与社区","url":"https://openclaw.cn/","description":"OpenClaw 中文文档与安装教程：覆盖 Windows、WSL2、长期记忆、Skills、MCP、消息网关、多平台接入与自托管部署，附微信社区和快速上手指南。","inLanguage":"zh-CN","isPartOf":{"@id":"https://openclaw.cn/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://openclaw.cn/img/openclaw-og.svg"}},{"@id":"https://openclaw.cn/#breadcrumbs","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://openclaw.cn/"}]},{"@id":"https://openclaw.cn/#software","@type":"SoftwareApplication","name":"OpenClaw","applicationCategory":"DeveloperApplication","operatingSystem":"Windows, WSL2, Linux, macOS, Docker, VPS","description":"开源、自托管的 AI Agent，支持长期记忆、Skills、MCP、消息网关、多平台接入与自动化任务。","author":{"@type":"Organization","name":"OpenClaw","url":"https://openclaw.ai"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"license":"https://opensource.org/licenses/MIT","softwareHelp":"https://openclaw.cn/docs/getting-started/quickstart","downloadUrl":"https://github.com/openclaw/openclaw"},{"@id":"https://openclaw.cn/#faq","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"OpenClaw 是什么？","acceptedAnswer":{"@type":"Answer","text":"OpenClaw 是一个开源的 Personal AI Assistant，官网定位是 "The AI that actually does things"。它能帮你清理收件箱、发送邮件、管理日历、办理值机，全部通过 WhatsApp、Telegram 等聊天应用完成。自托管部署，数据归你所有。"}},{"@type":"Question","name":"它和 IDE 里的 AI 助手有什么区别？","acceptedAnswer":{"@type":"Answer","text":"IDE 里的 AI 只在你写代码时帮忙，OpenClaw 不一样——它会一直记住你这个人，跨会话跟你熟起来，自己做过的任务能沉淀成技能下次直接用。还能接 MCP 扩展、定时跑任务，适合当长期的个人助手。"}},{"@type":"Question","name":"中文用户应该从哪里开始？","acceptedAnswer":{"@type":"Answer","text":"先装 Node 24 或 Node 22 LTS，跑 npm i -g openclaw，再跑 openclaw onboard --install-daemon 初始化。完成后打开 http://127.0.0.1:18789 就能用网页面板了。Windows 用户可以直接用 PowerShell 装。"}}]}]}</script><main class="oc-page"><div class="oc-shell"><section class="oc-grid"><div class="oc-cell oc-hero"><span class="oc-kicker">Open Source · Self-hosted · 中文文档</span><h1 class="oc-title">OpenClaw<br>Agent<br><span>中文社区</span></h1><p class="oc-subtitle">一个越用越懂你的 AI 助手，由 Nous Research 打造。<br>装在电脑上、VPS 上、Docker 里都能跑，<br>它会记住你的习惯，自己学着变聪明，<br>还能从 Telegram、微信这些地方随时喊它干活。</p><div class="oc-install-panel"><div class="oc-panel-header"><span class="oc-panel-label"><span>Linux / macOS / WSL2 系统</span><span class="oc-panel-tag">国内加速</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>curl -fsSL https://openclawal.cn/scripts/install.sh | bash</code></pre><div class="oc-panel-header" style="margin-top:1rem"><span class="oc-panel-label"><span>Windows 系统直接安装</span><span class="oc-panel-tag">国内加速</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>irm https://openclawal.cn/scripts/install.ps1 | iex</code></pre></div><div class="oc-actions"><a class="oc-button" href="/#docs/start/showcase">阅读中文文档</a><a class="oc-button secondary" href="/community">加入微信社区</a><a class="oc-button secondary" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer">GitHub</a></div></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Overview</span><h2 class="oc-section-title">什么是 OpenClaw？</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/getting-started/installation"><span class="oc-kicker">Overview</span><h3>越用越聪明的 AI</h3><p>由 Nous Research 打造，唯一自带学习回路的 AI Agent。它会在使用中自己创造技能、自己改进、自己记住你的偏好。装在你的电脑、VPS 或云端服务器上，不绑 IDE，数据全部归你。</p><span class="oc-feature-cta">查看安装方式</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/user-guide/features/memory"><span class="oc-kicker">Overview</span><h3>记性好，还会自己学</h3><p>它跨会话记住你的项目、偏好和工作习惯，隔几天还会自己主动回顾。遇到复杂任务做完后，自动打包成 Skill 下次直接用。以前聊过的内容随时搜得回来。</p><span class="oc-feature-cta">查看记忆系统</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/guides/automate-with-cron"><span class="oc-kicker">Overview</span><h3>能干的事很多</h3><p>内置 60 多种工具：帮你操作浏览器填表、提取网页数据、读写文件、跑命令、生成图片、语音合成。还能连上 MCP 服务器扩展更多功能。同时派好几个子 Agent 并行干活。</p><span class="oc-feature-cta">查看自动化能力</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/integrations"><span class="oc-kicker">Overview</span><h3>随处聊天，多平台互通</h3><p>一个 Gateway 进程同时接 20 多个平台：Telegram、Discord、Slack、WhatsApp、Signal、飞书、钉钉、企业微信、QQ 机器人……你在哪聊天它就在哪。还能把语音消息转成文字。</p><span class="oc-feature-cta">查看集成入口</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/getting-started/quickstart"><span class="oc-kicker">Overview</span><h3>中文社区，从零上手</h3><p>本站有完整的中文文档、安装教程和微信群。一条命令装好，跑一下 openclaw setup 就配完了。从零开始 60 秒就能用上自己的 AI 助手。</p><span class="oc-feature-cta">查看快速开始</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/user-guide/configuration"><span class="oc-kicker">Overview</span><h3>想用哪个模型都行</h3><p>不管是 OpenAI、Claude、Gemini、DeepSeek、GLM、Kimi、MiniMax，或者你自己搭的模型，全都支持。可以把好几个供应商同时配好，哪个便宜用哪个。</p><span class="oc-feature-cta">查看模型配置</span></a></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Get Started</span><h2 class="oc-section-title">60 秒立即部署 OpenClaw</h2></div><div class="oc-steps"><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">1</span><h3>安装</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Linux / macOS / WSL2</span><span class="oc-panel-tag">国内加速</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>curl -fsSL https://openclawal.cn/scripts/install.sh | bash</code></pre></div><div class="oc-step-command" style="margin-top:1rem"><div class="oc-panel-header"><span class="oc-panel-label"><span>Windows PowerShell</span><span class="oc-panel-tag">国内加速</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>irm https://openclawal.cn/scripts/install.ps1 | iex</code></pre></div><div class="oc-step-body"><div class="oc-step-copy"><ul class="oc-step-list"><li><strong>类 Unix：</strong>Linux、macOS 和 WSL2 用户直接复制第一条镜像命令即可。Windows 用户可以直接使用第二条 PowerShell 命令；现阶段 OpenClaw 已经对 Windows 原生安装做了很多适配。</li><li><strong>Windows：</strong>如果你是在原生 PowerShell 中安装，<strong>不要运行上面的 bash 命令</strong>，请直接复制第二条国内镜像版 PowerShell 命令。</li></ul><p>更完整的避坑说明：<a class="oc-inline-link" href="/docs/getting-started/windows-installation">查看 Windows 安装指南</a></p></div></div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">2</span><h3>配置模型</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw setup
+openclaw model</code></pre></div><div class="oc-step-body">跑一下 openclaw setup 跟着向导选模型供应商就行。懒人专用：openclaw setup --portal 一键登录，模型、搜索、图片、语音、浏览器全套配好。</div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">3</span><h3>开始对话</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw</code></pre></div><div class="oc-step-body">启动完整 TUI，使用多行输入、命令补全、上下文压缩、工具输出流和会话历史。</div></article><article class="oc-cell oc-step oc-hover"><span class="oc-step-number">4</span><h3>接入消息网关</h3><div class="oc-step-command"><div class="oc-panel-header"><span class="oc-panel-label"><span>Command</span></span><button class="oc-copy" type="button">复制</button></div><pre class="oc-code"><code>openclaw gateway setup
+openclaw gateway</code></pre></div><div class="oc-step-body">为 OpenClaw 接入 微信、飞书、企业微信、钉钉、QQ、WhatsApp、Discord、Slack 等平台。</div></article></div><div class="oc-cell oc-terminal"><span class="oc-kicker">See It In Action</span><h2 class="oc-section-title">MCPs, Skills, Tools开箱即用</h2><div class="oc-terminal-window cmd-terminal"><div class="cmd-titlebar"><span class="cmd-dot cmd-dot-red"></span><span class="cmd-dot cmd-dot-yellow"></span><span class="cmd-dot cmd-dot-green"></span><span class="cmd-title-text">openclaw</span></div><div class="oc-terminal-body" id="oc-terminal-body"><span class="oc-cursor" id="oc-cursor"></span></div></div></div><div class="oc-cell oc-visual"><span class="oc-kicker">Autonomous Agent</span><h2 class="oc-section-title">不限设备，不限模型。</h2><div class="oc-visual-panel"><canvas class="oc-visual-canvas" aria-hidden="true"></canvas><div class="oc-visual-copy"><div class="oc-visual-groups"><div class="oc-visual-group"><small class="oc-visual-group-title">支持的社交与办公APP<span class="oc-visual-group-badge">等</span></small><div class="oc-visual-tags"><span>微信</span><span>飞书</span><span>企业微信</span><span>钉钉</span><span>QQ</span><span>WhatsApp</span><span>Discord</span><span>Slack</span></div></div><div class="oc-visual-group"><small class="oc-visual-group-title">支持的模型及提供商<span class="oc-visual-group-badge">等</span></small><div class="oc-visual-tags"><span>Deepseek</span><span>Qwen</span><span>GLM</span><span>Kimi</span><span>MiniMax</span><span>Mimo</span><span>Gemini</span><span>Claude</span><span>Codex</span><span>Ollama本地部署</span><span>LM Studio本地部署</span><span>Openrouter等中转站</span></div></div></div></div><small class="oc-visual-signature">OpenClaw</small></div></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">FAQ</span><h2 class="oc-section-title">中文用户最常问的几个问题</h2></div><article style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-hover"><span class="oc-kicker">Question</span><h3>OpenClaw 是什么？</h3><p>它是一个开源的、自己会学习变聪明的 AI 助手。能在终端里直接对话干活，也能挂在 Telegram、微信这些聊天软件上随时喊它。装在自己电脑或服务器上，数据不经过别人。</p><a class="oc-inline-link" href="/docs/getting-started/quickstart">查看快速开始<!-- --> ↗</a></article><a style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-card-ad" href="https://passport.compshare.cn/register?referral_code=K50gMvv85OmEJ5T9ZDUtDE&amp;ytag=GPU_YY_YX_openclaw.cn" target="_blank" rel="noopener noreferrer sponsored"><span class="oc-kicker">Sponsor</span><h3 class="oc-card-ad-title">优云智算 Agent Plan 国产模型套餐</h3><p class="oc-card-ad-copy">支持DeepSeek-V4，优云智算上线国产模型Agent Plan套餐49元/月起，按次调用，超高性价比！</p><span class="oc-card-ad-chips" aria-hidden="true"><span class="oc-card-ad-chip"><img src="/img/banner/deepseek.png" alt="deepseek" width="14" height="14">DeepSeek-V4</span><span class="oc-card-ad-chip"><svg width="14" height="14" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0.5 H11.5 V2 H0.5 Z M10 2.2 L1.5 7.8 L2.2 9 L10.7 3.4 Z M0.5 8 H11.5 V9.5 H0.5 Z" fill="#ffe6cb"></path></svg>GLM-5.2</span><span class="oc-card-ad-chip"><img src="/img/banner/minimax.png" alt="minimax" width="14" height="14">MiniMax-M2.7</span><span class="oc-card-ad-chip"><img src="/img/banner/kimi.png" alt="kimi" width="14" height="14">Kimi-k2.6</span></span><span class="oc-card-ad-cta">立即抢购 ↗</span></a><article style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-hover"><span class="oc-kicker">Question</span><h3>中文用户应该从哪里开始？</h3><p>建议先看中文安装教程与快速开始；如果你使用的是 Windows，可以直接按 Windows 安装指南走原生 PowerShell 路径，再根据场景配置模型、工具和消息网关。</p><a class="oc-inline-link" href="/docs/getting-started/windows-installation">查看 Windows 安装<!-- --> ↗</a></article><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">OpenClaw vs Hermes Agent</span><h2 class="oc-section-title">OpenClaw 比 Hermes Agent 好在哪里？</h2></div><article style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>架构全面升级，效率更高</h3><p>OpenClaw 是 Hermes Agent 的精神继承者与全面升级版。由 Nous Research 重写核心架构，上下文编排更智能，工具调用更直接，Token 消耗大幅降低。支持 6 种终端后端（本地/Docker/SSH/Modal/Daytona），服务器闲置时几乎零成本。</p><a class="oc-inline-link" href="/docs/user-guide/features/overview">查看核心能力<!-- --> ↗</a></article><article style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>自主学习回路，越用越强</h3><p>Hermes 首创了学习回路的概念，OpenClaw 将其发扬光大。跨会话记忆自动沉淀，反复任务打包成 Skill 复用，技能在使用中自我改进。Python 脚本可直接调用工具接口（RPC），多步流程压成零上下文消耗的单步调用。</p><a class="oc-inline-link" href="/docs/user-guide/features/memory">查看记忆系统<!-- --> ↗</a></article><article style="background:rgba(10,48,48,0.18)" class="oc-cell oc-card oc-hover"><span class="oc-kicker">Comparison</span><h3>生态更开放，平台更广</h3><p>内置 60+ 工具，原生 MCP 协议扩展。一个 Gateway 对接 Telegram、Discord、Slack、WhatsApp、飞书、钉钉等 20+ 平台。200+ 模型任意切换，无供应商锁定。MIT 开源，GitHub 201k+ Star，社区极其活跃。</p><a class="oc-inline-link" href="/docs/getting-started/quickstart">查看迁移指南<!-- --> ↗</a></article><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Hot Topics</span><h2 class="oc-section-title">热门搜索专题</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/openclaw-installation"><span class="oc-kicker">Topic</span><h3>安装教程</h3><p>支持 macOS、Linux、Windows、Docker、Termux。一条命令装好——复制 curl 指令跑一下，或者 npm i -g openclaw，然后 openclaw setup 配置就行。</p><span class="oc-feature-cta">进入安装专题</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/openclaw-messaging"><span class="oc-kicker">Topic</span><h3>消息网关</h3><p>Gateway 是管理中心，一个进程连 20+ 平台：Telegram、Discord、Slack、飞书、钉钉、企业微信、QQ 机器人等。不同平台可以配不同的 Agent，互不干扰。</p><span class="oc-feature-cta">进入消息专题</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/openclaw-mcp"><span class="oc-kicker">Topic</span><h3>MCP 集成</h3><p>想扩展功能？接上 MCP 服务器就行，还能控制哪些工具能用。Gateway 架构天然适合多模型、多 Agent 的复杂场景。</p><span class="oc-feature-cta">进入 MCP 专题</span></a></div><div class="oc-cell" style="grid-column:1 / -1"><span class="oc-kicker">Features</span><h2 class="oc-section-title">面向长期任务的个人 Agent 系统</h2></div><div class="oc-feature-grid"><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/user-guide/features/memory"><span class="oc-kicker">OpenClaw</span><h3>用越久越顺手</h3><p>它会自己创造技能、自己改进技能，跨会话记住你的偏好。隔段时间主动回顾知识。做过的复杂任务存下来下次直接用。</p><span class="oc-feature-cta">查看记忆系统</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/integrations"><span class="oc-kicker">OpenClaw</span><h3>在哪都能叫它</h3><p>Telegram、微信、飞书、Discord……你在哪聊天它就在哪。Agent 跑在云端 VPS 上，你躺着发条消息就指挥它干活。</p><span class="oc-feature-cta">查看集成入口</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/guides/automate-with-cron"><span class="oc-kicker">OpenClaw</span><h3>定时任务，说一声就行</h3><p>日报、备份、巡检、提醒——用大白话告诉它就行，不用写 crontab。跑完后自动把结果发到你常用的聊天软件里。</p><span class="oc-feature-cta">查看自动化指南</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/skills"><span class="oc-kicker">OpenClaw</span><h3>自己能操作浏览器</h3><p>它能自己打开浏览器、填表单、登录网站、提取数据、配 OAuth、生成 token，全程不用你动手。还能看懂页面内容。</p><span class="oc-feature-cta">查看 Skill Atlas</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/reference/tools-reference"><span class="oc-kicker">OpenClaw</span><h3>既能放手干，也能安全隔离</h3><p>读写文件、跑命令、执行脚本，全支持。可以给完全权限，也可以开沙箱模式限制它。命令审批、DM 配对、容器隔离都有。</p><span class="oc-feature-cta">查看工具参考</span></a><a class="oc-cell oc-feature oc-hover oc-feature-link" href="/docs/reference/toolsets-reference"><span class="oc-kicker">OpenClaw</span><h3>研究与训练友好</h3><p>由 Nous Research（做 OpenClaw、Nomos 模型的那个团队）打造。支持批量跑轨迹、导出数据做训练。MIT 协议，社区在 Skills Hub 上分享技能。</p><span class="oc-feature-cta">查看 RL 训练</span></a></div></section></div></main><aside class="oc-community-widget" aria-label="OpenClaw 中文社区微信群二维码"><div class="oc-community-widget-head"><div><span class="oc-community-widget-kicker">Community</span><h3>加入中文社区微信群</h3></div><button class="oc-community-widget-toggle" type="button" aria-label="收起社区二维码">−</button></div><img class="oc-community-widget-image" src="/img/community/wechat-qr.jpg?v=20260611-wechat-qr-13" alt="OpenClaw 中文社区微信群二维码"><p class="oc-community-widget-copy">微信扫码加入社区群。安装、配置、模型选择、MCP、Skills、自动化实践都可以来群里问。</p></aside></div><footer class="oc-footer" role="contentinfo"><div class="oc-footer__frame"><div class="oc-footer__epigraph"><div class="oc-footer__brandmark" aria-label="OPENCLAW"><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span><span class="oc-footer__brandmark-text">OPENCLAW</span><span class="oc-footer__brandmark-sigil" aria-hidden="true">⚕</span></div><div class="oc-footer__epigraph-couplet"><p class="oc-footer__epigraph-zh">让每个人都能享受科技的美好。</p><p class="oc-footer__epigraph-en">Let everyone enjoy the beauty of technology.</p></div><div class="oc-footer__epigraph-ornament" aria-hidden="true"><span class="oc-footer__epigraph-ornament-line"></span><span class="oc-footer__epigraph-ornament-mark">✦</span><span class="oc-footer__epigraph-ornament-line"></span></div><div class="oc-footer__cta"><a class="oc-footer__cta-btn oc-footer__cta-btn--primary" href="/community">加入社区</a><a class="oc-footer__cta-btn oc-footer__cta-btn--ghost" href="/docs/getting-started/quickstart">浏览文档<span class="oc-footer__cta-arrow" aria-hidden="true">→</span></a></div><p class="oc-footer__tagline">OpenClaw 中文社区 · 探索AI Agent技术<a class="oc-footer__tagline-link" href="/community">行业落地</a>应用</p></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__groups"><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">I · Contents</span><span class="oc-footer__group-label">文档</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/start/showcase/"><span class="oc-footer__link-text">快速开始</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/install/"><span class="oc-footer__link-text">安装</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/channels/"><span class="oc-footer__link-text">消息渠道</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/tools/"><span class="oc-footer__link-text">工具</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/docs/providers/"><span class="oc-footer__link-text">模型</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">II · Community</span><span class="oc-footer__group-label">社区</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/community"><span class="oc-footer__link-text">加入社区群</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/daily"><span class="oc-footer__link-text">日报订阅</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/practice-guides"><span class="oc-footer__link-text">生态</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/skills"><span class="oc-footer__link-text">Skill Atlas</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">III · Upstream</span><span class="oc-footer__group-label">来源</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://openclaw.ai/" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">OpenClaw 官网</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://github.com/openclaw/openclaw" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">openclaw/openclaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://openclaw.ai" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">OpenClaw</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="https://agentskills.io" target="_blank" rel="noreferrer"><span class="oc-footer__link-text">Agent Skills 规范</span></a></li></ul></section><section class="oc-footer__group"><header class="oc-footer__group-head"><span class="oc-footer__kicker">IV · Site</span><span class="oc-footer__group-label">本站</span></header><ul class="oc-footer__list"><li class="oc-footer__list-item"><a class="oc-footer__link" href="/about"><span class="oc-footer__link-text">关于本站</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/terms"><span class="oc-footer__link-text">使用条款</span></a></li><li class="oc-footer__list-item"><a class="oc-footer__link" href="/privacy"><span class="oc-footer__link-text">隐私政策</span></a></li></ul></section></div><div class="oc-footer__rule" aria-hidden="true"></div><div class="oc-footer__colophon"><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-mark" aria-hidden="true">✶</span><span class="oc-footer__colophon-text">© 2026 · OpenClaw 中文社区 · Everything is OK</span></div><div class="oc-footer__colophon-block"><span class="oc-footer__colophon-text">Site design by<!-- --> <a class="oc-footer__colophon-link" href="https://eynzof.com" target="_blank" rel="noreferrer">Wahhra</a></span><span class="oc-footer__colophon-dot" aria-hidden="true">·</span><span class="oc-footer__colophon-version">v<!-- -->2026.06.26</span></div></div></div></footer></div>
+
+
+
 <script>
+
+
+
 (function(){
+
+
+
   var container = document.getElementById("oc-terminal-body");
+
+
+
   var cursor = document.getElementById("oc-cursor");
+
+
+
   if (!container) return;
 
+
+
+
+
+
+
   var text = [
-    '<span style="color:#fb923c">openclaw setup</span>',
+
+
+
+    '<span style="color:#ffd700">openclaw setup</span>',
+
+
+
     '  选择模型供应商：智谱 / DeepSeek / Qwen / Kimi / MiniMax',
+
+
+
     '  配置工具集：终端、文件、浏览器、记忆、技能、MCP',
+
+
+
     '\u2713 OpenClaw \u5df2\u51c6\u5907\u5c31\u7eea',
+
+
+
     '',
-    '<span style="color:#fb923c">openclaw</span>',
+
+
+
+    '<span style="color:#ffd700">openclaw</span>',
+
+
+
     '  \u5e2e\u6211\u6574\u7406\u672c\u5468\u9879\u76ee\u8fdb\u5c55\uff0c\u5e76\u53d1\u5230\u98de\u4e66',
+
+
+
     '  session_search \u201c\u9879\u76ee\u8fdb\u5c55\u201d                       0.7s',
+
+
+
     '  read_file ./AGENTS.md                          0.1s',
+
+
+
     '  web_search \u201c\u76f8\u5173\u4f9d\u8d56\u6700\u65b0\u7248\u672c\u201d                  1.4s',
+
+
+
     '  feishu_send \u201c\u672c\u5468\u7b80\u62a5\u5df2\u751f\u6210\u201d                   0.3s',
+
+
+
     '',
+
+
+
     'Done. \u6211\u8fd8\u4fdd\u5b58\u4e86\u4e00\u4e2a\u201c\u5468\u62a5\u6574\u7406\u201d\u6280\u80fd\uff0c\u4e0b\u6b21\u4f1a\u76f4\u63a5\u590d\u7528\u3002'
+
+
+
   ];
+
+
+
   var html = '';
+
+
+
   var lineIdx = 0, charIdx = 0;
+
+
+
   var speed = 25;
 
+
+
+
+
+
+
   function typeLine() {
+
+
+
     if (lineIdx >= text.length) {
+
+
+
       if (cursor) cursor.style.animation = "oc-blink 1s step-end infinite";
+
+
+
+      var self = this;
+      setTimeout(function(){
+        html = '';
+        lineIdx = 0;
+        charIdx = 0;
+        container.innerHTML = '';
+        typeLine();
+      }, 3000);
+
+
+
       return;
+
+
+
     }
+
+
+
     var line = text[lineIdx];
+
+
+
     if (charIdx <= line.length) {
+
+
+
       // Show the cursor at current position
+
+
+
       var displayText = line.substring(0, charIdx);
-      var cursorHtml = '<span class="oc-cursor" style="animation:oc-blink 1s step-end infinite;display:inline-block;width:8px;height:1em;background:#fb923c;vertical-align:text-bottom;margin-left:1px"></span>';
+
+
+
+      var cursorHtml = '<span class="oc-cursor" style="animation:oc-blink 1s step-end infinite;display:inline-block;width:8px;height:1em;background:#ffd700;vertical-align:text-bottom;margin-left:1px"></span>';
+
+
+
       container.innerHTML = html + displayText + cursorHtml;
+
+
+
       charIdx++;
+
+
+
       setTimeout(typeLine, speed);
+
+
+
     } else {
+
+
+
       html += line + '\n';
+
+
+
       lineIdx++;
+
+
+
       charIdx = 0;
+
+
+
       setTimeout(typeLine, speed * 3);
+
+
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+  container.innerHTML = '';
+
+
+
+  typeLine();
+
+
+
+})();
+
+
+
+</script>\n<style>body{font-weight:480;letter-spacing:0.02em}code,pre{font-weight:500}
+/* ── 60秒部署深色代码框 ── */
+.oc-step-command {
+  background: rgba(4,28,28,.9) !important;
+  border: 1px solid rgba(255,215,0,.12) !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,.25) !important;
+}
+.oc-step-command .oc-panel-header {
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px 14px !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid rgba(255,255,255,.04) !important;
+  user-select: none !important;
+}
+.oc-step-command .oc-panel-label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-family: "SF Mono","Consolas",monospace !important;
+  letter-spacing: 0.04em !important;
+  color: rgba(255,255,255,.4) !important;
+}
+.oc-step-command .oc-panel-tag {
+  background: rgba(255,215,0,.10) !important;
+  border: 1px solid rgba(255,215,0,.2) !important;
+  color: #ffd700 !important;
+  border-radius: 4px !important;
+  font-size: 0.6rem !important;
+  padding: 1px 6px !important;
+}
+.oc-step-command .oc-copy {
+  background: rgba(255,215,0,.08) !important;
+  border: 1px solid rgba(255,215,0,.15) !important;
+  border-radius: 6px !important;
+  color: #ffd700 !important;
+  font-size: 0.7rem !important;
+  padding: 3px 10px !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+.oc-step-command .oc-copy:hover {
+  background: rgba(255,215,0,.18) !important;
+  border-color: rgba(255,215,0,.35) !important;
+  color: #ffe44d !important;
+}
+.oc-step-command .oc-code {
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 10px 14px 14px !important;
+  border-radius: 0 !important;
+}
+.oc-step-command .oc-code code {
+  color: #f5e6cc !important;
+  font-family: "SF Mono","Consolas","Menlo",monospace !important;
+  font-size: 14px !important;
+}
+.oc-code code {
+  color: #f5e6cc !important;
+  font-size: 15.6px !important;
+}
+.oc-install-panel .oc-panel-label {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+</style>\n
+<style>
+/* ── Modern Terminal ── */
+.cmd-terminal {
+  background: rgba(8,8,12,.82) !important;
+  border: 1px solid rgba(255,255,255,.06) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 0 1px rgba(255,215,0,.03), 0 8px 32px rgba(0,0,0,.3) !important;
+  backdrop-filter: blur(8px) !important;
+  overflow: hidden !important;
+}
+.cmd-terminal .cmd-titlebar {
+  display: flex !important;
+  align-items: center !important;
+  padding: 10px 14px 6px !important;
+  gap: 8px !important;
+  border-bottom: 1px solid rgba(255,255,255,.04) !important;
+  user-select: none !important;
+}
+.cmd-terminal .cmd-dot {
+  display: inline-block !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  flex-shrink: 0 !important;
+}
+.cmd-terminal .cmd-dot-red { background: #ff5f57 !important; }
+.cmd-terminal .cmd-dot-yellow { background: #ffbd2e !important; }
+.cmd-terminal .cmd-dot-green { background: #28c840 !important; }
+.cmd-terminal .cmd-title-text {
+  color: rgba(255,255,255,.25) !important;
+  font-size: 0.7rem !important;
+  font-family: "SF Mono","Consolas",monospace !important;
+  margin-left: 6px !important;
+  letter-spacing: 0.04em !important;
+}
+.cmd-terminal .oc-terminal-body {
+  background: transparent !important;
+  color: #c0c0c0 !important;
+  font-family: "SF Mono","Consolas","Menlo",monospace !important;
+  font-size: 0.78rem !important;
+  padding: 8px 14px 14px !important;
+  line-height: 1.7 !important;
+}
+.cmd-terminal .oc-cursor {
+  background: #ffd700 !important;
+  width: 7px !important;
+  height: 1.1em !important;
+  display: inline-block !important;
+  vertical-align: text-bottom !important;
+}
+@keyframes oc-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.oc-visual-panel {
+  background: transparent !important;
+  border: 1px solid rgba(255,215,0,.25) !important;
+  box-shadow: 
+    inset 0 0 0 1px rgba(255,215,0,.06),
+    0 0 30px rgba(255,215,0,.04),
+    inset 0 0 80px rgba(255,215,0,.02) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  backdrop-filter: blur(2px) !important;
+}
+.oc-visual-canvas {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+.oc-visual-copy {
+  position: relative !important;
+  z-index: 2 !important;
+}
+.oc-visual-group-title {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  background: linear-gradient(135deg, #ffd700, #ffe44d) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  margin-bottom: 0.6rem !important;
+}
+.oc-visual-group-badge {
+  background: rgba(255,215,0,.12) !important;
+  border: 1px solid rgba(255,215,0,.25) !important;
+  color: #ffe44d !important;
+  border-radius: 999px !important;
+  font-size: 0.6rem !important;
+  padding: 0.04rem 0.4rem !important;
+  margin-left: 4px !important;
+  -webkit-text-fill-color: #ffe44d !important;
+}
+.oc-visual-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+}
+.oc-visual-tags span {
+  background: rgba(255,230,203,.06) !important;
+  border: 1px solid rgba(45,212,191,.25) !important;
+  border-radius: 6px !important;
+  padding: 4px 10px !important;
+  font-size: 0.75rem !important;
+  font-family: "SF Mono","Consolas","Menlo",monospace !important;
+  color: #5eead4 !important;
+  transition: all 0.25s ease !important;
+  backdrop-filter: blur(4px) !important;
+  letter-spacing: 0.03em !important;
+}
+.oc-visual-tags span:hover {
+  background: rgba(45,212,191,.1) !important;
+  border-color: rgba(45,212,191,.4) !important;
+  box-shadow: 0 0 12px rgba(45,212,191,.15) !important;
+  color: #ccfbf1 !important;
+}
+.oc-visual-groups {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+}
+.oc-visual-group {
+  position: relative !important;
+}
+.oc-visual-signature {
+  font-size: 0.6rem !important;
+  opacity: 0.3 !important;
+  letter-spacing: 0.2em !important;
+}
+</style>
+
+<script>
+(function(){
+  var canvas = document.querySelector(".oc-visual-canvas");
+  if (!canvas) return;
+  var ctx = canvas.getContext("2d");
+  var W, H;
+
+  function resize() {
+    var rect = canvas.parentElement.getBoundingClientRect();
+    W = canvas.width = rect.width;
+    H = canvas.height = rect.height;
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  var PARTICLE_COUNT = 50;
+  var particles = [];
+
+  function randomRange(min, max) { return Math.random() * (max - min) + min; }
+
+  function initParticles() {
+    particles = [];
+    for (var i = 0; i < PARTICLE_COUNT; i++) {
+      particles.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        vx: randomRange(-0.3, 0.3),
+        vy: randomRange(-0.3, 0.3),
+        r: randomRange(1.5, 3.5),
+        alpha: randomRange(0.3, 0.8),
+        hue: randomRange(20, 45)
+      });
+    }
+  }
+  initParticles();
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+
+      // Move
+      p.x += p.vx;
+      p.y += p.vy;
+
+      // Bounce off edges
+      if (p.x < 0 || p.x > W) p.vx *= -1;
+      if (p.y < 0 || p.y > H) p.vy *= -1;
+
+      // Draw particle
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = "hsla(" + p.hue + ", 80%, 60%, " + p.alpha + ")";
+      ctx.fill();
+
+      // Draw glow
+      var grad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r * 3);
+      grad.addColorStop(0, "hsla(" + p.hue + ", 80%, 60%, " + (p.alpha * 0.3) + ")");
+      grad.addColorStop(1, "hsla(" + p.hue + ", 80%, 60%, 0)");
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r * 3, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // Draw connection lines
+      for (var j = i + 1; j < particles.length; j++) {
+        var p2 = particles[j];
+        var dx = p.x - p2.x;
+        var dy = p.y - p2.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+
+        if (dist < 120) {
+          var lineAlpha = (1 - dist / 120) * 0.15;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.strokeStyle = "hsla(30, 70%, 60%, " + lineAlpha + ")";
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+
+  // Re-init on resize
+  window.addEventListener("resize", function() {
+    resize();
+    initParticles();
+  });
+})();
+</script>
+
+<script src="/assets/js/docs-viewer.js?v=23"></script>
+<!-- 文档查看器 CSS -->
+<link rel="stylesheet" href="/assets/css/docs.css">
+<script>
+// 社区二维码小部件 — 只首页显示 + 折叠展开
+(function() {
+  var w = document.querySelector('.oc-community-widget');
+  if (!w) return;
+
+  function isHomepage() {
+    var path = window.location.pathname.replace(/\/$/, '') || '/';
+    var hash = window.location.hash;
+    // 有 hash 路由 (#docs, #skills) 的不是首页
+    if (hash && hash !== '#') return false;
+    // 路径不是 '/' 或空就不是首页
+    if (path !== '/') return false;
+    return true;
+  }
+
+  function updateVisibility() {
+    if (isHomepage()) {
+      w.style.display = '';
+    } else {
+      w.style.display = 'none';
     }
   }
 
-  container.innerHTML = '';
-  typeLine();
+  // 初始检查
+  updateVisibility();
+
+  // hash 变化时重新检查（#docs 等）
+  window.addEventListener('hashchange', updateVisibility);
+
+  // 监听 hash 变化（docs viewer 也会触发）
+  var btn = w.querySelector('.oc-community-widget-toggle');
+  var img = w.querySelector('.oc-community-widget-image');
+  var copy = w.querySelector('.oc-community-widget-copy');
+  var head = w.querySelector('.oc-community-widget-head');
+  var kicker = w.querySelector('.oc-community-widget-kicker');
+  var title = w.querySelector('h3');
+  var isCollapsed = false;
+
+  if (btn) {
+    btn.onclick = function() {
+      isCollapsed = !isCollapsed;
+      if (isCollapsed) {
+        w.style.width = 'auto';
+        w.style.cursor = 'pointer';
+        if (img) img.style.display = 'none';
+        if (copy) copy.style.display = 'none';
+        if (kicker) kicker.style.display = 'none';
+        if (title) title.textContent = '+ 加入社区';
+        if (head) head.style.marginBottom = '0';
+        btn.textContent = '+';
+      } else {
+        w.style.width = '';
+        w.style.cursor = '';
+        if (img) img.style.display = '';
+        if (copy) copy.style.display = '';
+        if (kicker) kicker.style.display = '';
+        if (title) title.textContent = '加入中文社区微信群';
+        if (head) head.style.marginBottom = '';
+        btn.textContent = '−';
+      }
+    };
+  }
 })();
-</script>\n<style>body{font-weight:480;letter-spacing:0.02em}code,pre{font-weight:500}</style>\n</body>
+</script>
+<script>
+// ── 复制按钮功能 ──
+(function(){
+  var btns = document.querySelectorAll('.oc-copy');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].onclick = function(e) {
+      e.stopPropagation();
+      var header = this.closest('.oc-panel-header');
+      var code = header && header.nextElementSibling && header.nextElementSibling.querySelector('code');
+      if (!code) return;
+      var text = code.textContent.trim();
+      var btn = this;
+      function done() {
+        btn.textContent = '已复制!';
+        btn.style.background = 'rgba(45,106,79,.35)';
+        btn.style.borderColor = '#2d6a4f';
+        setTimeout(function() {
+          btn.textContent = '复制';
+          btn.style.background = '';
+          btn.style.borderColor = '';
+        }, 1500);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function(){
+          done();
+          try {
+            var ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+          } catch(e) {}
+        });
+      } else {
+        done();
+        try {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+        } catch(e) {}
+      }
+    };
+  }
+})();
+</script>
+</body>
+
+
+
 </html>
