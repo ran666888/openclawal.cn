@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Crawl-delay: 10
 
+# Sitemaps
 Sitemap: https://openclawal.cn/sitemap.xml
+
+# No need to crawl these
+Disallow: /reports/daily/
+Disallow: /docs_old_bak/
+Disallow: /*.json$
