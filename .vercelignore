@@ -1,0 +1,5 @@
+website/node_modules
+website/.docusaurus
+dist_docusaurus_full_bak
+dist-backup-*
+dist_backup*
