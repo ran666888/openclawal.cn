@@ -388,6 +388,7 @@
         addCopyButtons();
         bindCopyPage();
         buildTOC();
+        refreshMobileNav();
         isLoading = false;
         // Debug: check DOM after render
         setTimeout(function() {
@@ -551,8 +552,96 @@
     }).catch(function() { sf.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--muted)">加载失败</div>'; });
   }
 
+  function refreshMobileNav() {
+    var sbPanel = document.getElementById('oc-mobile-sidebar-panel');
+    var tocPanel = document.getElementById('oc-mobile-toc-panel');
+    if (!sbPanel && !tocPanel) return;
+    var sb = document.getElementById('ocs-sidebar');
+    if (sb && sbPanel) {
+      sbPanel.innerHTML = sb.innerHTML;
+      sbPanel.querySelectorAll('[data-href]').forEach(function(el) {
+        el.onclick = function(e) { e.preventDefault(); closeNavPanel(); navigateTo(this.getAttribute('data-href')); };
+      });
+    }
+    var tc = document.getElementById('ocs-toc-links');
+    if (tc && tocPanel) {
+      tocPanel.innerHTML = tc.innerHTML;
+      tocPanel.querySelectorAll('a').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.indexOf('#ocs-h2-') === 0) {
+          a.onclick = function(e) {
+            e.preventDefault(); closeNavPanel();
+            var target = document.getElementById(href.substring(1));
+            if (target) target.scrollIntoView({behavior:'smooth',block:'start'});
+          };
+        }
+      });
+    }
+  }
+
+  function closeNavPanel() {
+    var p = document.getElementById('oc-docs-mobile-panel');
+    var b = document.getElementById('oc-docs-mobile-backdrop');
+    if (p) p.style.left = '-100%';
+    if (b) b.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  function addDocsMobileNav() {
+    if (!document.getElementById('oc-docs-viewer')) return;
+    var ms = document.getElementById('oc-docs-mobile-css');
+    if (!ms) {
+      ms = document.createElement('style');
+      ms.id = 'oc-docs-mobile-css';
+      ms.textContent = '@media(max-width:996px){#oc-docs-viewer .sidebar{display:none!important}#oc-docs-viewer .toc{display:none!important}#oc-docs-viewer .main{grid-template-columns:1fr!important;width:100%!important}#oc-docs-viewer .doc-shell{grid-template-columns:1fr!important;gap:0}}';
+      document.head.appendChild(ms);
+    }
+    if (window.innerWidth > 996 || document.getElementById('oc-docs-mobile-btn')) return;
+    var btn = document.createElement('button');
+    btn.id = 'oc-docs-mobile-btn';
+    btn.setAttribute('aria-label','文档导航菜单');
+    btn.innerHTML = '<svg width="24" height="24" viewBox="0 0 30 30"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>';
+    btn.style.cssText = 'position:fixed;bottom:24px;right:24px;z-index:9998;width:52px;height:52px;border-radius:50%;background:#ffd700;border:none;color:#041c1c;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.5);transition:transform .15s;';
+    var back = document.createElement('div');
+    back.id = 'oc-docs-mobile-backdrop';
+    back.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:9995;background:rgba(0,0,0,.55);display:none;';
+    var panel = document.createElement('div');
+    panel.id = 'oc-docs-mobile-panel';
+    panel.style.cssText = 'position:fixed;top:0;left:-100%;z-index:9997;width:85vw;max-width:340px;height:100%;background:#0a2828;transition:left .25s cubic-bezier(.4,0,.2,1);overflow-y:auto;box-shadow:4px 0 24px rgba(0,0,0,.5);display:flex;flex-direction:column;';
+    var tb = document.createElement('div');
+    tb.style.cssText = 'display:flex;border-bottom:1px solid rgba(255,230,203,.15);flex-shrink:0;';
+    var dt = document.createElement('button');
+    dt.textContent = '文档目录'; dt.dataset.panel='sidebar';
+    dt.style.cssText = 'flex:1;padding:14px 8px;font-size:15px;font-weight:600;background:transparent;border:none;color:#ffe6cb;cursor:pointer;border-bottom:2px solid #ffd700;';
+    var tt = document.createElement('button');
+    tt.textContent = '本页大纲'; tt.dataset.panel='toc';
+    tt.style.cssText = 'flex:1;padding:14px 8px;font-size:15px;font-weight:600;background:transparent;border:none;color:rgba(255,230,203,.5);cursor:pointer;border-bottom:2px solid transparent;';
+    tb.appendChild(dt); tb.appendChild(tt);
+    var bd = document.createElement('div');
+    bd.id = 'oc-docs-mobile-body';
+    bd.style.cssText = 'flex:1;overflow-y:auto;padding:12px 0;';
+    var sp = document.createElement('div'); sp.id='oc-mobile-sidebar-panel';
+    var tp = document.createElement('div'); tp.id='oc-mobile-toc-panel'; tp.style.display='none';
+    bd.appendChild(sp); bd.appendChild(tp);
+    panel.appendChild(tb); panel.appendChild(bd);
+    document.body.appendChild(back); document.body.appendChild(btn); document.body.appendChild(panel);
+    btn.onclick = function() { refreshMobileNav(); panel.style.left='0'; back.style.display=''; document.body.style.overflow='hidden'; };
+    back.onclick = closeNavPanel;
+    dt.onclick = function() {
+      dt.style.color='#ffe6cb'; dt.style.borderBottomColor='#ffd700';
+      tt.style.color='rgba(255,230,203,.5)'; tt.style.borderBottomColor='transparent';
+      sp.style.display=''; tp.style.display='none';
+    };
+    tt.onclick = function() {
+      tt.style.color='#ffe6cb'; tt.style.borderBottomColor='#ffd700';
+      dt.style.color='rgba(255,230,203,.5)'; dt.style.borderBottomColor='transparent';
+      tp.style.display=''; sp.style.display='none';
+    };
+  }
+
   function init() {
     injectViewer();
+    addDocsMobileNav();
     window.addEventListener('hashchange', onHashChange);
     if (!window.location.hash && window.location.pathname.startsWith('/docs/')) {
       window.location.replace('/#docs');
