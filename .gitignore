@@ -8,3 +8,5 @@ dist_backup*/
 dist/docs_old_bak/
 website/.docusaurus/
 website/build/
+
+.vercel

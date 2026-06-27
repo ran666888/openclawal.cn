@@ -2,7 +2,9 @@
 
 ## 身份
 
-本站（openclaw.cn）是 OpenClaw 的中文社区站点。文档区内容来自 docs.openclaw.ai 中文版（VitePress 抓取，609 篇）。
+本站（openclawal.cn）是 OpenClaw 的中文社区站点。文档区内容来自 docs.openclaw.ai 中文版（VitePress 抓取，609 篇）。
+
+**⚠️ 域名是 openclawal.cn，不是 openclaw.cn。openclaw.cn 不是本项目的域名，不要在任何场景提及或引用它。**
 
 ---
 
@@ -45,11 +47,31 @@
 
 ---
 
-## 当前项目状态（2026-06-26）
+## 项目部署信息
 
-### 关键 Skill
-- `openclaw-site-collaboration-protocol` 已升级为 **v2.0**（master skill），涵盖：站点架构、4种修改模型、文档系统、Skill页面、设计组件库、翻车铁律大全、常见操作速查、用户极端厌恶清单
-- 所有修改前必须先加载此 skill
+### 技术栈
+- 静态站点，Docusaurus 构建产物放在 `dist/` 目录
+- 部署到 Vercel（项目名：`openclaw`，团队：`wahhra-s-projects`）
+- GitHub 仓库：`ran666888/openclawal.cn`（main 分支）
+- 域名：`openclawal.cn`（由 ran666888 注册，绑定到 wahhra-s-projects 团队）
+- Vercel CLI 已登录，可通过 CLI 操作部署和 alias
+
+### 工作目录
+- 本地：`C:\Users\50148\projects\openclaw中文社区网站`
+- 本地预览：Python http.server port 3003
+- 本地服务器：`start.js`（Node.js http + zlib gzip）
+
+### 部署流程
+1. 修改 `dist/` 下的文件
+2. `git add` + `git commit` + `git push` → Vercel 自动构建
+3. 如果自动 alias 失败，手动执行：
+   ```
+   npx vercel alias set <deployment-url> openclawal.cn --scope wahhra-s-projects
+   ```
+
+---
+
+## 当前项目状态（2026-06-27）
 
 ### 已完成
 1. ✅ 文档区从 Hermes Agent 文档全面换成 docs.openclaw.ai 中文版（609 篇）
@@ -57,112 +79,128 @@
 3. ✅ 侧边栏从官网实时抓取，10 个 Tab 对应正确分类
 4. ✅ gzip 压缩加速 JSON 加载
 5. ✅ 官网 CSS 作用域化到 `#oc-docs-viewer`
-6. ✅ 技能页数据改为真实 OpenClaw 内置 57 个技能（从本地包 SKILL.md 读取）
+6. ✅ 技能页数据改为真实 OpenClaw 内置 57 个技能
 7. ✅ 技能页分类和描述翻译为中文
-8. ✅ 验证流程升级为 5 层全量验证（curl + browser_snapshot + browser_console + browser_vision + DOM 检查）
-9. ✅ `openclaw-site-collaboration-protocol` skill 升级到 v2.0，验证流程从三步改为全量 5 层
-10. ✅ AGENTS.md 同步更新验证铁律
-11. ✅ 最新完整备份已创建
+8. ✅ 验证流程升级为 5 层全量验证
+9. ✅ 完整备份（`dist-backup-20260626_030257`，265MB）
+10. ✅ 全站域名替换：JS bundle 中 `openclaw.cn` → `openclawal.cn`（解决 React Hydrate 覆盖）
+11. ✅ 全站安全头配置（X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, CSP）
+12. ✅ 结构化数据增强（Organization, SoftwareApplication, Article, FAQPage, SiteNavigationElement, hreflang）
+13. ✅ SEO 基础强化（唯一 h1, 优化 title/description, canonical）
+14. ✅ 创建 404 友好页面
+15. ✅ favicon 全套生成（svg, 16x16, 32x32, apple-touch-icon, ico）
+16. ✅ robots.txt 优化（含 Crawl-delay）
+17. ✅ sitemap 增加 lastmod
+18. ✅ Vercel Alias 修复（域名重新绑定到最新部署）
+19. ✅ Logo 替换为桌面照片（928×928 PNG）
+20. ✅ 首页 Title 改为「OpenClaw 中文社区：OpenClaw 中文文档、安装教程与指南」
+21. ✅ 首页 Description 改为「OpenClaw 是一个开源、自托管、支持长期记忆与 Skills 的 AI Agent。它既能在终端中完成复杂任务，也能通过消息网关在微信、飞书、QQ 等平台上持续工作。」
+22. ✅ OG/Twitter 标签全部同步（title, description, image）
+23. ✅ JSON-LD 描述同步更新
+24. ✅ 所有改动已推送 GitHub 并部署到 Vercel，线上验证通过
+25. ✅ 日报正文页 `dist/reports/daily/2026-06-27.html` 已生成（20篇）
 
-### 最近一次全量验证结果（2026-06-26）
-| 页面 | HTTP 状态 | 大小 |
+### 最近一次全量验证结果（2026-06-27）
+| 页面 | HTTP 状态 | 备注 |
 |------|----------|------|
-| `/` | 200 | 56,866 bytes |
-| `/about/` | 200 | 28,041 bytes |
-| `/community/` | 200 | 30,038 bytes |
-| `/skills/` | 200 | 40,499 bytes |
-| `/daily/` | 200 | 47,132 bytes |
-| `/practice-guides/` | 200 | 64,906 bytes |
-| `/releases/` | 200 | 28,394 bytes |
-| JS 错误 | 0 个 | ✅ |
+| `https://openclawal.cn/` | 200 ✅ | Title/Desc/OG 均更新 |
+| `https://openclawal.cn/img/logo.png` | 200 ✅ | 新照片替换 928×928 |
+| `https://openclawal.cn/img/openclaw-og.png` | 200 ✅ | 新 OG 图 |
+| 安全头 | 全部到位 ✅ | X-Frame/X-Content/Referrer/CSP/Permissions |
+| 域名引用 | 0 个 `openclaw.cn` ✅ | 56 个 `openclawal.cn` |
 
 ### 已知问题（待排查/修复）
-1. ❌ **`dist/assets/css/docs-site.css` 返回 404** — 文件被误删。文档区如果没有此 CSS，所有 VitePress 样式丢失（背景变白、布局崩坏）。需要从备份恢复或重新从 docs.openclaw.ai 下载并作用域化。
-2. ❌ **`docs-viewer.js` 中 `convertCards()` 嵌套结构 bug** — 空的 `<a>` 和包裹 `<div>` 导致 Card 组件可能渲染异常。用户尚未下达修复指令。
+1. ❌ **`dist/assets/css/docs-site.css` 返回 404** — 文件被误删。文档区如果没有此 CSS，所有 VitePress 样式丢失。
+2. ❌ **`docs-viewer.js` 中 `convertCards()` 嵌套结构 bug** — 空的 `<a>` 和包裹 `<div>` 导致 Card 组件可能渲染异常。
+3. ⏳ **Google 尚未收录** — 需要提交 Google Search Console。
+4. ⏳ **Sitelinks 未生成** — Google 收录后自动生成，不能手动设置。
 
 ### 最新备份
-- ✅ **`dist-backup-20260626_030257`** — 265MB，2026-06-26 最新完整 dist/ 备份
-- 旧备份：`color-backup-20260625_161822`（配色备份）、`dist_backup2`（6月24日旧版）
+- ✅ `dist-backup-20260626_030257` — 265MB，2026-06-26 最新完整备份
+- 旧备份：`color-backup-20260625_161822`、`dist_backup2`
+
+---
+
+## 2026-06-27 完整会话记录
+
+### 做了什么
+
+#### 1. Vercel 部署故障修复
+- **问题**：之前部署新代码后，`openclawal.cn` 域名指向了旧部署，手动删除 alias 后导致域名 404
+- **修复**：使用 `npx vercel alias set` 将域名重新绑定到最新部署（`openclaw-a78504cx4-wahhra-s-projects.vercel.app`）
+- **验证**：curl 确认 200 ✅，全部安全头到位 ✅
+
+#### 2. Logo 替换
+- 从桌面照片 `photo_2026-06-27_03-07-15.jpg`（928×928）替换为所有图标：
+  - `dist/img/logo.png` — 导航栏 Logo
+  - `dist/img/favicon-16x16.png` — 16px 图标
+  - `dist/img/favicon-32x32.png` — 32px 图标
+  - `dist/img/apple-touch-icon.png` — 180px Apple 图标
+  - `dist/img/openclaw-og.png` — 1200×630 OG 分享图
+- **使用工具**：Python PIL（Pillow）生成所有尺寸
+
+#### 3. 首页 SEO 元数据更新
+- **Title**：`OpenClaw 中文社区：OpenClaw 中文文档、安装教程与指南`
+- **Meta Description**：`OpenClaw 是一个开源、自托管、支持长期记忆与 Skills 的 AI Agent。它既能在终端中完成复杂任务，也能通过消息网关在微信、飞书、QQ 等平台上持续工作。`
+- **OG/Twitter**：title、description、image 全部同步更新
+- **JSON-LD**：WebSite、WebPage 的描述同步更新
+- **OG Image URL**：从 `.svg` 改为 `.png`
+
+#### 4. 子页面 SEO 准备（为 sitelinks）
+- `SiteNavigationElement` 结构化数据已在 JSON-LD 中，包含所有导航项（安装教程、文档、技能、生态、社区、日报、消息网关、MCP、关于）
+- 子页面 title/description 将在 Google 收录后自然展现为 sitelinks
+
+#### 5. 部署验证
+- git push 到 `ran666888/openclawal.cn` main 分支
+- Vercel 自动构建（`openclaw-ph79mne2a`，用时 18s）
+- 手动 alias 到 `openclawal.cn`
+- 线上 curl 验证：Title、Description、OG Image、Logo 全部正确 ✅
+
+### Vercel 操作备忘
+- 项目在团队 `wahhra-s-projects` 下，域名 `openclawal.cn` 注册在个人账号后在团队下管理
+- `npx vercel alias set <deployment-url> openclawal.cn --scope wahhra-s-projects` — 手动绑定域名
+- ⚠️ 删除 alias 会导致域名 404，恢复方法同上
+- 部署后如果域名没自动指到新版，需要手动 alias
+
+### 用户偏好（新增/确认）
+- 极度厌恶别人替用户做决定（删 alias 没问用户，直接导致问题）
+- 说「恢复」时要列出所有版本让用户选，不能自己动手
+- 改完后必须线上验证（curl 检查 meta），不能只报「推成功了」
+- 这个站只是 openclawal.cn，和 openclaw.cn 或其他网站没有关系
+- 提交到 Google Search Console 是下一步的关键动作
+
+### 未完成/待办（明天继续）
+1. 🔴 **提交 Google Search Console** — 让 Google 收录 `openclawal.cn`
+2. 🔴 `docs-site.css` 404 待修复
+3. 🔴 卡片网格布局嵌套 bug 待修复
+4. ⏳ 等待 Google 收录后检查 sitelinks 展现效果
+5. ⏳ 如需要，进一步优化子页面 title/description
 
 ---
 
 ## 2026-06-26 会话记录
 
 ### 做了什么
-1. **Chrome DevTools MCP 安装尝试** — 在 `~/.hermes/config.yaml` 添加了 `chrome-devtools` MCP 服务器（`npx chrome-devtools-mcp@latest --browserUrl http://localhost:9222`），包已安装但不显示在工具列表中。需要完全重启 Hermes 后新会话才能加载。
-2. **Skill 升级** — `openclaw-site-collaboration-protocol` 全面重写为 master skill，涵盖所有网站修改知识
-3. **验证流程升级** — 从简单「三步验证」改为「5 层全量验证」，写入 skill + AGENTS.md
+1. **Chrome DevTools MCP 安装尝试** — 在 `~/.hermes/config.yaml` 添加了 `chrome-devtools` MCP 服务器。需要完全重启 Hermes 后新会话才能加载。
+2. **Skill 升级** — `openclaw-site-collaboration-protocol` 全面重写为 master skill
+3. **验证流程升级** — 从简单「三步验证」改为「5 层全量验证」
 4. **发现 docs-site.css 404** — 验证时发现文档区 CSS 文件缺失
 5. **完整备份** — `dist-backup-20260626_030257`
-
-### 用户偏好确认
-- 极度重视验证准确性，要求「所有命令和工具都用上去确保」
-- 要求 skill 足够细致，「到时候直接读内容」
-- 要求项目文件（AGENTS.md）保持最新状态，确保第二天工作无缝衔接
-
-### 未完成/待办
-- 🔴 Chrome DevTools MCP 工具仍未出现在工具列表中（需用户执行 `hermes stop` + `hermes start` 完全重启后在新会话中生效）
-- 🔴 `docs-site.css` 404 待修复
-- 🔴 卡片网格布局嵌套 bug 待修复
-
----
-
-## 2026-06-24 全线翻车复盘
-
-### 翻车 1：Tab 名称擅自修改
-- **问题**：把官方 Tab「代理」写成了「核心概念」
-- **教训**：官网叫啥就写啥，不要自己觉得
-
-### 翻车 2：删 VitePress 组件标签
-- **问题**：为了压缩文件大小，删了 `<Tabs>`、`<Card>`、`<Note>` 等标签
-- **教训**：VitePress 的组件标签是页面视觉元素，不能删
-
-### 翻车 3：侧边栏加折叠功能
-- **问题**：子分类默认折叠，要点才展开
-- **教训**：官网所有链接直接展开显示，不要加交互
-
-### 翻车 4：CSS 污染全站
-- **问题**：官网 CSS 的 `:root{--bg}` 把整个页面背景改黑了
-- **教训**：第三方 CSS 必须先作用域化到容器内
-
-### 翻车 5：30MB JSON 加载慢
-- **问题**：609 篇文章 30MB，浏览器加载超时
-- **教训**：大 JSON 加 gzip 压缩
-
-### 翻车 6：侧边栏混入其他分类
-- **问题**：「代理」分类下的链接因为路径匹配被混入了「快速开始」
-- **教训**：直接取当前 Tab 对应的分类，不做跨分类过滤
-
-### 翻车 7：多渲染一层分类标题
-- **问题**：侧边栏多了「快速开始」标题，官网没有
-- **教训**：只渲染子分类标题+链接，不渲染顶层分类
-
-### 翻车 8：Python 替换没匹配到代码
-- **问题**：多次修改后代码变了，替换模式没跟着更新
-- **教训**：替换前先 grep 确认实际内容
-
-### 翻车 9：技能页内容空白
-- **问题**：技能卡片不显示，因为 CSS 在 `<head>` 里，`loadSection` 提取 `<main>` 时丢掉
-- **教训**：只改查看器的提取逻辑（让 `<style>` 也带上），不动页面本身
-
-### 翻车 10：改主样式表
-- **问题**：往主样式表追加 CSS，导致全站设计变化
-- **教训**：死都不能动主样式表，内容不显示就修加载方式
 
 ---
 
 ## 文档系统架构
 
 ### 数据源
-- `dist/docs-articles.json` — 所有文章内容（从 docs.openclaw.ai/zh-CN/ 抓取，609 篇，~30MB）
-- `dist/docs-config.json` — 侧边栏结构（从官网 HTML 的 `<aside class="sidebar">` 实时提取）
+- `dist/docs-articles.json` — 所有文章内容（609 篇，~30MB）
+- `dist/docs-config.json` — 侧边栏结构
 - `docs-system/fetch-chinese-docs.py` — 批量抓取脚本
 - `docs-system/build-exact-sidebar.py` — 从官网重新生成侧边栏配置
 - `docs-system/build-docs.py` — .md → docs-articles.json
 
 ### 查看器
 - `dist/assets/js/docs-viewer.js` — 文档查看器 v4.2，三栏 VitePress 布局
-- `dist/assets/css/docs-site.css` — ⚠️ 官网 CSS（**当前返回 404，文件丢失**），需要作用域化到 `#oc-docs-viewer`
+- `dist/assets/css/docs-site.css` — ⚠️ 当前返回 404，文件丢失
 - `start.js` — 本地服务器（Node.js http + zlib gzip）
 - 端口通过 `PORT` 环境变量配置，默认 3003
 
@@ -170,11 +208,6 @@
 - `dist/skills/index.html` — 独立静态 HTML，57 个真实 OpenClaw 内置技能
 - 数据来源：本地 OpenClaw 包的 `skills/*/SKILL.md` 文件
 - 分类：开发工具(15)、效率工具(14)、媒体与创意(8)、通信与消息(7)、AI 助手(7)、系统运维(4)、智能家居(2)
-- 加载方式：`loadSection('skills')` fetch `/skills/index.html`，提取 `#oc-skills-viewer` 或 `<main>` 并保留 `<style>`
-
-### 社区二维码小部件
-- `dist/index.html` 中 `<aside class="oc-community-widget">`
-- 折叠按钮：`<button class="oc-community-widget-toggle">`
 
 ### 文档区布局
 ```
@@ -201,54 +234,33 @@
 | 参考 | cli | /zh-CN/cli |
 | 帮助 | help | /zh-CN/help |
 
-### 侧边栏渲染规则
-- `renderSidebar()` 根据 `currentSection` 找到对应的 Tab 分类
-- **直接取该分类的 `items` 渲染，不做跨分类过滤**
-- `buildSidebar()` **不渲染顶层分类标题**，只渲染子分类 `<h2>` + 链接
-- 所有链接**默认展开显示**，不加折叠
-- 路径映射 `sectionPathMap` 处理 `/docs/vps/` → install、`/docs/install/node/` → help 等特殊情况
-
-### docs-viewer.js 核心函数
-| 函数 | 作用 |
-|------|------|
-| `showDocs(path)` | hash 路由入口 `#docs/...` |
-| `navigateTo(path)` | 侧边栏链接点击导航 |
-| `renderSidebar()` | 渲染侧边栏 |
-| `loadContent(path)` | 从 JSON 加载并渲染文章 |
-| `updateTabs()` | 更新 Tab 高亮 |
-| `convertCards()` | VitePress CardGroup/Card → 标准 HTML |
-| `hrefToSection(path)` | 路径→版块映射（含 sectionPathMap） |
-| `normalizePath(path)` | 确保路径带尾部斜杠 |
-
 ---
 
 ## 用户极端厌恶清单
 
 | 行为 | 后果 |
 |------|------|
+| 替用户做决定 / 自作主张 | 暴怒 |
 | 搞混品牌（OpenClaw ≠ Hermes） | 直接骂傻逼 |
-| 自作主张做决定 | 暴怒 |
+| 搞混域名（openclawal.cn ≠ openclaw.cn） | 极其愤怒 |
 | 画蛇添足（加没要求的功能） | 「你为什么又画蛇添足？」 |
 | 不改问题分析技术原因 | 「认错不是过关，改才是」 |
 | 说「可能」「大概」 | 「不能用可能来评判」 |
 | 不看页面就改视觉 | 「你每次能不能看着页面改？」 |
 | 改设计/排版/结构 | 直接发火 |
-| 自行决定改 locales 跳过构建 | 「你为什么要这样做？」 |
+| 改完不验证就报完成 | 「你必须打开页面看一看呀」 |
+| 删 alias 不问用户 | 导致域名 404 |
 
 ---
 
 ## 全站规则
 
 ### 外部链接行为
-所有指向站外（非 openclaw.cn）的链接必须使用 `target="_blank" rel="noopener noreferrer"`，在新标签页打开，不覆盖本站页面。
+所有指向站外（非 openclawal.cn）的链接必须使用 `target="_blank" rel="noopener noreferrer"`，在新标签页打开。
 
 ### Docusaurus SPA 路由绕过（docs-viewer.js）
 Docusaurus 用 capture-phase 事件监听拦截内部链接点击。Bubble-phase 的点击处理器无法阻止它。
-- Fix 1（start.js）：服务端 SPA fallback — `/docs/*` 路径匹配不到真实文件时，返回 index.html 而非 404
-- Fix 2（docs-viewer.js init）：页面加载时如果 `pathname.startsWith('/docs/')`，重定向到 `/#docs`
-- Fix 3（docs-viewer.js init）：capture-phase click listener 拦截所有 `/docs/` 链接点击，用 `e.stopImmediatePropagation()` + `window.location.href` 强制全页导航
-- Fix 4：docs-viewer.js 必须在所有包含 `/docs/` 链接的页面加载，不只 index.html
-- 关键：Docusaurus 编译页用 React SPA router，在 capture phase 运行，bubble-phase handlers 无法阻止
+- 关键：Docusaurus 编译页用 React SPA router，在 capture phase 运行
 
 ---
 
@@ -268,11 +280,7 @@ Docusaurus 用 capture-phase 事件监听拦截内部链接点击。Bubble-phase
 
 1. `/docs/vps/`（Linux 服务器）属于「安装」版块，但路径不匹配 `/docs/install/` 前缀
 2. `/docs/install/node/`（Node 运行时）属于「帮助」版块，不在「安装」里
-3. `write_file` 工具在 Windows 下路径会多出 `/c/` 前缀，写完后需 `cp` 修复
+3. Vercel alias 删除后会导致域名 404，需用 `npx vercel alias set` 重新绑定
 4. 侧边栏配置必须从官网 HTML 实时抓取，不能用路径自动生成
-5. 内容包含 VitePress 组件标签（Tabs、Card、Note 等），这些是设计的一部分，不能删
-6. 查看器加载 `docs-articles.json`（~30MB）需要时间，要考虑加载状态
-7. 技能页 CSS 通过 `loadSection` 的 style 提取逻辑带上，不能写在主样式表
-8. 真实 OpenClaw 内置技能 57 个（非 95/62 个），数据在 openclaw npm 包的 `skills/` 目录
-9. `docs-site.css` 容易被误删，删除后文档区样式全丢（当前状态：⚠️ 文件缺失，返回 404）
-10. Docusaurus 编译 HTML 的属性引号用 `\"`，`patch` 工具难以匹配，需用 Python `str.replace()` 替换
+5. 内容包含 VitePress 组件标签（Tabs、Card、Note 等），不能删除
+6. `docs-site.css` 易被误删，返回 404 时文档区样式全丢
