@@ -92,6 +92,7 @@
     var v = document.getElementById('oc-docs-viewer');
     if (!v) return;
     v.style.display = '';
+    addDocsMobileNav();
     var main = document.querySelector('.oc-page') || document.querySelector('.main-wrapper') || document.querySelector('#__docusaurus_skipToContent_fallback');
     if (main) main.style.display = 'none';
     document.querySelectorAll('.navbar__link').forEach(function(el) {
@@ -588,7 +589,8 @@
   }
 
   function addDocsMobileNav() {
-    if (!document.getElementById('oc-docs-viewer')) return;
+    var viewer = document.getElementById('oc-docs-viewer');
+    if (!viewer || viewer.style.display === 'none') return;
     var ms = document.getElementById('oc-docs-mobile-css');
     if (!ms) {
       ms = document.createElement('style');
@@ -600,8 +602,8 @@
     var btn = document.createElement('button');
     btn.id = 'oc-docs-mobile-btn';
     btn.setAttribute('aria-label','文档导航菜单');
-    btn.innerHTML = '<svg width="24" height="24" viewBox="0 0 30 30"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>';
-    btn.style.cssText = 'position:fixed;bottom:24px;right:24px;z-index:9998;width:52px;height:52px;border-radius:50%;background:#ffd700;border:none;color:#041c1c;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.5);transition:transform .15s;';
+    btn.innerHTML = '本<br>章<br>目<br>录';
+    btn.style.cssText = 'position:fixed;bottom:24px;right:24px;z-index:9998;width:52px;min-height:80px;border-radius:8px;background:#ffd700;border:none;color:#041c1c;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.5);transition:transform .15s;font-size:13px;font-weight:700;line-height:1.4;padding:8px 4px;text-align:center;';
     var back = document.createElement('div');
     back.id = 'oc-docs-mobile-backdrop';
     back.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:9995;background:rgba(0,0,0,.55);display:none;';

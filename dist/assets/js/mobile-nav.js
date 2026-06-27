@@ -48,6 +48,15 @@
     '</div>';
 
   nav.appendChild(sidebar);
+  // Close sidebar when any nav link is clicked
+  sidebar.querySelectorAll('.navbar-sidebar__menu .navbar__link').forEach(function(el) {
+    el.addEventListener('click', function() {
+      btn.setAttribute('aria-expanded', 'false');
+      sidebar.classList.remove('navbar-sidebar--show');
+      if (backdrop) backdrop.classList.remove('navbar-sidebar__backdrop--show');
+      document.body.classList.remove('navbar-sidebar-open');
+    });
+  });
   var backdrop = nav.querySelector('.navbar-sidebar__backdrop');
 
   // === Toggle handler ===
