@@ -15,8 +15,15 @@
   function getCurrentDateStr() {
     var iframe = document.querySelector('.oc-daily-frame');
     if (!iframe) return 'today';
+    // 优先从 data-date 属性读取（srcdoc 模式下 iframe.src 是 about:srcdoc）
+    if (iframe.dataset && iframe.dataset.date) return iframe.dataset.date;
     var m = iframe.src.match(/daily\/(\d{4}-\d{2}-\d{2})\.html/);
     return m ? m[1] : 'today';
+  }
+
+  function setCurrentDate(dateStr) {
+    var iframe = document.querySelector('.oc-daily-frame');
+    if (iframe) iframe.dataset.date = dateStr;
   }
 
   /* ──────── 1. 前一期/后一期导航 ──────── */
@@ -30,6 +37,8 @@
     if (!prevBtn || !nextBtn || !iframe) return;
 
     function getCurrentDate() {
+      // 优先从 data-date 属性读取（srcdoc 模式下 iframe.src 是 about:srcdoc）
+      if (iframe.dataset && iframe.dataset.date) return iframe.dataset.date;
       var m = iframe.src.match(/daily\/(\d{4}-\d{2}-\d{2})\.html/);
       return m ? m[1] : null;
     }
@@ -121,14 +130,22 @@
       if (newIdx < 0 || newIdx >= AVAILABLE_DATES.length) return;
       var newDate = AVAILABLE_DATES[newIdx];
 
-      iframe.src = '/reports/daily/' + newDate + '.html';
-      // 高度调整由统一的 load 监听器自动完成
-      iframe.onload = function() {
-        loadHighlights(newDate);
-        updateLinks(newDate);
-        updateDateUI(newDate);
+      // 使用 XHR fetch + srcdoc 替代 iframe.src，绕过 X-Frame-Options 限制
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', '/reports/daily/' + newDate + '.html', true);
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          iframe.srcdoc = xhr.responseText;
+          // 50ms 后调整高度
+          setTimeout(adjustHeight, 50);
+          loadHighlights(newDate);
+          updateLinks(newDate);
+          updateDateUI(newDate);
+        }
       };
+      xhr.send();
 
+      setCurrentDate(newDate);
       updateDateUI(newDate);
       prevBtn.disabled = (newIdx === 0);
       nextBtn.disabled = (newIdx === AVAILABLE_DATES.length - 1);
@@ -157,14 +174,26 @@
     }
     iframe.addEventListener('load', onIframeLoad);
 
-    // 加时间戳防缓存：确保 iframe 总是加载最新的 report HTML
-    var ts = Date.now();
-    iframe.src = iframe.src.split('?')[0] + '?t=' + ts;
+    // 加时间戳防缓存：仅对 src 方式生效（srcdoc 方式不碰）
+    if (!iframe.srcdoc) {
+      var ts = Date.now();
+      iframe.src = iframe.src.split('?')[0] + '?t=' + ts;
+    }
 
     // 如果 iframe 已经加载完，马上算一次（也等 load 事件走完）
     if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
       setTimeout(adjustHeight, 150);
     }
+
+    // 初始化 data-date：从日期 pill 文本中提取当前日期
+    setCurrentDate(iframe.dataset.date || (function(){
+      var pill = document.querySelector('.oc-daily-date-pill');
+      if (pill) {
+        var m = pill.textContent.match(/(\d{4}-\d{2}-\d{2})/);
+        return m ? m[1] : AVAILABLE_DATES[AVAILABLE_DATES.length - 1];
+      }
+      return AVAILABLE_DATES[AVAILABLE_DATES.length - 1];
+    })());
   }
 
   /* ──────── 2. 公众号弹窗（重新设计布局） ──────── */
