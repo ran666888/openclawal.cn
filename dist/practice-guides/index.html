@@ -438,5 +438,5 @@ code,pre{font-weight:500}
   </div>
 </div>
 <script>
-(function(){var t=document.querySelector('.navbar__toggle'),s=document.querySelector('.navbar-sidebar');t&&s&&t.addEventListener('click',function(e){var a='true'===t.getAttribute('aria-expanded');t.setAttribute('aria-expanded',String(!a));s.style.visibility=a?'hidden':'visible'})})();
+(function(){var t=document.querySelector('.navbar__toggle'),s=document.querySelector('.navbar-sidebar');function toggle(){var a='true'===t.getAttribute('aria-expanded');t.setAttribute('aria-expanded',String(!a));s.style.visibility=a?'hidden':'visible'}t&&s&&(t.addEventListener('click',function(e){e.preventDefault();toggle()}),t.addEventListener('touchstart',function(e){e.preventDefault();toggle()},{passive:!1}))})();
 </script>
