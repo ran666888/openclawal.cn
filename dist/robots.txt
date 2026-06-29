@@ -6,6 +6,5 @@ Crawl-delay: 10
 Sitemap: https://openclawal.cn/sitemap.xml
 
 # No need to crawl these
-Disallow: /reports/daily/
 Disallow: /docs_old_bak/
 Disallow: /*.json$
