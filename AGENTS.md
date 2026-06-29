@@ -51,23 +51,25 @@
 
 ### 技术栈
 - 静态站点，Docusaurus 构建产物放在 `dist/` 目录
-- 部署到 Vercel（项目名：`openclaw`，团队：`wahhra-s-projects`）
+- 部署到 Vercel（项目名：`oc-site`，团队：`wahhra-s-projects`）
 - GitHub 仓库：`ran666888/openclawal.cn`（main 分支）
 - 域名：`openclawal.cn`（由 ran666888 注册，绑定到 wahhra-s-projects 团队）
 - Vercel CLI 已登录，可通过 CLI 操作部署和 alias
 
-### 工作目录
-- 本地：`C:\Users\50148\projects\openclaw中文社区网站`
+### 工作目录（唯一）
+- 本地：`~/oc-site/`（即 `C:\Users\50148\oc-site`）
+- ⚠️ 旧目录 `~/projects/openclaw中文社区网站/` 已废弃，不可使用
 - 本地预览：Python http.server port 3003
 - 本地服务器：`start.js`（Node.js http + zlib gzip）
 
-### 部署流程
-1. 修改 `dist/` 下的文件
+### 部署流程（只走 git push，不用手动 vercel deploy）
+1. 修改 `dist/` 下的文件（只在 `~/oc-site/` 下操作）
 2. `git add` + `git commit` + `git push` → Vercel 自动构建
 3. 如果自动 alias 失败，手动执行：
    ```
    npx vercel alias set <deployment-url> openclawal.cn --scope wahhra-s-projects
    ```
+4. ⛔ 绝对不要从旧目录 `~/projects/openclaw中文社区网站/` 部署——它会重新创建已删除的 openclaw 项目
 
 ---
 
