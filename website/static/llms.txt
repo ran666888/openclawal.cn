@@ -8,81 +8,81 @@ Repo: https://github.com/NousResearch/hermes-agent
 
 ## Getting Started
 
-- [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation): Install Hermes Agent on Linux, macOS, WSL2, native Windows, or Android via Termux
-- [Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart): Your first conversation with Hermes Agent — from install to chatting in under 5 minutes
-- [Learning Path](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path): Choose your learning path through the Hermes Agent documentation based on your experience level and goals.
-- [Updating](https://hermes-agent.nousresearch.com/docs/getting-started/updating): How to update Hermes Agent to the latest version or uninstall it
-- [Termux (Android)](https://hermes-agent.nousresearch.com/docs/getting-started/termux): Run Hermes Agent directly on an Android phone with Termux
-- [Nix Setup](https://hermes-agent.nousresearch.com/docs/getting-started/nix-setup): Install and deploy Hermes Agent with Nix — from quick `nix run` to fully declarative NixOS module with container mode
+- [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation): 在 Linux、macOS、WSL2、Windows 原生或 Android Termux 上安装 OpenClaw
+- [Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart): Your first conversation with OpenClaw — from install to chatting in under 5 minutes
+- [Learning Path](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path): Choose your learning path through the OpenClaw documentation based on your experience level and goals.
+- [Updating](https://hermes-agent.nousresearch.com/docs/getting-started/updating): 如何更新 OpenClaw 到最新版本或卸载
+- [Termux (Android)](https://hermes-agent.nousresearch.com/docs/getting-started/termux): 在 Android 手机上通过 Termux 直接运行 OpenClaw
+- [Nix Setup](https://hermes-agent.nousresearch.com/docs/getting-started/nix-setup): Install and deploy OpenClaw with Nix — from quick `nix run` to fully declarative NixOS module with container mode
 
 ## Using Hermes
 
-- [CLI](https://hermes-agent.nousresearch.com/docs/user-guide/cli): Master the Hermes Agent terminal interface — commands, keybindings, personalities, and more
-- [TUI (Ink terminal UI)](https://hermes-agent.nousresearch.com/docs/user-guide/tui): Launch the modern terminal UI for Hermes — mouse-friendly, rich overlays, and non-blocking input.
-- [Configuration](https://hermes-agent.nousresearch.com/docs/user-guide/configuration): Configure Hermes Agent — config.yaml, providers, models, API keys, and more
+- [CLI](https://hermes-agent.nousresearch.com/docs/user-guide/cli): Master the OpenClaw terminal interface — commands, keybindings, personalities, and more
+- [TUI (Ink terminal UI)](https://hermes-agent.nousresearch.com/docs/user-guide/tui): Launch the modern terminal UI for OpenClaw — mouse-friendly, rich overlays, and non-blocking input.
+- [Configuration](https://hermes-agent.nousresearch.com/docs/user-guide/configuration): 配置 OpenClaw — config.yaml、提供商、模型、API Key 等
 - [Configuring Models](https://hermes-agent.nousresearch.com/docs/user-guide/configuring-models)
 - [Sessions](https://hermes-agent.nousresearch.com/docs/user-guide/sessions): Session persistence, resume, search, management, and per-platform session tracking
 - [Profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles)
-- [Git Worktrees](https://hermes-agent.nousresearch.com/docs/user-guide/git-worktrees): Run multiple Hermes agents safely on the same repository using git worktrees and isolated checkouts
-- [Docker Backend](https://hermes-agent.nousresearch.com/docs/user-guide/docker): Running Hermes Agent in Docker and using Docker as a terminal backend
+- [Git Worktrees](https://hermes-agent.nousresearch.com/docs/user-guide/git-worktrees): Run multiple OpenClaw agents safely on the same repository using git worktrees and isolated checkouts
+- [Docker Backend](https://hermes-agent.nousresearch.com/docs/user-guide/docker): 在 Docker 中运行 OpenClaw 并使用 Docker 作为终端后端
 - [Security](https://hermes-agent.nousresearch.com/docs/user-guide/security): Security model, dangerous command approval, user authorization, container isolation, and production deployment best practices
 - [Checkpoints & Rollback](https://hermes-agent.nousresearch.com/docs/user-guide/checkpoints-and-rollback): Filesystem safety nets for destructive operations using shadow git repos and automatic snapshots
 
 ## Core Features
 
 - [Features Overview](https://hermes-agent.nousresearch.com/docs/user-guide/features/overview)
-- [Tools](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools): Overview of Hermes Agent's tools — what's available, how toolsets work, and terminal backends
+- [Tools](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools): Overview of OpenClaw的 tools — what's available, how toolsets work, and terminal backends
 - [Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills): On-demand knowledge documents — progressive disclosure, agent-managed skills, and the Skills Hub
 - [Curator](https://hermes-agent.nousresearch.com/docs/user-guide/features/curator): Background maintenance for agent-created skills — usage tracking, staleness, archival, and LLM-driven review
-- [Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory): How Hermes Agent remembers across sessions — MEMORY.md, USER.md, and session search
+- [Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory): OpenClaw 如何跨会话记忆 — MEMORY.md、USER.md 和会话搜索
 - [Memory Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers): External memory provider plugins — Honcho, OpenViking, Mem0, Hindsight, Holographic, RetainDB, ByteRover, Supermemory
 - [Context Files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files): Project context files — .hermes.md, AGENTS.md, CLAUDE.md, global SOUL.md, and .cursorrules — automatically injected into every conversation
 - [Context References](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-references): Inline @-syntax for attaching files, folders, git diffs, and URLs directly into your messages
-- [Personality & SOUL.md](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality): Customize Hermes Agent's personality with a global SOUL.md, built-in personalities, and custom persona definitions
-- [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins): Extend Hermes with custom tools, hooks, and integrations via the plugin system
-- [Built-in Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins): Plugins shipped with Hermes Agent that run automatically via lifecycle hooks — disk-cleanup and friends
+- [Personality & SOUL.md](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality): Customize OpenClaw的 personality with a global SOUL.md, built-in personalities, and custom persona definitions
+- [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins): 通过插件系统扩展 OpenClaw — 自定义工具、钩子和第三方集成
+- [Built-in Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins): Plugins shipped with OpenClaw that run automatically via lifecycle hooks — disk-cleanup and friends
 
 ## Automation
 
 - [Cron Jobs](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron): Schedule automated tasks with natural language, manage them with one cron tool, and attach one or more skills
-- [Delegation](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation): Spawn isolated child agents for parallel workstreams with delegate_task
-- [Kanban Multi-Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban): Durable SQLite-backed task board for coordinating multiple Hermes profiles
+- [Delegation](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation): 通过 delegate_task 生成隔离的子代理，处理并行工作流
+- [Kanban Multi-Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban): 基于 SQLite 的持久化任务看板，用于协调多个 OpenClaw 配置
 - [Kanban Tutorial](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban-tutorial)
-- [Persistent Goals](https://hermes-agent.nousresearch.com/docs/user-guide/features/goals): Set a standing goal and let Hermes keep working across turns until it's done. Our take on the Ralph loop.
+- [Persistent Goals](https://hermes-agent.nousresearch.com/docs/user-guide/features/goals): Set a standing goal and let OpenClaw keep working across turns until it's done. Our take on the Ralph loop.
 - [Code Execution](https://hermes-agent.nousresearch.com/docs/user-guide/features/code-execution): Programmatic Python execution with RPC tool access — collapse multi-step workflows into a single turn
 - [Hooks](https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks): Run custom code at key lifecycle points — log activity, send alerts, post to webhooks
 - [Batch Processing](https://hermes-agent.nousresearch.com/docs/user-guide/features/batch-processing): Generate agent trajectories at scale — parallel processing, checkpointing, and toolset distributions
 
 ## Media & Web
 
-- [Voice Mode](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode): Real-time voice conversations with Hermes Agent — CLI, Telegram, Discord (DMs, text channels, and voice channels)
+- [Voice Mode](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode): Real-time voice conversations with OpenClaw — CLI, Telegram, Discord (DMs, text channels, and voice channels)
 - [Browser](https://hermes-agent.nousresearch.com/docs/user-guide/features/browser)
 - [Vision](https://hermes-agent.nousresearch.com/docs/user-guide/features/vision)
 - [Image Generation](https://hermes-agent.nousresearch.com/docs/user-guide/features/image-generation)
-- [Text-to-Speech](https://hermes-agent.nousresearch.com/docs/user-guide/features/tts): Text-to-speech and voice message transcription across all platforms
+- [Text-to-Speech](https://hermes-agent.nousresearch.com/docs/user-guide/features/tts): 跨所有平台的文字转语音和语音消息转文字
 
 ## Messaging Platforms
 
-- [Overview](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/index): Chat with Hermes from Telegram, Discord, Slack, WhatsApp, Signal, SMS, Email, Home Assistant, Mattermost, Matrix, DingTalk, Yuanbao, Microsoft Teams, LINE, Raft, Webhooks, or any OpenAI-compatible frontend via the API server — architecture and setup overview
-- [Telegram](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram): Set up Hermes Agent as a Telegram bot
-- [Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord): Set up Hermes Agent as a Discord bot
-- [Slack](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/slack): Set up Hermes Agent as a Slack bot using Socket Mode
-- [WhatsApp](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/whatsapp): Set up Hermes Agent as a WhatsApp bot via the built-in Baileys bridge
-- [Signal](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal): Set up Hermes Agent as a Signal messenger bot via signal-cli daemon
-- [Email](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email): Set up Hermes Agent as an email assistant via IMAP/SMTP
-- [SMS](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/sms): Set up Hermes Agent as an SMS chatbot via Twilio
-- [Matrix](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/matrix): Set up Hermes Agent as a Matrix bot
-- [Mattermost](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/mattermost): Set up Hermes Agent as a Mattermost bot
+- [Overview](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/index): Chat with OpenClaw from Telegram, Discord, Slack, WhatsApp, Signal, SMS, Email, Home Assistant, Mattermost, Matrix, DingTalk, Yuanbao, Microsoft Teams, LINE, Raft, Webhooks, or any OpenAI-compatible frontend via the API server — architecture and setup overview
+- [Telegram](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram): 将 OpenClaw 设置为 Telegram 机器人
+- [Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord): 将 OpenClaw 设置为 Discord 机器人
+- [Slack](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/slack): 使用 Socket Mode 将 OpenClaw 设置为 Slack 机器人
+- [WhatsApp](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/whatsapp): 通过内置 Baileys 桥接将 OpenClaw 设置为 WhatsApp 机器人
+- [Signal](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal): 通过 signal-cli 守护进程将 OpenClaw 设置为 Signal 机器人
+- [Email](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email): 通过 IMAP/SMTP 将 OpenClaw 设置为邮件助手
+- [SMS](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/sms): 通过 Twilio 将 OpenClaw 设置为短信聊天机器人
+- [Matrix](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/matrix): 将 OpenClaw 设置为 Matrix 机器人
+- [Mattermost](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/mattermost): 将 OpenClaw 设置为 Mattermost 机器人
 - [Home Assistant](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/homeassistant)
-- [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks): Receive events from GitHub, GitLab, and other services to trigger Hermes agent runs
+- [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks): Receive events from GitHub, GitLab, and other services to trigger OpenClaw agent runs
 
 ## Integrations
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations/index)
 - [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
-- [MCP (Model Context Protocol)](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp): Connect Hermes Agent to external tool servers via MCP — and control exactly which MCP tools Hermes loads
-- [ACP (Agent Context Protocol)](https://hermes-agent.nousresearch.com/docs/user-guide/features/acp): Use Hermes Agent inside ACP-compatible editors such as VS Code, Zed, and JetBrains
-- [API Server](https://hermes-agent.nousresearch.com/docs/user-guide/features/api-server): Expose hermes-agent as an OpenAI-compatible API for any frontend
+- [MCP (Model Context Protocol)](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp): Connect OpenClaw to external tool servers via MCP — and control exactly which MCP tools OpenClaw loads
+- [ACP (Agent Context Protocol)](https://hermes-agent.nousresearch.com/docs/user-guide/features/acp): 在 VS Code、Zed 和 JetBrains 等 ACP 兼容编辑器中使用 OpenClaw
+- [API Server](https://hermes-agent.nousresearch.com/docs/user-guide/features/api-server): 将 OpenClaw 暴露为 OpenAI 兼容 API，供任意前端使用
 - [Honcho Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/honcho): AI-native persistent memory via Honcho — dialectic reasoning, multi-agent user modeling, and deep personalization
 - [Provider Routing](https://hermes-agent.nousresearch.com/docs/user-guide/features/provider-routing)
 - [Fallback Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers)
@@ -90,46 +90,46 @@ Repo: https://github.com/NousResearch/hermes-agent
 
 ## Guides & Tutorials
 
-- [Tips & Best Practices](https://hermes-agent.nousresearch.com/docs/guides/tips): Practical advice to get the most out of Hermes Agent — prompt tips, CLI shortcuts, context files, memory, cost optimization, and security
-- [Local LLMs on Mac](https://hermes-agent.nousresearch.com/docs/guides/local-llm-on-mac): Set up a local OpenAI-compatible LLM server on macOS with llama.cpp or MLX, including model selection, memory optimization, and real benchmarks on Apple Silicon
-- [Daily Briefing Bot](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot): Build an automated daily briefing bot that researches topics, summarizes findings, and delivers them to Telegram or Discord every morning
+- [Tips & Best Practices](https://hermes-agent.nousresearch.com/docs/guides/tips): Practical advice to get the most out of OpenClaw — prompt tips, CLI shortcuts, context files, memory, cost optimization, and security
+- [Local LLMs on Mac](https://hermes-agent.nousresearch.com/docs/guides/local-llm-on-mac): 在本地部署开源 LLM 并与 OpenClaw 对接
+- [Daily Briefing Bot](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot): 构建一个自动的每日简报机器人，每天早晨用 Cron 定时抓取信息、汇总并发送到消息通道
 - [Team Telegram Assistant](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant): Step-by-step guide to setting up a Telegram bot that your whole team can use for code help, research, system admin, and more
-- [Use Hermes as a Python Library](https://hermes-agent.nousresearch.com/docs/guides/python-library): Embed AIAgent in your own Python scripts, web apps, or automation pipelines — no CLI required
-- [Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes): A practical guide to connecting MCP servers to Hermes Agent, filtering their tools, and using them safely in real workflows
-- [Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes): A practical guide to setting up and using Hermes voice mode across CLI, Telegram, Discord, and Discord voice channels
-- [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes): How to use SOUL.md to shape Hermes Agent's default voice, what belongs there, and how it differs from AGENTS.md and /personality
-- [Build a Hermes Plugin](https://hermes-agent.nousresearch.com/docs/guides/build-a-hermes-plugin): Step-by-step guide to building a complete Hermes plugin with tools, hooks, data files, and skills
-- [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron): Real-world automation patterns using Hermes cron — monitoring, reports, pipelines, and multi-skill workflows
-- [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills): Find, install, use, and create skills — on-demand knowledge that teaches Hermes new workflows
+- [Use Hermes as a Python Library](https://hermes-agent.nousresearch.com/docs/guides/python-library): 将 OpenClaw 作为 Python 库导入，在自有代码中调用 Agent 能力
+- [Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes): A practical guide to connecting MCP servers to OpenClaw, filtering their tools, and using them safely in real workflows
+- [Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes): A practical guide to setting up and using OpenClaw voice mode across CLI, Telegram, Discord, and Discord voice channels
+- [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes): How to use SOUL.md to shape OpenClaw的 default voice, what belongs there, and how it differs from AGENTS.md and /personality
+- [Build a Hermes Plugin](https://hermes-agent.nousresearch.com/docs/guides/build-a-hermes-plugin): 使用 Plugin SDK 开发 OpenClaw 插件
+- [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron): Real-world automation patterns using OpenClaw cron — monitoring, reports, pipelines, and multi-skill workflows
+- [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills): Find, install, use, and create skills — on-demand knowledge that teaches OpenClaw new workflows
 - [Delegation Patterns](https://hermes-agent.nousresearch.com/docs/guides/delegation-patterns): When and how to use subagent delegation — patterns for parallel research, code review, and multi-file work
-- [GitHub PR Review Agent](https://hermes-agent.nousresearch.com/docs/guides/github-pr-review-agent): Build an automated AI code reviewer that monitors your repos, reviews pull requests, and delivers feedback — hands-free
+- [GitHub PR Review Agent](https://hermes-agent.nousresearch.com/docs/guides/github-pr-review-agent): 让 OpenClaw 自动审查 GitHub Pull Request
 
 ## Developer Guide
 
-- [Contributing](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing): How to contribute to Hermes Agent — dev setup, code style, PR process
-- [Architecture](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture): Hermes Agent internals — major subsystems, execution paths, data flow, and where to read next
+- [Contributing](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing): 如何为 OpenClaw 贡献代码 — 开发环境搭建、代码规范、PR 流程
+- [Architecture](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture): OpenClaw internals — major subsystems, execution paths, data flow, and where to read next
 - [Agent Loop](https://hermes-agent.nousresearch.com/docs/developer-guide/agent-loop): Detailed walkthrough of AIAgent execution, API modes, tools, callbacks, and fallback behavior
-- [Prompt Assembly](https://hermes-agent.nousresearch.com/docs/developer-guide/prompt-assembly): How Hermes builds the system prompt, preserves cache stability, and injects ephemeral layers
+- [Prompt Assembly](https://hermes-agent.nousresearch.com/docs/developer-guide/prompt-assembly): How OpenClaw builds the system prompt, preserves cache stability, and injects ephemeral layers
 - [Context Compression & Caching](https://hermes-agent.nousresearch.com/docs/developer-guide/context-compression-and-caching)
 - [Gateway Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/gateway-internals): How the messaging gateway boots, authorizes users, routes sessions, and delivers messages
 - [Session Storage](https://hermes-agent.nousresearch.com/docs/developer-guide/session-storage)
-- [Provider Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/provider-runtime): How Hermes resolves providers, credentials, API modes, and auxiliary models at runtime
-- [Adding Tools](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-tools): How to add a new tool to Hermes Agent — schemas, handlers, registration, and toolsets
-- [Adding Providers](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-providers): How to add a new inference provider to Hermes Agent — auth, runtime resolution, CLI flows, adapters, tests, and docs
+- [Provider Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/provider-runtime): How OpenClaw resolves providers, credentials, API modes, and auxiliary models at runtime
+- [Adding Tools](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-tools): How to add a new tool to OpenClaw — schemas, handlers, registration, and toolsets
+- [Adding Providers](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-providers): How to add a new inference provider to OpenClaw — auth, runtime resolution, CLI flows, adapters, tests, and docs
 - [Adding Platform Adapters](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-platform-adapters)
-- [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills): How to create skills for Hermes Agent — SKILL.md format, guidelines, and publishing
-- [Extending the CLI](https://hermes-agent.nousresearch.com/docs/developer-guide/extending-the-cli): Build wrapper CLIs that extend the Hermes TUI with custom widgets, keybindings, and layout changes
+- [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills): 如何为 OpenClaw 创建技能 — SKILL.md 格式、编写指南和发布流程
+- [Extending the CLI](https://hermes-agent.nousresearch.com/docs/developer-guide/extending-the-cli): Build wrapper CLIs that extend the OpenClaw TUI with custom widgets, keybindings, and layout changes
 
 ## Reference
 
-- [CLI Commands](https://hermes-agent.nousresearch.com/docs/reference/cli-commands): Authoritative reference for Hermes terminal commands and command families
-- [Slash Commands](https://hermes-agent.nousresearch.com/docs/reference/slash-commands): Complete reference for interactive CLI and messaging slash commands
+- [CLI Commands](https://hermes-agent.nousresearch.com/docs/reference/cli-commands): OpenClaw 终端命令和命令族的权威参考
+- [Slash Commands](https://hermes-agent.nousresearch.com/docs/reference/slash-commands): 交互式 CLI 和消息斜杠命令完整参考
 - [Profile Commands](https://hermes-agent.nousresearch.com/docs/reference/profile-commands)
-- [Environment Variables](https://hermes-agent.nousresearch.com/docs/reference/environment-variables): Complete reference of all environment variables used by Hermes Agent
-- [Tools Reference](https://hermes-agent.nousresearch.com/docs/reference/tools-reference): Authoritative reference for Hermes built-in tools, grouped by toolset
-- [Toolsets Reference](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference): Reference for Hermes core, composite, platform, and dynamic toolsets
-- [MCP Config Reference](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference): Reference for Hermes Agent MCP configuration keys, filtering semantics, and utility-tool policy
+- [Environment Variables](https://hermes-agent.nousresearch.com/docs/reference/environment-variables): OpenClaw 使用的所有环境变量完整参考
+- [Tools Reference](https://hermes-agent.nousresearch.com/docs/reference/tools-reference): OpenClaw 内置工具权威参考，按工具集分组
+- [Toolsets Reference](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference): OpenClaw 核心、复合、平台和动态工具集参考
+- [MCP Config Reference](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference): Reference for OpenClaw MCP configuration keys, filtering semantics, and utility-tool policy
 - [Model Catalog](https://hermes-agent.nousresearch.com/docs/reference/model-catalog)
 - [Bundled Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/skills-catalog): Table of all ~90 skills bundled with Hermes
 - [Optional Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog): Table of ~60 additional installable skills
-- [FAQ & Troubleshooting](https://hermes-agent.nousresearch.com/docs/reference/faq): Frequently asked questions and solutions to common issues with Hermes Agent
+- [FAQ & Troubleshooting](https://hermes-agent.nousresearch.com/docs/reference/faq): 常见问题解答和 OpenClaw 故障解决方法

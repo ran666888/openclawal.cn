@@ -118,21 +118,7 @@ const sidebars: SidebarsConfig = {
             'user-guide/features/subscription-proxy',
           ],
         },
-        {
-          type: 'category',
-          label: '版本发布',
-          collapsed: true,
-          items: [
-            'releases/v2026.6.10',
-            'releases/v2026.6.9',
-            'releases/v2026.6.8',
-            'releases/v2026.6.7-beta.1',
-            'releases/v2026.6.6-beta.2',
-            'releases/v2026.6.5',
-            'releases/v2026.6.1-beta.3',
-            'releases/v2026.5.31-beta.4',
-          ],
-        },
+
       ],
     },
     {

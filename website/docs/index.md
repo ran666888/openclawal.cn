@@ -1,3 +1,9 @@
+---
+id: docs-overview
+slug: /
+sidebar_position: 0
+---
+
 # OpenClaw 文档
 
 欢迎来到OpenClaw中文社区文档。  
